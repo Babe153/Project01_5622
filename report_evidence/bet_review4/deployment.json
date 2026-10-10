@@ -1,0 +1,17 @@
+{
+  "backup": "/home/elec5622/Project01/Backups/before_bet_review4_20261008_004637",
+  "logs": [
+    "/home/elec5622/Project01/Logs/SkullStripping_20261008_004648_157724.tsv",
+    "/home/elec5622/Project01/Logs/SkullStripping_20261008_004651_157760.tsv",
+    "/home/elec5622/Project01/Logs/SkullStripping_20261008_004654_157796.tsv"
+  ],
+  "changed_subjects": [
+    "Data_33",
+    "Data_35",
+    "Data_36"
+  ],
+  "retained_subjects": [
+    "Data_44"
+  ],
+  "data44_unchanged_bytewise": true
+}

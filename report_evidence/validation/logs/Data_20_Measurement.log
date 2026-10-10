@@ -1,0 +1,6 @@
+[Measurement] train/Data_20.nii: AAL 1..90, binary GM volume in mm^3
+>>>>>>>>>>>>>> seedMask_DIR:/home/elec5622/Project01/Output/train/.measurement_Data_20.yQClJC/seedMasks/
+>>>>>>>>>atlasIMG:/home/elec5622/Project01/Output/train/.measurement_Data_20.yQClJC/atlas.nii.gz
+min_i:1.000000 max_i:116.000000
+Saved 1 subject(s): /home/elec5622/Project01/Output/train/AAL_statistics_volumn_train_Data_20.csv
+Measurement finished: 1 subject(s), 90 ROI volumes per subject.

@@ -2,7 +2,7 @@
 
 ## Project01：90 个 AAL 脑区灰质体积的 SVM 分类
 
-Notebook、命令行脚本、配套数据和一次实际运行结果已整理在此仓库。模型使用 `StandardScaler + SVC(kernel="rbf", C=1, gamma="scale")`，参数固定，没有按测试标签调参。
+预处理脚本与全部三维输出、报告素材、Notebook、命令行脚本、配套数据和一次实际运行结果已整理在此仓库。模型使用 `StandardScaler + SVC(kernel="rbf", C=1, gamma="scale")`，参数固定，没有按测试标签调参。
 
 ### 文件入口
 
@@ -52,3 +52,10 @@ py -3.12 -m venv .venv
 这些是固定基线在本作业数据上的结果。Data_44 沿用已确认的 BET 结果，其已知预处理边界限制记录在 `submission/处理与检查记录.csv`。测试集仅 10 人，不据此宣称参数最优或其它人群上的性能。
 
 API 参考：[SVC](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html)、[Pipeline 与数据泄漏](https://scikit-learn.org/stable/common_pitfalls.html)。
+
+### 新增：虚拟机预处理与报告素材
+
+- [preprocessing/](preprocessing/README.md)：五个 Bash 脚本、最终 BET 参数、全部 50 人三维处理输出（约 623 MiB），以及逐文件 SHA-256。
+- [report_evidence/](report_evidence/README.md)：100 张 BET 图、100 张 FAST/配准图、8 张专项复核图、流程图、CV 图和实际运行日志；索引说明报告引用位置与质量限制。
+- `.nii.gz` 需下载后用 FSLeyes 查看；PNG 可直接在 GitHub 预览。下载整个仓库后可打开 HTML 逐人浏览。
+- 原始 MRI、课程 PDF 和模板安装包仍使用老师提供的原始材料。

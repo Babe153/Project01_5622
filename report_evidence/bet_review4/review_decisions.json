@@ -1,0 +1,318 @@
+[
+  {
+    "subject": "Data_33",
+    "split": "train",
+    "tag": "p2_04",
+    "before": {
+      "f": "0.55",
+      "g": "0",
+      "cx": "116",
+      "cy": "158",
+      "cz": "82",
+      "options_text": "-f 0.55 -g 0 -c 116 158 82",
+      "selected_candidate": "r3f055"
+    },
+    "after": {
+      "f": "0.55",
+      "g": "-0.15",
+      "cx": "116",
+      "cy": "158",
+      "cz": "82",
+      "options_text": "-f 0.55 -g -0.15 -c 116 158 82",
+      "selected_candidate": "review4_p2_04"
+    },
+    "changed": true,
+    "qc_status": "improved_with_residual_boundary_concerns",
+    "candidates_tested": 20,
+    "previous_brain_sha256": "925bfd5ebf6bd7d6dadf9dac41b35f7d1132254c99ebad44cfbdf4a0fc738e04",
+    "comparison_slices_ras": [
+      [
+        0,
+        46
+      ],
+      [
+        0,
+        71
+      ],
+      [
+        0,
+        106
+      ],
+      [
+        0,
+        132
+      ],
+      [
+        1,
+        58
+      ],
+      [
+        1,
+        98
+      ],
+      [
+        1,
+        151
+      ],
+      [
+        1,
+        191
+      ],
+      [
+        2,
+        82
+      ],
+      [
+        2,
+        114
+      ],
+      [
+        2,
+        158
+      ],
+      [
+        2,
+        189
+      ]
+    ],
+    "note_zh": "g 从 0 改为 -0.15，顶部及一侧的部分头皮条带残留减少。原图模糊/重影，仍可见少量外围残留，局部皮质及小脑边缘需要继续关注。更强的梯度或更高阈值会增加脑组织遗漏，采用当前折中。",
+    "qc_status_zh": "已改善，仍有局部边界关注点"
+  },
+  {
+    "subject": "Data_35",
+    "split": "train",
+    "tag": "p2_04",
+    "before": {
+      "f": "0.65",
+      "g": "0",
+      "cx": "120",
+      "cy": "156",
+      "cz": "82",
+      "options_text": "-f 0.65 -g 0 -c 120 156 82",
+      "selected_candidate": "r3f065"
+    },
+    "after": {
+      "f": "0.65",
+      "g": "-0.075",
+      "cx": "120",
+      "cy": "156",
+      "cz": "82",
+      "options_text": "-f 0.65 -g -0.075 -c 120 156 82",
+      "selected_candidate": "review4_p2_04"
+    },
+    "changed": true,
+    "qc_status": "improved_with_residual_boundary_concerns",
+    "candidates_tested": 20,
+    "previous_brain_sha256": "7416bf65347cdb73dca9c8b7e21d4fd501386317b813985fa4b084141478a3e6",
+    "comparison_slices_ras": [
+      [
+        0,
+        50
+      ],
+      [
+        0,
+        75
+      ],
+      [
+        0,
+        108
+      ],
+      [
+        0,
+        133
+      ],
+      [
+        1,
+        66
+      ],
+      [
+        1,
+        103
+      ],
+      [
+        1,
+        153
+      ],
+      [
+        1,
+        190
+      ],
+      [
+        2,
+        74
+      ],
+      [
+        2,
+        104
+      ],
+      [
+        2,
+        145
+      ],
+      [
+        2,
+        175
+      ]
+    ],
+    "note_zh": "g 从 0 改为 -0.075，顶部条带残留减少。仍有小片顶部和颅底残留以及局部皮质边界风险。更激进的负梯度或提高 f 会使部分皮质覆盖变差，采用当前折中。",
+    "qc_status_zh": "已改善，仍有局部边界关注点"
+  },
+  {
+    "subject": "Data_36",
+    "split": "train",
+    "tag": "p2_06",
+    "before": {
+      "f": "0.45",
+      "g": "0",
+      "cx": "104",
+      "cy": "165",
+      "cz": "82",
+      "options_text": "-f 0.45 -g 0 -c 104 165 82",
+      "selected_candidate": "r3f045"
+    },
+    "after": {
+      "f": "0.45",
+      "g": "0",
+      "cx": "92",
+      "cy": "175",
+      "cz": "82",
+      "options_text": "-f 0.45 -g 0 -c 92 175 82",
+      "selected_candidate": "review4_p2_06"
+    },
+    "changed": true,
+    "qc_status": "improved_with_residual_boundary_concerns",
+    "candidates_tested": 20,
+    "previous_brain_sha256": "bd633f28b55be406151cf82ec9e04e42a5f324984ce1a68c11a7af35be26ef6a",
+    "comparison_slices_ras": [
+      [
+        0,
+        50
+      ],
+      [
+        0,
+        74
+      ],
+      [
+        0,
+        106
+      ],
+      [
+        0,
+        129
+      ],
+      [
+        1,
+        47
+      ],
+      [
+        1,
+        86
+      ],
+      [
+        1,
+        138
+      ],
+      [
+        1,
+        176
+      ],
+      [
+        2,
+        111
+      ],
+      [
+        2,
+        141
+      ],
+      [
+        2,
+        183
+      ],
+      [
+        2,
+        213
+      ]
+    ],
+    "note_zh": "中心从 (104,165,82) 改为 (92,175,82)，脑干前方/斜坡附近的软组织残留明显减少。仍有少量颅底残留，小脑下缘及顶部外周局部边界需要关注。提高 f 到 0.5 的某些组合会增加额叶遗漏。",
+    "qc_status_zh": "已改善，仍有局部边界关注点"
+  },
+  {
+    "subject": "Data_44",
+    "split": "test",
+    "tag": "previous",
+    "before": {
+      "f": "0.2",
+      "g": "0",
+      "cx": "104",
+      "cy": "166",
+      "cz": "82",
+      "options_text": "-f 0.2 -g 0 -c 104 166 82",
+      "selected_candidate": "cf20"
+    },
+    "after": {
+      "f": "0.2",
+      "g": "0",
+      "cx": "104",
+      "cy": "166",
+      "cz": "82",
+      "options_text": "-f 0.2 -g 0 -c 104 166 82",
+      "selected_candidate": "cf20"
+    },
+    "changed": false,
+    "qc_status": "failed_retained_previous",
+    "candidates_tested": 36,
+    "previous_brain_sha256": "de0659f399897d44c0930ba195984350d8dc160543447c53e960aa0556eba408",
+    "comparison_slices_ras": [
+      [
+        0,
+        44
+      ],
+      [
+        0,
+        71
+      ],
+      [
+        0,
+        107
+      ],
+      [
+        0,
+        134
+      ],
+      [
+        1,
+        44
+      ],
+      [
+        1,
+        86
+      ],
+      [
+        1,
+        143
+      ],
+      [
+        1,
+        186
+      ],
+      [
+        2,
+        97
+      ],
+      [
+        2,
+        133
+      ],
+      [
+        2,
+        182
+      ],
+      [
+        2,
+        219
+      ]
+    ],
+    "note_zh": "本轮追加 36 组候选，没有找到明确优于旧结果的组合。部分新候选在稀疏切片上看似改善，但密集切片仍显示内侧额叶疑似遗漏、后方头皮及颅底残留。较低 f 或部分中心变化可突然保留大片头颈组织，提高 f 又增加脑组织遗漏，因此暂留旧参数，标为复核未通过。",
+    "qc_status_zh": "未通过：暂留旧结果"
+  }
+]

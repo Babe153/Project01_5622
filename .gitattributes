@@ -5,3 +5,15 @@
 *.json -text whitespace=cr-at-eol
 *.png -text
 *.joblib -text
+
+*.nii -text
+*.nii.gz -text
+preprocessing/scripts/* -text
+report_evidence/**/*.txt -text
+report_evidence/**/*.tsv -text
+report_evidence/**/*.log -text
+
+# Preserve original teacher script and tool-generated log whitespace.
+preprocessing/scripts/CreateSeedMask -whitespace
+report_evidence/**/*.txt -whitespace
+report_evidence/**/*.log -whitespace

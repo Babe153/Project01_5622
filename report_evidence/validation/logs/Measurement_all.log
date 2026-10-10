@@ -1,0 +1,114 @@
+[Measurement] train/Data_00.nii: AAL 1..90, binary GM volume in mm^3
+>>>>>>>>>>>>>> seedMask_DIR:/home/elec5622/Project01/Output/train/.measurement_Data_00.acxQWU/seedMasks/
+>>>>>>>>>atlasIMG:/home/elec5622/Project01/Output/train/.measurement_Data_00.acxQWU/atlas.nii.gz
+min_i:1.000000 max_i:116.000000
+[Measurement] train/Data_01.nii: AAL 1..90, binary GM volume in mm^3
+>>>>>>>>>>>>>> seedMask_DIR:/home/elec5622/Project01/Output/train/.measurement_Data_01.3WRMo9/seedMasks/
+>>>>>>>>>atlasIMG:/home/elec5622/Project01/Output/train/.measurement_Data_01.3WRMo9/atlas.nii.gz
+min_i:1.000000 max_i:116.000000
+[Measurement] train/Data_02.nii: AAL 1..90, binary GM volume in mm^3
+>>>>>>>>>>>>>> seedMask_DIR:/home/elec5622/Project01/Output/train/.measurement_Data_02.LbJlF7/seedMasks/
+>>>>>>>>>atlasIMG:/home/elec5622/Project01/Output/train/.measurement_Data_02.LbJlF7/atlas.nii.gz
+min_i:1.000000 max_i:116.000000
+[Measurement] train/Data_03.nii: AAL 1..90, binary GM volume in mm^3
+>>>>>>>>>>>>>> seedMask_DIR:/home/elec5622/Project01/Output/train/.measurement_Data_03.uvWDYO/seedMasks/
+>>>>>>>>>atlasIMG:/home/elec5622/Project01/Output/train/.measurement_Data_03.uvWDYO/atlas.nii.gz
+min_i:1.000000 max_i:116.000000
+[Measurement] train/Data_04.nii: AAL 1..90, binary GM volume in mm^3
+>>>>>>>>>>>>>> seedMask_DIR:/home/elec5622/Project01/Output/train/.measurement_Data_04.o1SAEQ/seedMasks/
+>>>>>>>>>atlasIMG:/home/elec5622/Project01/Output/train/.measurement_Data_04.o1SAEQ/atlas.nii.gz
+min_i:1.000000 max_i:116.000000
+
+[Orchestration] Continue remaining measurements with two workers; preserve 4 completed rows.
+[Measurement] train/Data_04.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] train/Data_05.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_04 (5/50)
+[Measurement] train/Data_06.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_05 (6/50)
+[Measurement] train/Data_07.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_06 (7/50)
+[Measurement] train/Data_08.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_07 (8/50)
+[Measurement] train/Data_09.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_08 (9/50)
+[Measurement] train/Data_10.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_09 (10/50)
+[Measurement] train/Data_11.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_10 (11/50)
+[Measurement] train/Data_12.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_11 (12/50)
+[Measurement] train/Data_13.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_12 (13/50)
+[Measurement] train/Data_14.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_13 (14/50)
+[Measurement] train/Data_15.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_14 (15/50)
+[Measurement] train/Data_16.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_15 (16/50)
+[Measurement] train/Data_17.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_16 (17/50)
+[Measurement] train/Data_18.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_17 (18/50)
+[Measurement] train/Data_19.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_18 (19/50)
+[Measurement] train/Data_20.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_19 (20/50)
+[Measurement] train/Data_21.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_20 (21/50)
+[Measurement] train/Data_22.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_21 (22/50)
+[Measurement] train/Data_23.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_22 (23/50)
+[Measurement] train/Data_24.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_23 (24/50)
+[Measurement] train/Data_25.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_24 (25/50)
+[Measurement] train/Data_26.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_25 (26/50)
+[Measurement] train/Data_27.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_26 (27/50)
+[Measurement] train/Data_28.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_27 (28/50)
+[Measurement] train/Data_29.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_28 (29/50)
+[Measurement] train/Data_30.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_29 (30/50)
+[Measurement] train/Data_31.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_30 (31/50)
+[Measurement] train/Data_32.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_31 (32/50)
+[Measurement] train/Data_33.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_32 (33/50)
+[Measurement] train/Data_34.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_33 (34/50)
+[Measurement] train/Data_35.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_34 (35/50)
+[Measurement] train/Data_36.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_35 (36/50)
+[Measurement] train/Data_37.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_36 (37/50)
+[Measurement] train/Data_38.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_37 (38/50)
+[Measurement] train/Data_39.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_38 (39/50)
+[Measurement] test/Data_40.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_39 (40/50)
+[Measurement] test/Data_41.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_40 (41/50)
+[Measurement] test/Data_42.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_41 (42/50)
+[Measurement] test/Data_43.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_42 (43/50)
+[Measurement] test/Data_44.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_43 (44/50)
+[Measurement] test/Data_45.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_45 (45/50)
+[Measurement] test/Data_46.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_44 (46/50)
+[Measurement] test/Data_47.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_46 (47/50)
+[Measurement] test/Data_48.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_47 (48/50)
+[Measurement] test/Data_49.nii: AAL 1..90, binary GM volume in mm^3
+[Measurement] COMPLETE Data_48 (49/50)
+[Measurement] COMPLETE Data_49 (50/50)

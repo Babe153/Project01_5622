@@ -1,0 +1,94 @@
+#!/bin/bash
+# Measure binary GM volume (mm^3) in AAL labels 1..90, in native subject space.
+# Output: AAL_statistics_volumn_train.csv / AAL_statistics_volumn_test.csv.
+# Each CSV has FileName plus 90 volume columns; existing full tables are replaced atomically.
+# Optional SUBJECT_ID=Data_00 writes a separately named single-subject CSV.
+# Lab 1 section 4 / Action 8 (PDF page 6): fslstats GM -k ROI -V.
+
+set -eo pipefail
+root_path="${PROJECT_ROOT:-$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)}"
+data_root="$root_path/Data"
+output_path="$root_path/Output"
+export FSLDIR="${FSLDIR:-/home/elec5622/fsl}"
+[[ -r "$FSLDIR/etc/fslconf/fsl.sh" ]] || { echo "FSL setup not found in $FSLDIR" >&2; exit 1; }
+export PATH="$FSLDIR/share/fsl/bin:$FSLDIR/bin:$PATH"
+. "$FSLDIR/etc/fslconf/fsl.sh"
+export FSLOUTPUTTYPE=NIFTI_GZ LC_ALL=C
+set -u
+shopt -s nullglob
+for tool in fslmaths fslstats; do command -v "$tool" >/dev/null; done
+[[ -r "$root_path/CreateSeedMask" ]] || { echo 'CreateSeedMask not found.' >&2; exit 1; }
+
+# A subshell keeps the teacher helper's variables local to this subject.
+measure_subject() (
+    set -euo pipefail
+    filename="$1"
+    split_output="$2"
+    csv_tmp="$3"
+    subGMMask="$split_output/${filename}_greymatter_mask.nii.gz"
+    atlas="$split_output/AAL_to_${filename}.nii.gz"
+    [[ -s "$subGMMask" && -s "$atlas" ]] || {
+        echo "Missing GM mask or registered atlas for $filename. Run the preceding stages." >&2
+        exit 1
+    }
+
+    # Per-subject temporary workspace prevents reuse of another subject's masks.
+    work_dir="$(mktemp -d "$split_output/.measurement_${filename}.XXXXXX")"
+    trap 'rm -rf -- "$work_dir"' EXIT
+    ln -s "$atlas" "$work_dir/atlas.nii.gz"
+    # The teacher's CreateSeedMask file is used without any modification.
+    source "$root_path/CreateSeedMask" "$work_dir/" 'atlas.nii.gz'
+    seedMask_path="$work_dir/seedMasks"
+    printf '%s' "$filename" >> "$csv_tmp"
+
+    # Completed TODO: explicitly select anatomical region IDs 1..90.
+    for i in $(seq 1 90); do
+        roiMask="$seedMask_path/$i.nii.gz"
+        [[ -s "$roiMask" ]] || { echo "Missing AAL ROI $i for $filename" >&2; exit 1; }
+        # The teacher's -k selects the ROI. Use GM as the input (Action 8), so
+        # nonzero voxels represent grey matter rather than all tissues in the ROI.
+        # -V returns voxel count followed by physical volume; save mm^3 (field 2).
+        volume="$(fslstats "$subGMMask" -k "$roiMask" -V | awk '{print $2}')"
+        [[ "$volume" =~ ^[0-9]+([.][0-9]+)?$ ]] || {
+            echo "Invalid volume for $filename, ROI $i: $volume" >&2; exit 1;
+        }
+        printf ',%s' "$volume" >> "$csv_tmp"
+    done
+    # Completed TODO: terminate each subject's row after its 90 values.
+    printf '\n' >> "$csv_tmp"
+)
+
+processed=0
+csv_tmp=''
+trap '[[ -z "$csv_tmp" ]] || rm -f -- "$csv_tmp"' EXIT
+for split in train test; do
+    [[ -d "$data_root/$split" ]] || { echo "Missing: $data_root/$split" >&2; exit 1; }
+    split_output="$output_path/$split"
+    mkdir -p "$split_output"
+    suffix="${SUBJECT_ID:+_$SUBJECT_ID}"
+    csv_path="$split_output/AAL_statistics_volumn_${split}${suffix}.csv"
+    csv_tmp="$(mktemp "$split_output/.volumes.XXXXXX")"
+    printf 'FileName' > "$csv_tmp"
+    for i in $(seq 1 90); do printf ',ROI_%s_mm3' "$i" >> "$csv_tmp"; done
+    printf '\n' >> "$csv_tmp"
+    split_count=0
+    images=("$data_root/$split/"*.nii "$data_root/$split/"*.nii.gz)
+    for input_image in "${images[@]}"; do
+        subID="${input_image##*/}"
+        filename="${subID%%.*}"
+        [[ -z "${SUBJECT_ID:-}" || "$filename" == "$SUBJECT_ID" ]] || continue
+        echo "[Measurement] $split/$subID: AAL 1..90, binary GM volume in mm^3"
+        measure_subject "$filename" "$split_output" "$csv_tmp"
+        split_count=$((split_count + 1))
+    done
+    if (( split_count > 0 )); then
+        mv -f -- "$csv_tmp" "$csv_path"
+        echo "Saved $split_count subject(s): $csv_path"
+    else
+        rm -f -- "$csv_tmp"
+    fi
+    csv_tmp=''
+    processed=$((processed + split_count))
+done
+(( processed > 0 )) || { echo 'No matching MRI images found.' >&2; exit 1; }
+echo "Measurement finished: $processed subject(s), 90 ROI volumes per subject."

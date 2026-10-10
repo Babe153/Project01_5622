@@ -1,0 +1,3498 @@
+{
+  "source": "VM final Output directory",
+  "file_count": 698,
+  "total_bytes": 653030986,
+  "records": [
+    {
+      "path": "test/AAL_statistics_volumn_test.csv",
+      "bytes": 11870,
+      "sha256": "52b0dafa376c97e70cf18e4b68b3e8c56d294a246b1ef1749977207cab843227"
+    },
+    {
+      "path": "test/AAL_statistics_volumn_test_Data_40.csv",
+      "bytes": 2073,
+      "sha256": "dd9a5373693962e26e9b4c656313ed5b66ffa0ffe8fc5e585c8575ed17dbf261"
+    },
+    {
+      "path": "test/AAL_statistics_volumn_test_Data_41.csv",
+      "bytes": 2085,
+      "sha256": "ae07316a9acf4439d194e791bdae3b603c5f38c8012af97f98e7337ada8b43f7"
+    },
+    {
+      "path": "test/AAL_statistics_volumn_test_Data_42.csv",
+      "bytes": 2071,
+      "sha256": "8f1ca01f4e6839952b80ccf2da7b3d37b35a1588117f8a64f0a923a7c81cf4e2"
+    },
+    {
+      "path": "test/AAL_statistics_volumn_test_Data_43.csv",
+      "bytes": 2081,
+      "sha256": "b9992056181a97e0fd1d3a6707ff0accd3ea2bb7d3c16263914f845ccc1e7771"
+    },
+    {
+      "path": "test/AAL_statistics_volumn_test_Data_44.csv",
+      "bytes": 2083,
+      "sha256": "d2a8ed1f10f2150132e7fa0254e16c1e13d591bacc8da173f3e7a7556b45d052"
+    },
+    {
+      "path": "test/AAL_statistics_volumn_test_Data_45.csv",
+      "bytes": 2078,
+      "sha256": "7ba81a772903e6cc858b4022e33100d9facfce7fc60f421e1000e2d789ef14e7"
+    },
+    {
+      "path": "test/AAL_statistics_volumn_test_Data_46.csv",
+      "bytes": 2072,
+      "sha256": "1583e250f05b847cfbdb44624968ac3685c62f9904d3dbae019984052278d1f3"
+    },
+    {
+      "path": "test/AAL_statistics_volumn_test_Data_47.csv",
+      "bytes": 2077,
+      "sha256": "1f1556f4864a675af760f4f94ae62f2e50d32c3225f76f252c1107ca760b4b2e"
+    },
+    {
+      "path": "test/AAL_statistics_volumn_test_Data_48.csv",
+      "bytes": 2072,
+      "sha256": "253cc8bce299894d80c38f445eaf2a7dd60e4cf1831f498f2a9c78fad33849b2"
+    },
+    {
+      "path": "test/AAL_statistics_volumn_test_Data_49.csv",
+      "bytes": 2077,
+      "sha256": "70cdcae73a03a13cb41e2211a2a28bfc87bd7304e778662ccd2b319f99620aa6"
+    },
+    {
+      "path": "test/AAL_to_Data_40.nii.gz",
+      "bytes": 172065,
+      "sha256": "8a68c5468d340653280ee8d47097d3d97225ea59b6f943c463ac1e7245e3f20c"
+    },
+    {
+      "path": "test/AAL_to_Data_41.nii.gz",
+      "bytes": 218001,
+      "sha256": "22b7c37da488f664df1c2b2f9c27e4e12fc13eff0e430b69c52aef00107bff24"
+    },
+    {
+      "path": "test/AAL_to_Data_42.nii.gz",
+      "bytes": 198694,
+      "sha256": "26e03bf27a77aea70c816f6d0c189de84824a74e95f7a55a23d6fbbe677e1efe"
+    },
+    {
+      "path": "test/AAL_to_Data_43.nii.gz",
+      "bytes": 206199,
+      "sha256": "cc4e035f06b9388617a22deefee0441acfa3e5ec3cf3df7f01b3779afd953a6b"
+    },
+    {
+      "path": "test/AAL_to_Data_44.nii.gz",
+      "bytes": 250899,
+      "sha256": "30473a4036d0ee2f8265507736084611d14dc968a53a951b202185017a3c0347"
+    },
+    {
+      "path": "test/AAL_to_Data_45.nii.gz",
+      "bytes": 226830,
+      "sha256": "908c64726410a763d2bdf61d4f1707504ce41f9f069a998b769d8a87d4d5184d"
+    },
+    {
+      "path": "test/AAL_to_Data_46.nii.gz",
+      "bytes": 204930,
+      "sha256": "81acb4e2e1a8f871ef13ce618f2c50ccd58bc9a4de0180ec3efcf75c99b778d5"
+    },
+    {
+      "path": "test/AAL_to_Data_47.nii.gz",
+      "bytes": 214994,
+      "sha256": "3335385bcca14eddde31f85d03a08b2c03f3bcbea131354b75dee2432cd7ad05"
+    },
+    {
+      "path": "test/AAL_to_Data_48.nii.gz",
+      "bytes": 196771,
+      "sha256": "66235c9d3c3f26013138b0cc149bfa3890c3ee1949538ce8b4bb2dc6f581b8fe"
+    },
+    {
+      "path": "test/AAL_to_Data_49.nii.gz",
+      "bytes": 224907,
+      "sha256": "fc90ebb38c4dada44ca9977e72aa9af153d5319c151f92b0812dbcada6eaf3c5"
+    },
+    {
+      "path": "test/Data_40_MNI_affine.nii.gz",
+      "bytes": 2251589,
+      "sha256": "a5dca46025d4f08aef92a3bc70b579a0f3f23e36b223ef05eeabf88aa2ebe728"
+    },
+    {
+      "path": "test/Data_40_MNI_to_native_affine.txt",
+      "bytes": 127,
+      "sha256": "eea3e6afbf388914286c2fd6d048c4c7c0ba0ac3f20608449bb95fb3ae5fc579"
+    },
+    {
+      "path": "test/Data_40_MNI_to_native_cpp.nii.gz",
+      "bytes": 1260629,
+      "sha256": "7302b1fb9e2e97718804c757c510289f87c409c3499a40ecb002227c06f1c60d"
+    },
+    {
+      "path": "test/Data_40_MNI_warped.nii.gz",
+      "bytes": 2216012,
+      "sha256": "002ce9896a764d252808d08feb8b8527c88046ffaac0dd4f63885a7e473f3bb9"
+    },
+    {
+      "path": "test/Data_40_brain.nii.gz",
+      "bytes": 1527467,
+      "sha256": "e7e6e285c1decd3756faeac043f12ef2fc980a559580bc80adee7a95c1bcc760"
+    },
+    {
+      "path": "test/Data_40_brain_greymatter.nii.gz",
+      "bytes": 812040,
+      "sha256": "af480fc41235e3fad3fae8c82fc20c776b61329623dac6ffe411b6b01fa7696d"
+    },
+    {
+      "path": "test/Data_40_brain_mask.nii.gz",
+      "bytes": 74425,
+      "sha256": "ba953aee14e565ad80154e69693e8869959e87d039b969fbc9714b1198b10f54"
+    },
+    {
+      "path": "test/Data_40_brain_mixeltype.nii.gz",
+      "bytes": 335303,
+      "sha256": "6bf0174f163b7149efb1b9d7b1eaf4181b3eb11c7b6f5208ee6b28ad1777a07d"
+    },
+    {
+      "path": "test/Data_40_brain_seg.nii.gz",
+      "bytes": 291573,
+      "sha256": "799b36b50de6009581028383034dcf788b7bc13a8610f663d536df9edac80ea2"
+    },
+    {
+      "path": "test/Data_40_csf_mask.nii.gz",
+      "bytes": 194157,
+      "sha256": "925f74408772237e29284aef65e62095d0725e7bca6c5addff8460fdb945e772"
+    },
+    {
+      "path": "test/Data_40_greymatter_mask.nii.gz",
+      "bytes": 245648,
+      "sha256": "21ee7793c2f07517b8f77fe36ea24e6406589531a9151682de3a9bd3725f01b0"
+    },
+    {
+      "path": "test/Data_40_whitematter_mask.nii.gz",
+      "bytes": 158577,
+      "sha256": "b0944612a95996dc77d5067d2dfd9c9f67f6b1e1490d3ed36027239d7b2856e2"
+    },
+    {
+      "path": "test/Data_41_MNI_affine.nii.gz",
+      "bytes": 3071764,
+      "sha256": "0bfc2953bc8747d376c3ed81e822ca6d782e7eec18f656ae0081be8ed3c2863d"
+    },
+    {
+      "path": "test/Data_41_MNI_to_native_affine.txt",
+      "bytes": 133,
+      "sha256": "c4a77cb8ba7b37eec07a8c74ddb49982bfb6212f6c06bef508c7379061f00cc6"
+    },
+    {
+      "path": "test/Data_41_MNI_to_native_cpp.nii.gz",
+      "bytes": 1259758,
+      "sha256": "3a54f82107493da619ac58b1601d4421482e46f5597b70d2da240aeb703c7700"
+    },
+    {
+      "path": "test/Data_41_MNI_warped.nii.gz",
+      "bytes": 2951733,
+      "sha256": "b458e6beb6b748719de32f11c3f75d041c2f9520dc354772002bc90fa52a0d56"
+    },
+    {
+      "path": "test/Data_41_brain.nii.gz",
+      "bytes": 2105559,
+      "sha256": "c71438ec6f1b4e89e25ac98debdaa2b3e1c11dbe3b22ee9ea3d6727e8079965a"
+    },
+    {
+      "path": "test/Data_41_brain_greymatter.nii.gz",
+      "bytes": 1144104,
+      "sha256": "57c3cb906e6a79aa2dbafff90f7d9bc3a6c2f15fd3bd1cfbb2e1c08f47f29daa"
+    },
+    {
+      "path": "test/Data_41_brain_mask.nii.gz",
+      "bytes": 89389,
+      "sha256": "e3afd3cd58866904a5e6515bbdacf2cbdd0721db1d68a59b2d06dba129ccc67e"
+    },
+    {
+      "path": "test/Data_41_brain_mixeltype.nii.gz",
+      "bytes": 433306,
+      "sha256": "98ddeb256e63aa0d5c1eacaaf9a24bbec68ff3f336167ad7c4669d24234c693d"
+    },
+    {
+      "path": "test/Data_41_brain_seg.nii.gz",
+      "bytes": 382138,
+      "sha256": "85e1aa82b5391d92702cdd98766bf9de6bdd25d3f34d369c5839bc430cda9ace"
+    },
+    {
+      "path": "test/Data_41_csf_mask.nii.gz",
+      "bytes": 234725,
+      "sha256": "0cbde19a49cc4143bd2801f19ff6ed67f749ee2ec7aeeb67befb36dfae022546"
+    },
+    {
+      "path": "test/Data_41_greymatter_mask.nii.gz",
+      "bytes": 324450,
+      "sha256": "271d799ef4b1ff7205fd8d703813cc0509c7b1178765f049c5280dc97b199bf9"
+    },
+    {
+      "path": "test/Data_41_whitematter_mask.nii.gz",
+      "bytes": 212646,
+      "sha256": "3a30a50c53b519d342418fdd5ddf80634ecf70e89b320cc6e66fd054f448c22c"
+    },
+    {
+      "path": "test/Data_42_MNI_affine.nii.gz",
+      "bytes": 2544993,
+      "sha256": "9a908950d42fa2677de59f885e0b4d06a1caccd1523cbdeb9aec1b1b58f7361a"
+    },
+    {
+      "path": "test/Data_42_MNI_to_native_affine.txt",
+      "bytes": 130,
+      "sha256": "ad7d32473e50e86f8a1dcfc28cd39c27220f49397e2b9d311937d9b9d08e83ea"
+    },
+    {
+      "path": "test/Data_42_MNI_to_native_cpp.nii.gz",
+      "bytes": 1208391,
+      "sha256": "021ba35ff428e4e8de02260d18bddd630dc7a79b5e153b8388c97086c682714f"
+    },
+    {
+      "path": "test/Data_42_MNI_warped.nii.gz",
+      "bytes": 2560755,
+      "sha256": "a8e0ad1a657a1ad040a5c868bd57ae31de3e50199206cb3eabd7c35a83b74dd5"
+    },
+    {
+      "path": "test/Data_42_brain.nii.gz",
+      "bytes": 4812477,
+      "sha256": "c46980c3432403e66060cdb042721173c44bddc22e82921114099222a6039140"
+    },
+    {
+      "path": "test/Data_42_brain_greymatter.nii.gz",
+      "bytes": 1931525,
+      "sha256": "80b954cb43304a56611971f6ed35a1598bcc01d9daf47a8baf60b83e9f5c6048"
+    },
+    {
+      "path": "test/Data_42_brain_mask.nii.gz",
+      "bytes": 84343,
+      "sha256": "6c01c4b4a69ebe1468c02d43cf52c13c7032df50ac3d79b09c7a9a5cd3fee122"
+    },
+    {
+      "path": "test/Data_42_brain_mixeltype.nii.gz",
+      "bytes": 388523,
+      "sha256": "46254a44d2a7939827428e35a505fe6d4d61170f6f542216f026e2829970622e"
+    },
+    {
+      "path": "test/Data_42_brain_seg.nii.gz",
+      "bytes": 330494,
+      "sha256": "6d3fa2c45e17e1dc7ee8c3a7cfe236eb230a157e6e0300455d1ce2ae00c6c261"
+    },
+    {
+      "path": "test/Data_42_csf_mask.nii.gz",
+      "bytes": 223719,
+      "sha256": "18d1845666fc130f3073a4a11de1aaf8ff7538ed4025f153a229d4e81423fabb"
+    },
+    {
+      "path": "test/Data_42_greymatter_mask.nii.gz",
+      "bytes": 285400,
+      "sha256": "e7ae3943ec3892e4c945ec33af162a861d870ea7a5a688b2d688ca276be355ac"
+    },
+    {
+      "path": "test/Data_42_whitematter_mask.nii.gz",
+      "bytes": 182729,
+      "sha256": "c0c1075efc04891e65b6482a98b60191454635977cf088b41c429c48651e5966"
+    },
+    {
+      "path": "test/Data_43_MNI_affine.nii.gz",
+      "bytes": 2860166,
+      "sha256": "eafe32574c4fccf23a966878e2a9370021e02478418bee3a5926cd330a92d118"
+    },
+    {
+      "path": "test/Data_43_MNI_to_native_affine.txt",
+      "bytes": 136,
+      "sha256": "f044187e690713eb17b0bcc43140c339a92a78048080d7ab8cc7583eca1a41b4"
+    },
+    {
+      "path": "test/Data_43_MNI_to_native_cpp.nii.gz",
+      "bytes": 1253999,
+      "sha256": "77d0f85a6b94071fcd50494874e3123604832e872d43709a29e4a49f4d442f3f"
+    },
+    {
+      "path": "test/Data_43_MNI_warped.nii.gz",
+      "bytes": 2760237,
+      "sha256": "1310b22551505a19d92262554ffd6c37e8263af2d7f03441c19d9009c24b9273"
+    },
+    {
+      "path": "test/Data_43_brain.nii.gz",
+      "bytes": 1995805,
+      "sha256": "7a3ed66d057d9aa9802379644be0dce17aa9beb2a4a798d6c78a72fbb53ef93d"
+    },
+    {
+      "path": "test/Data_43_brain_greymatter.nii.gz",
+      "bytes": 1083059,
+      "sha256": "6fe1c73cf462429c134fb8befcd5fd3c5cc5d38260a0b031dd15c732ebbd17da"
+    },
+    {
+      "path": "test/Data_43_brain_mask.nii.gz",
+      "bytes": 85634,
+      "sha256": "0bb8be6c224f90f49d7535f5d4da4df537a6655509a681f20594f0ceda2f82d9"
+    },
+    {
+      "path": "test/Data_43_brain_mixeltype.nii.gz",
+      "bytes": 406786,
+      "sha256": "87ab192287df1f6e8378717fe1ef3402821e0bed2eddf71a9c33e71e34f90165"
+    },
+    {
+      "path": "test/Data_43_brain_seg.nii.gz",
+      "bytes": 345602,
+      "sha256": "8b48735ee2e5d12ed2210ce0456a4de8537700fcc4e18ab86bda97e8b6c694a8"
+    },
+    {
+      "path": "test/Data_43_csf_mask.nii.gz",
+      "bytes": 221986,
+      "sha256": "27eb328241aebd22af861ad07de01292f379f8bed5be585ac66912296a7c5a58"
+    },
+    {
+      "path": "test/Data_43_greymatter_mask.nii.gz",
+      "bytes": 292718,
+      "sha256": "0c50fd37cc36656777f59adb38cc004c89cd9d33ee457a20656b0d6a67d2f8b4"
+    },
+    {
+      "path": "test/Data_43_whitematter_mask.nii.gz",
+      "bytes": 186728,
+      "sha256": "4653726d817d351dc92d9a6b3b2e928c71eb92e3402776184cd9d47999b34767"
+    },
+    {
+      "path": "test/Data_44_MNI_affine.nii.gz",
+      "bytes": 3424516,
+      "sha256": "8bff96e999a2c2e2ce674ea465abe7e23ced3c94b644fdcadd17dca852c101c6"
+    },
+    {
+      "path": "test/Data_44_MNI_to_native_affine.txt",
+      "bytes": 132,
+      "sha256": "843ff78ad17f8181ae1468e12d069a252fb0e687d0d79d3940f823ac79e67dbd"
+    },
+    {
+      "path": "test/Data_44_MNI_to_native_cpp.nii.gz",
+      "bytes": 1210781,
+      "sha256": "bd4100baa255addda1077ad369bf79bf1570c35cff9ac82bdd347b915ec4522e"
+    },
+    {
+      "path": "test/Data_44_MNI_warped.nii.gz",
+      "bytes": 3406252,
+      "sha256": "485607798ab5f0e61544528d0ba438181b6949d9223362bb220b827d32368631"
+    },
+    {
+      "path": "test/Data_44_brain.nii.gz",
+      "bytes": 6354734,
+      "sha256": "de0659f399897d44c0930ba195984350d8dc160543447c53e960aa0556eba408"
+    },
+    {
+      "path": "test/Data_44_brain_greymatter.nii.gz",
+      "bytes": 2424777,
+      "sha256": "84c9adabb7e9bc86f34ee1919b9614e9aa0b72459668c6cb2d7fd00f79ebb734"
+    },
+    {
+      "path": "test/Data_44_brain_mask.nii.gz",
+      "bytes": 102786,
+      "sha256": "9ddee6f4319b72397c2eeea767c323fe3c3583038e4a5c2b3cf31270082ba4c7"
+    },
+    {
+      "path": "test/Data_44_brain_mixeltype.nii.gz",
+      "bytes": 505984,
+      "sha256": "9acfa11fcb5152e195f03c7a1611b284a966e0bac95242b3e1f30d812b4e858d"
+    },
+    {
+      "path": "test/Data_44_brain_seg.nii.gz",
+      "bytes": 432993,
+      "sha256": "05e0ad334808f009d7bf5b9b88b7c5b63865a757f52a8ff73b70d56814a2e6dc"
+    },
+    {
+      "path": "test/Data_44_csf_mask.nii.gz",
+      "bytes": 276553,
+      "sha256": "6a5a8a3d8c9d984dbc0f606f84973a87cff16563a57bca9e50db8303fbd7f3cc"
+    },
+    {
+      "path": "test/Data_44_greymatter_mask.nii.gz",
+      "bytes": 369977,
+      "sha256": "cc78c1af88a5621aa8d739dfe50435a47710dc501bbf01ea7469899f4b52627e"
+    },
+    {
+      "path": "test/Data_44_whitematter_mask.nii.gz",
+      "bytes": 250534,
+      "sha256": "ad543a3d6cbe0547ec9104cae3d32473cd7aafe79aa4b33f9c72c51426f4ee8d"
+    },
+    {
+      "path": "test/Data_45_MNI_affine.nii.gz",
+      "bytes": 3219068,
+      "sha256": "5f62dc2efde00bbc8c04c89a031b66c27ac9407ad3d3736c232edbeacb05f319"
+    },
+    {
+      "path": "test/Data_45_MNI_to_native_affine.txt",
+      "bytes": 136,
+      "sha256": "e479a5dad630ba2e63d7769822861155488da25b4a642004518b42ed11ff0f39"
+    },
+    {
+      "path": "test/Data_45_MNI_to_native_cpp.nii.gz",
+      "bytes": 1259220,
+      "sha256": "ef9d459cc53ce8c826877edee9eb2b8482a9544b83c095a4fdb18a64df48bb32"
+    },
+    {
+      "path": "test/Data_45_MNI_warped.nii.gz",
+      "bytes": 3002892,
+      "sha256": "06aeb0afe09c886db4cf004ba97a318aef81015e94840c4ebad17904ff673283"
+    },
+    {
+      "path": "test/Data_45_brain.nii.gz",
+      "bytes": 2163861,
+      "sha256": "a4e993b7e664eab4d6e9f518eedc1ca7a37d73b27f1ab271836ee0f9c9ccf4bc"
+    },
+    {
+      "path": "test/Data_45_brain_greymatter.nii.gz",
+      "bytes": 1083326,
+      "sha256": "0d432e8871212294dd5a7097f96d79412dafce4736c5390e66f3302e8dc34548"
+    },
+    {
+      "path": "test/Data_45_brain_mask.nii.gz",
+      "bytes": 91412,
+      "sha256": "adf7d9332cf3bd8860d3eb2f3560d8646eecc77d7d30c6695be5e993c41b7d06"
+    },
+    {
+      "path": "test/Data_45_brain_mixeltype.nii.gz",
+      "bytes": 436047,
+      "sha256": "9dd036c344277aa080c4621a7dd9265078c0becb568b2eeef1cb0d7d321698a5"
+    },
+    {
+      "path": "test/Data_45_brain_seg.nii.gz",
+      "bytes": 376563,
+      "sha256": "7edfc93c21d08f7b5293e5ba15c1a0eb585eb466bcfb95bd84d51dd10b9e9598"
+    },
+    {
+      "path": "test/Data_45_csf_mask.nii.gz",
+      "bytes": 233708,
+      "sha256": "d18d42165c7921574550269183a0ff973882a0c0bc2d0bd9d23b10bb68035ebd"
+    },
+    {
+      "path": "test/Data_45_greymatter_mask.nii.gz",
+      "bytes": 321125,
+      "sha256": "cd21aad61eb116aa42e79f96ec52027ef5d3059fd9f80ecda5b998d1c12352ed"
+    },
+    {
+      "path": "test/Data_45_whitematter_mask.nii.gz",
+      "bytes": 209466,
+      "sha256": "0464fdb80cd58134e7e2b27c4536d23fd76efa748345d14332edcb969ce2eb5e"
+    },
+    {
+      "path": "test/Data_46_MNI_affine.nii.gz",
+      "bytes": 2723943,
+      "sha256": "9c8a940f178e065cec3c1a7a0aa37aa2b290bbba2ef278476d3f3c4c05923055"
+    },
+    {
+      "path": "test/Data_46_MNI_to_native_affine.txt",
+      "bytes": 129,
+      "sha256": "337246354f532417d45a774427050497ad524e59343f9d952215a1f54ba13db1"
+    },
+    {
+      "path": "test/Data_46_MNI_to_native_cpp.nii.gz",
+      "bytes": 1216564,
+      "sha256": "74df4f9e96e342806a423b014e9831552e3bd4e609f8ce04d474fda2f339165f"
+    },
+    {
+      "path": "test/Data_46_MNI_warped.nii.gz",
+      "bytes": 2672905,
+      "sha256": "60285fe4f3e074099f5a05a0654d55006edebd030f666a27d188d0400c09719d"
+    },
+    {
+      "path": "test/Data_46_brain.nii.gz",
+      "bytes": 4988616,
+      "sha256": "a7ce854a40875eb5db298fc07bc44affdf51229337c04229609625868627def4"
+    },
+    {
+      "path": "test/Data_46_brain_greymatter.nii.gz",
+      "bytes": 1896427,
+      "sha256": "f0817b94596bbd08d4e0a50c27a418e47713255f34f92e15a73417946907431b"
+    },
+    {
+      "path": "test/Data_46_brain_mask.nii.gz",
+      "bytes": 85886,
+      "sha256": "1ade5071e45a8d3491afa523aa15a1419dce3e61ff46f66a35d9816c494ab983"
+    },
+    {
+      "path": "test/Data_46_brain_mixeltype.nii.gz",
+      "bytes": 401486,
+      "sha256": "2897d548926ff265e9fcef80b27cf67029c49315c7afb3506b18bd034f21673e"
+    },
+    {
+      "path": "test/Data_46_brain_seg.nii.gz",
+      "bytes": 341335,
+      "sha256": "a088c6324f50163fde5309f5d1aca946879f21bccb0fd3c1121d5a6b705c8ed7"
+    },
+    {
+      "path": "test/Data_46_csf_mask.nii.gz",
+      "bytes": 223348,
+      "sha256": "88381c45b7cb87374cc6c6aa4e5fecebad3630a52788160ea0f1a19bc363124b"
+    },
+    {
+      "path": "test/Data_46_greymatter_mask.nii.gz",
+      "bytes": 293919,
+      "sha256": "b4b3c7d93245e543e185db3b1a04dc0b339acb834209d2254eee59db5ad60577"
+    },
+    {
+      "path": "test/Data_46_whitematter_mask.nii.gz",
+      "bytes": 197510,
+      "sha256": "5cfeee711df9e74e41168185312d0a5d5e9d1957994bd5cb8309e5522e7247b8"
+    },
+    {
+      "path": "test/Data_47_MNI_affine.nii.gz",
+      "bytes": 2801119,
+      "sha256": "af07cdc58c84e77f17daaef3018914554fa96ff8d9e931a09d6fe3ee53c39825"
+    },
+    {
+      "path": "test/Data_47_MNI_to_native_affine.txt",
+      "bytes": 135,
+      "sha256": "f2f2ab5b874a21899c09e69c583e238be56a160d1ff92a8932f05e493da4960a"
+    },
+    {
+      "path": "test/Data_47_MNI_to_native_cpp.nii.gz",
+      "bytes": 1210515,
+      "sha256": "8834768360e87a8f197ae4f62319c7bb918d63e670e6f37e8c971fa363510439"
+    },
+    {
+      "path": "test/Data_47_MNI_warped.nii.gz",
+      "bytes": 2757069,
+      "sha256": "dab31b2363568bb03fbb3f1f058f62a180d38d319a6d2302682c6bb24f70672a"
+    },
+    {
+      "path": "test/Data_47_brain.nii.gz",
+      "bytes": 5191619,
+      "sha256": "8051018ff20d250298e14515e4e3f3f17f921cfed89ae6e2d7f6305263212fc3"
+    },
+    {
+      "path": "test/Data_47_brain_greymatter.nii.gz",
+      "bytes": 2013158,
+      "sha256": "69819b8aa8b2847fa917b2d2398bea7c2a0e4399cfc3fd793a6a858d59058aec"
+    },
+    {
+      "path": "test/Data_47_brain_mask.nii.gz",
+      "bytes": 89077,
+      "sha256": "21d497fd81c4f4bd2c9039c2d6c8ea7a29c5ad5554a76c0e67c312d7058fd39a"
+    },
+    {
+      "path": "test/Data_47_brain_mixeltype.nii.gz",
+      "bytes": 418019,
+      "sha256": "7c68944732da07edf53299de3dc0304d855056a24e7f1d870e1106cc301a3277"
+    },
+    {
+      "path": "test/Data_47_brain_seg.nii.gz",
+      "bytes": 354230,
+      "sha256": "f68e735e5f9e7f9391a8467dd1d5f6474890196245cb8be93c1005931c133f52"
+    },
+    {
+      "path": "test/Data_47_csf_mask.nii.gz",
+      "bytes": 231336,
+      "sha256": "6b4e8372c011cca856eaeebfc1f3fed2a204dea729faf2f610a5f70d1428223e"
+    },
+    {
+      "path": "test/Data_47_greymatter_mask.nii.gz",
+      "bytes": 302773,
+      "sha256": "346e18f1badc2ce286b1099c94bb6755dbaeee3a449c0453940027201a32eb2e"
+    },
+    {
+      "path": "test/Data_47_whitematter_mask.nii.gz",
+      "bytes": 203940,
+      "sha256": "70f5de52bd2b408079f3bc6987d5162537d4cfeb76a4b8d3e3c6652cf9c95f83"
+    },
+    {
+      "path": "test/Data_48_MNI_affine.nii.gz",
+      "bytes": 2564941,
+      "sha256": "7718511ad12c1630db5190679521b1fab93c832a78cd2ce9af251af3ae7d65d7"
+    },
+    {
+      "path": "test/Data_48_MNI_to_native_affine.txt",
+      "bytes": 130,
+      "sha256": "c4510e9d00f65dd8aa5a4050ced221e69449211547bc88390f88ec6315f99c30"
+    },
+    {
+      "path": "test/Data_48_MNI_to_native_cpp.nii.gz",
+      "bytes": 1200326,
+      "sha256": "58ea0a90aaf0489d6335b04cffb6ca6f4d83c0c9cf2a379c66bfe1eae66fbc34"
+    },
+    {
+      "path": "test/Data_48_MNI_warped.nii.gz",
+      "bytes": 2478539,
+      "sha256": "fe0581ac6a0c2f213ef765c1c47762fb785271c99804ea7d1c0200e7bb26a7a9"
+    },
+    {
+      "path": "test/Data_48_brain.nii.gz",
+      "bytes": 4598489,
+      "sha256": "926a7d843f3cd989d4b089ce28c0a6789d4561e8ff1769aff62b60f1cf6dfde9"
+    },
+    {
+      "path": "test/Data_48_brain_greymatter.nii.gz",
+      "bytes": 1888918,
+      "sha256": "13dc780fc7b668fd7d2b15cae1dc959da405eab3aa95f49ab73da8bba603bfea"
+    },
+    {
+      "path": "test/Data_48_brain_mask.nii.gz",
+      "bytes": 82448,
+      "sha256": "cdd3d64aacb29d20cc81179cb702cad09305d3361ec1a7d177ec16abf715582f"
+    },
+    {
+      "path": "test/Data_48_brain_mixeltype.nii.gz",
+      "bytes": 374761,
+      "sha256": "1182bb660161b86dfc66420994cccad7862fc07d785c977e636b7c426e9e3848"
+    },
+    {
+      "path": "test/Data_48_brain_seg.nii.gz",
+      "bytes": 319337,
+      "sha256": "45fdaca42468942284137066cdc5785bf82b5eb473a8e2d1aba0dcdf5e9166c1"
+    },
+    {
+      "path": "test/Data_48_csf_mask.nii.gz",
+      "bytes": 207558,
+      "sha256": "5cc22e3fe302fa6d9685fa1cbaa1a4b623a9a8f7d1ec500eaffe823a9dd0a7b8"
+    },
+    {
+      "path": "test/Data_48_greymatter_mask.nii.gz",
+      "bytes": 272698,
+      "sha256": "aebbe5efd37091e96cc8d17a4b0ef8e61f72851c20458cd417a0159ba441c50f"
+    },
+    {
+      "path": "test/Data_48_whitematter_mask.nii.gz",
+      "bytes": 185132,
+      "sha256": "c692975040f92d6258a527b5b65aabe01479b0674eeb38fd3b6ca28bb076d9bb"
+    },
+    {
+      "path": "test/Data_49_MNI_affine.nii.gz",
+      "bytes": 2996586,
+      "sha256": "22ef3915b93a1bb3556fdf1b7dacdafc8f558a564e422b3a238815e99a80ea0a"
+    },
+    {
+      "path": "test/Data_49_MNI_to_native_affine.txt",
+      "bytes": 133,
+      "sha256": "d381b3107dac8ecebf704d3d457e5721a6e65edcaeaa11f979ed622f5a4fca7b"
+    },
+    {
+      "path": "test/Data_49_MNI_to_native_cpp.nii.gz",
+      "bytes": 1209637,
+      "sha256": "28f5461b08a3fd6fd35f4756972ae17eeb17464d7a39a505ad24eb2a56603915"
+    },
+    {
+      "path": "test/Data_49_MNI_warped.nii.gz",
+      "bytes": 2994945,
+      "sha256": "5b7f14b21ed0db41dea81f63949b6219058a2734c59139d51810823ad683cd2d"
+    },
+    {
+      "path": "test/Data_49_brain.nii.gz",
+      "bytes": 5502258,
+      "sha256": "dc9fa268f765f1f02e97163467c8920dba3ffdd4a9bb8ff126fd444dad401aa8"
+    },
+    {
+      "path": "test/Data_49_brain_greymatter.nii.gz",
+      "bytes": 2367025,
+      "sha256": "de754a851c22d6fbe4ca1dfc7e2d1126f3e821eec3a6fc65d484365a84c1a2b7"
+    },
+    {
+      "path": "test/Data_49_brain_mask.nii.gz",
+      "bytes": 93934,
+      "sha256": "8ca0a1be4be43189a7d1012954481396c073fe19e804f0ec2a3b814066452399"
+    },
+    {
+      "path": "test/Data_49_brain_mixeltype.nii.gz",
+      "bytes": 444427,
+      "sha256": "99426584c43fb69d4116a067df928a71322b3a4d376aaa2192a9afe667987320"
+    },
+    {
+      "path": "test/Data_49_brain_seg.nii.gz",
+      "bytes": 372123,
+      "sha256": "e059250b3dd82c7abb916bdc52ebf1a2c75e0025e5b31fae45221ae60ecebcb9"
+    },
+    {
+      "path": "test/Data_49_csf_mask.nii.gz",
+      "bytes": 254538,
+      "sha256": "17837ed089c6c7dc33962b1297f6b0b42c9dd11d9d5d358b3d9a835cd3eec975"
+    },
+    {
+      "path": "test/Data_49_greymatter_mask.nii.gz",
+      "bytes": 321106,
+      "sha256": "194a7876ffed9f9c08eb08dfb714d51d73683eefd91c1f232c7d170deaa14681"
+    },
+    {
+      "path": "test/Data_49_whitematter_mask.nii.gz",
+      "bytes": 201032,
+      "sha256": "c90c8743416e3cfd28d5aafaa4971cd08c2931825f6f3694e203731b73027763"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train.csv",
+      "bytes": 44397,
+      "sha256": "0ac886bba849b31da64dcc8832ad5c4b7251869baf2f034c2ef3590b66b7a3b0"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_04.csv",
+      "bytes": 2083,
+      "sha256": "55c5b7228c8b5e49cf3a9ee7e544db06fc1f462cef2758a51d62d65a09c15378"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_05.csv",
+      "bytes": 2074,
+      "sha256": "368eb77b9703d6f4c9e5b924a7adfe0c1a0d40a6d9648e5a2e33ca3e5d04ea64"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_06.csv",
+      "bytes": 2071,
+      "sha256": "ece67658b801d66927f6f2ffd8cdf4537990c6f9552b55e7aaac382da286d519"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_07.csv",
+      "bytes": 2070,
+      "sha256": "64bd57113f74c4bc830092bd460202f5b9d6d2ac857d79b8a6c38ef74106f89a"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_08.csv",
+      "bytes": 2074,
+      "sha256": "f55bbf628f6e33d997dbf0ea2ec11f24b83605b78faad432d7b8bbd3fd4410f2"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_09.csv",
+      "bytes": 2070,
+      "sha256": "280e24fa07dc7873977cde4e85d9d3929bd47d7f36d710e0fed7caeae5bbf9e2"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_10.csv",
+      "bytes": 2067,
+      "sha256": "fba5a845def46cc3df45168a02948375717cee33461f951c1834df0999f3a16e"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_11.csv",
+      "bytes": 2071,
+      "sha256": "bc6a06fbe1bccfe720b7741030ed8906bb43382216d61530337ea4af5744bf15"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_12.csv",
+      "bytes": 2079,
+      "sha256": "78926c00388296f60fbc0232d65b517574eb66ad8d635948e258523906521858"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_13.csv",
+      "bytes": 2072,
+      "sha256": "4917824254b8dc708095670979fbd7a2fcca25130ecc4a0e228d9a5efcc2860d"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_14.csv",
+      "bytes": 2075,
+      "sha256": "66d0c5800cfadc510cb15dc24a2197adab31b2cc8ccee11643f1287e5c3f79a0"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_15.csv",
+      "bytes": 2073,
+      "sha256": "bab3d11bc7be4fdf08856069ef16d18ed3cc50e8125f07b32f30d7754d93e9bf"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_16.csv",
+      "bytes": 2085,
+      "sha256": "bf5c57b2f2b09dfe64375368e015f1b47691f1ef84e0e86f6b0cbf9fe0863706"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_17.csv",
+      "bytes": 2073,
+      "sha256": "b77bfd99a5625c31365e817a13e3057bf4ad94c4e1e79d8d3e98be0126283bd0"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_18.csv",
+      "bytes": 2070,
+      "sha256": "aaac911e0ff80352b28a722773e8d0920db0a50b9913467d3adc8782787f5135"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_19.csv",
+      "bytes": 2069,
+      "sha256": "ff5e76d4636eb51e416be911d27aff678d9c2bb1e7e7c0c7fabdbc1cefc04ab5"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_20.csv",
+      "bytes": 2067,
+      "sha256": "6c4a3b0edd486a50626799a33460f69826a9d064ee96f1ad658927daf35cf3ab"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_21.csv",
+      "bytes": 2076,
+      "sha256": "73e281dc062d9ca80efaad6e87f40721eb89663b0e006bee07d21263db8e360a"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_22.csv",
+      "bytes": 2074,
+      "sha256": "d301710bcf82d70c34b71fea654633df9a920c4c24786042b60fea1752552ac9"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_23.csv",
+      "bytes": 2076,
+      "sha256": "61b0f0ae21468bc9894bd6b1f7fc92d30316317d0862fd839d1ff8399404ad6e"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_24.csv",
+      "bytes": 2080,
+      "sha256": "489d7928c228c0f7c7ce1bafbdf4283715a92ec21d75ba1515902933c30326c8"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_25.csv",
+      "bytes": 2078,
+      "sha256": "4da66f927583cee85263a7b317b5c8f309cb180c4a8012ce36b4433968962235"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_26.csv",
+      "bytes": 2076,
+      "sha256": "f737cd75c60ae339abe38b78147709aeaca0ee97108fc0bc2c960be7eeb85756"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_27.csv",
+      "bytes": 2078,
+      "sha256": "5336efa9235c207d70a028818511de50ee79299e10261da67474742046b39b5a"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_28.csv",
+      "bytes": 2076,
+      "sha256": "05f254f7f0a7650a9c1a2e758819fd684ea044f140d058e5f239b0a17a459740"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_29.csv",
+      "bytes": 2073,
+      "sha256": "7533417e76b4519ddbad898833205d202408591a1eb3a2688c057fa78b1f2cee"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_30.csv",
+      "bytes": 2076,
+      "sha256": "d93151adf793225adf3d8671b65e5b3f2b47c4e494851370ebbfb23abc7b2939"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_31.csv",
+      "bytes": 2078,
+      "sha256": "20a017a281a788874f248a52ccd33a73b306ec4a201f9fa603c5715b1cff93f8"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_32.csv",
+      "bytes": 2076,
+      "sha256": "8c80e358f6ac3f2626940ea26a553814189c4293ff17cd2f405806cab887b03f"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_33.csv",
+      "bytes": 2068,
+      "sha256": "46500a8220d2ae51da8926e6dbdb458b4c06c7c26f7a3f9be5eaf9f049e6a98e"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_34.csv",
+      "bytes": 2069,
+      "sha256": "c372bba15363ad05a0c3245cc719a6bd11a992a3b0f87eb868c739dfcbcac2be"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_35.csv",
+      "bytes": 2065,
+      "sha256": "243a0bc18d2a54b76d661592d3efe14be854246fc1cf04725c60a1f86a4f77c5"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_36.csv",
+      "bytes": 2067,
+      "sha256": "750c4ba2e02d6873adba449daca6f5dccb4de7a1c75ad6df54ef160e3c97ed47"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_37.csv",
+      "bytes": 2078,
+      "sha256": "262f2f305246f18b78ca8b010407df2e5c893c33b0799aac92dc6ca370acbc2d"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_38.csv",
+      "bytes": 2085,
+      "sha256": "bb76ecb916b78ccdc46f8c050fc30c9431aeb8f0279eddb974711f11bbf7ee47"
+    },
+    {
+      "path": "train/AAL_statistics_volumn_train_Data_39.csv",
+      "bytes": 2068,
+      "sha256": "9465f24ae3cbd39861cbc3556b9beb0665ddafcfb05f3fbbb7bd6853fa2602d8"
+    },
+    {
+      "path": "train/AAL_to_Data_00.nii.gz",
+      "bytes": 176460,
+      "sha256": "e38ee05642aff3fb49b2446bf56dcc6c79eeccb97110ee338d9b43e98f037e02"
+    },
+    {
+      "path": "train/AAL_to_Data_01.nii.gz",
+      "bytes": 227729,
+      "sha256": "b7573e535af0301a8da3f19bce90c2135fc4fbe38a5fe192224c9088cf08df06"
+    },
+    {
+      "path": "train/AAL_to_Data_02.nii.gz",
+      "bytes": 223719,
+      "sha256": "5b31b939df8c16f66f9a1ee2194e9b2199d2691657bc652260e2f61f5270ac57"
+    },
+    {
+      "path": "train/AAL_to_Data_03.nii.gz",
+      "bytes": 210883,
+      "sha256": "cbcc026affa435b3e1440728f5be2efe32ba5e0dcefcab3e6ffac1d8ccd868fc"
+    },
+    {
+      "path": "train/AAL_to_Data_04.nii.gz",
+      "bytes": 227158,
+      "sha256": "32aec99d414b83abda906249ba4c82355a78a063fdca2c6724509e67f6af1f1c"
+    },
+    {
+      "path": "train/AAL_to_Data_05.nii.gz",
+      "bytes": 197101,
+      "sha256": "12e2318bdabf357426abee14b53c91560e1d4b5eda0bb30c79726812cd478716"
+    },
+    {
+      "path": "train/AAL_to_Data_06.nii.gz",
+      "bytes": 215760,
+      "sha256": "11b57f1d2a43259bd57e16f19af47ae5f196ba91c6c6ead749fa0ee2bc03d16c"
+    },
+    {
+      "path": "train/AAL_to_Data_07.nii.gz",
+      "bytes": 197535,
+      "sha256": "cdb6252df15c9df6524178a98d7b9bd1b97d909d0eeb130170422a48027f7b5a"
+    },
+    {
+      "path": "train/AAL_to_Data_08.nii.gz",
+      "bytes": 210178,
+      "sha256": "162613b50cf6918ab5908579cb0a3ea16249828bab518aff9229513cfb68df8e"
+    },
+    {
+      "path": "train/AAL_to_Data_09.nii.gz",
+      "bytes": 166013,
+      "sha256": "4e78880cc75598a5da2f919ae1affe2422bfa78ff9968785c29846fb92288d14"
+    },
+    {
+      "path": "train/AAL_to_Data_10.nii.gz",
+      "bytes": 191943,
+      "sha256": "2defe9dee62598328ef3858942c2344f04b4b55d93cda52220dd9d22608ba246"
+    },
+    {
+      "path": "train/AAL_to_Data_11.nii.gz",
+      "bytes": 206978,
+      "sha256": "8c07b021e616192c5b6fda0d7d72849735f78a61a292c2a6a20d7f1a469aef28"
+    },
+    {
+      "path": "train/AAL_to_Data_12.nii.gz",
+      "bytes": 212023,
+      "sha256": "ad3a93e3896c967a81ce71e596dab795acf5cd03dd04aa311ad26ed2dc6f7e68"
+    },
+    {
+      "path": "train/AAL_to_Data_13.nii.gz",
+      "bytes": 214991,
+      "sha256": "b95d6f7be74e64b81288d866788833869b1a897ca97f494e5021da72e04f3919"
+    },
+    {
+      "path": "train/AAL_to_Data_14.nii.gz",
+      "bytes": 196026,
+      "sha256": "1ebb3846eb6fdda0640806790f620dede4e4cdab85524990c8741f81a791fd33"
+    },
+    {
+      "path": "train/AAL_to_Data_15.nii.gz",
+      "bytes": 199362,
+      "sha256": "3aa4ca9f844ac191ad2ac5ac98bd75c6dfd1a6be17da3a9d220ab1479ede2590"
+    },
+    {
+      "path": "train/AAL_to_Data_16.nii.gz",
+      "bytes": 240002,
+      "sha256": "f82817b68b9c4330e9fc0766ff171778f066863aef58fd386ea58e68d39655d7"
+    },
+    {
+      "path": "train/AAL_to_Data_17.nii.gz",
+      "bytes": 194825,
+      "sha256": "6e82df3288d786ecc875cbaa688f5f1394859d3fc26e438a8ea00c1863c87b97"
+    },
+    {
+      "path": "train/AAL_to_Data_18.nii.gz",
+      "bytes": 227372,
+      "sha256": "5baac26ae1776a22d7a193debebcf4636bf1f7977733f5b0c33c9d7c04c92a6b"
+    },
+    {
+      "path": "train/AAL_to_Data_19.nii.gz",
+      "bytes": 184542,
+      "sha256": "37847ed0f7c6c7d415bffa130700decf17a493e91138661d64223f5891be3f1c"
+    },
+    {
+      "path": "train/AAL_to_Data_20.nii.gz",
+      "bytes": 165646,
+      "sha256": "8af28d143e194ae21b52ec00fd04c0b71a35b97a98b2997629f9b6f9c36781b9"
+    },
+    {
+      "path": "train/AAL_to_Data_21.nii.gz",
+      "bytes": 196105,
+      "sha256": "93cbea30b067012671cbbac96e8f4622e0766524268a62789408af1c56fd50ef"
+    },
+    {
+      "path": "train/AAL_to_Data_22.nii.gz",
+      "bytes": 188891,
+      "sha256": "fd098377cc253ccbd9d09a421f200eaec68e04564c1ce1d83875e3231f398ae2"
+    },
+    {
+      "path": "train/AAL_to_Data_23.nii.gz",
+      "bytes": 191934,
+      "sha256": "847677c804e0ae1f9f02640e3dbf278523af9cce3ab377d7d221d3ab18e43778"
+    },
+    {
+      "path": "train/AAL_to_Data_24.nii.gz",
+      "bytes": 210611,
+      "sha256": "3331258912437b06e12c422f427f4626d38c648d8414f81a17816d4b50850057"
+    },
+    {
+      "path": "train/AAL_to_Data_25.nii.gz",
+      "bytes": 203151,
+      "sha256": "60024214f180b95b1bbb9876170662ce3b8d2227128a0576018651ef6b3ddd6f"
+    },
+    {
+      "path": "train/AAL_to_Data_26.nii.gz",
+      "bytes": 198958,
+      "sha256": "1f1a0946b314244127a532700f74a3cd6c8c38dffe545edd9ff9c18b204d2fc6"
+    },
+    {
+      "path": "train/AAL_to_Data_27.nii.gz",
+      "bytes": 202370,
+      "sha256": "342561e98d8719beb2a8a320f1346064e94db10bc5c85a0e5a6e386c274e9134"
+    },
+    {
+      "path": "train/AAL_to_Data_28.nii.gz",
+      "bytes": 190694,
+      "sha256": "1634b5ea7f59cb0c4e906bc5a1b9da97cd52dfb7f26e5c684201ddda0940bf2a"
+    },
+    {
+      "path": "train/AAL_to_Data_29.nii.gz",
+      "bytes": 186391,
+      "sha256": "0bed37ddccc1aa3025e198f436b80424dc519e773649298b503fc8d85896e8b2"
+    },
+    {
+      "path": "train/AAL_to_Data_30.nii.gz",
+      "bytes": 200251,
+      "sha256": "f87f4490e55c6be64fc7c4dc459d844b2606958666ae851a9c8a4aa92293fa19"
+    },
+    {
+      "path": "train/AAL_to_Data_31.nii.gz",
+      "bytes": 201436,
+      "sha256": "e0b17a0ffbd846a2c58ec24526ab2b88dfd02167edbd6872924f07bc912e1bdb"
+    },
+    {
+      "path": "train/AAL_to_Data_32.nii.gz",
+      "bytes": 196757,
+      "sha256": "56b48a4d14711739d59dd69a0fe568055871cb517349506672e1bd141b7acc1e"
+    },
+    {
+      "path": "train/AAL_to_Data_33.nii.gz",
+      "bytes": 200721,
+      "sha256": "68f3ba5dcb669a92e9eee1bbc848bbb63fea9cb4cf4c6ee19e8842ccebb72fe8"
+    },
+    {
+      "path": "train/AAL_to_Data_34.nii.gz",
+      "bytes": 169165,
+      "sha256": "72e0144dc9096ec8d927b279be5909a41afad573ebe4da98bee2e772c6d6f0af"
+    },
+    {
+      "path": "train/AAL_to_Data_35.nii.gz",
+      "bytes": 177183,
+      "sha256": "92d17429e0c96daa806b9c3a93bfbe54d0143c39bda43c175275601e05867e74"
+    },
+    {
+      "path": "train/AAL_to_Data_36.nii.gz",
+      "bytes": 181679,
+      "sha256": "51c41ac4a0d3bb01fb661088f010eafad23b77400a1d9827ef905e98471fc0b8"
+    },
+    {
+      "path": "train/AAL_to_Data_37.nii.gz",
+      "bytes": 198674,
+      "sha256": "a0d2d6b5911845264dabb225ff255221785ec4f694fc20b8152c8309178f51e9"
+    },
+    {
+      "path": "train/AAL_to_Data_38.nii.gz",
+      "bytes": 220046,
+      "sha256": "be8330a34e9ea4faa8a9b43db8dd265831d825fa1c072fc76ecdc8c913b1d998"
+    },
+    {
+      "path": "train/AAL_to_Data_39.nii.gz",
+      "bytes": 184142,
+      "sha256": "6e84838a1be570dc3b97c3ca75cf3beea4a602ed9b83fc2b3f8c197d9353f5d1"
+    },
+    {
+      "path": "train/Data_00_MNI_affine.nii.gz",
+      "bytes": 2349315,
+      "sha256": "0dec89b6609e06f93cf5cb715be37c4b17e3de2f04941c63e1c046456681c45e"
+    },
+    {
+      "path": "train/Data_00_MNI_to_native_affine.txt",
+      "bytes": 130,
+      "sha256": "dbd91a758ec66a6159716e84b855e50d3160477d26662f8ec7bf601ce9835e3f"
+    },
+    {
+      "path": "train/Data_00_MNI_to_native_cpp.nii.gz",
+      "bytes": 1205636,
+      "sha256": "315a00d2892edfd2fd8acf44222d0e4cc4d7b7e801ad8b0f61bb119286bfd125"
+    },
+    {
+      "path": "train/Data_00_MNI_warped.nii.gz",
+      "bytes": 2276773,
+      "sha256": "5507fa57e0e6a966ffbcc7698ea579be1e3e34a9f5f80d170f0cb29af2239c7f"
+    },
+    {
+      "path": "train/Data_00_brain.nii.gz",
+      "bytes": 4228895,
+      "sha256": "55a0c49b4cc225f838c7784cf38143f61f8d0372fef17b2a86fae5c7ec5f0229"
+    },
+    {
+      "path": "train/Data_00_brain_greymatter.nii.gz",
+      "bytes": 1779611,
+      "sha256": "9cb7a5e5dd22ec7abdf217b52cc914cf7f34fd2834ffd6fd26abecfbf3cc64e6"
+    },
+    {
+      "path": "train/Data_00_brain_mask.nii.gz",
+      "bytes": 77593,
+      "sha256": "1db79bbe104c277ca52a9f2dac49fed3e0258425539d9b745b291a20de8beb15"
+    },
+    {
+      "path": "train/Data_00_brain_mixeltype.nii.gz",
+      "bytes": 354989,
+      "sha256": "f241e027fc8ce6ffa6171434e36774ef1ec318bc1bde547b2a80daf45629fd27"
+    },
+    {
+      "path": "train/Data_00_brain_seg.nii.gz",
+      "bytes": 306108,
+      "sha256": "63bf7e40ac58acb6c1ad71cb63607416a3dc0a054f6b9426767e921e4ac7c15f"
+    },
+    {
+      "path": "train/Data_00_csf_mask.nii.gz",
+      "bytes": 211599,
+      "sha256": "b402231234a7e9178beead096dc516d9e580437be49e8ea868cb6741fca371f9"
+    },
+    {
+      "path": "train/Data_00_greymatter_mask.nii.gz",
+      "bytes": 259540,
+      "sha256": "29dcb1b6f8912aa177aa9301dc34d216eb67e518a49b049766e086379f9a6768"
+    },
+    {
+      "path": "train/Data_00_whitematter_mask.nii.gz",
+      "bytes": 170582,
+      "sha256": "08872ea74ccd0aca7b9480633a82b65dc75be8e701d7890e6f6a647f2c48edd2"
+    },
+    {
+      "path": "train/Data_01_MNI_affine.nii.gz",
+      "bytes": 2952165,
+      "sha256": "48915489f9f73fe7a0310be02961967c85bc3944376b1fe0a029ca31a7bef5c1"
+    },
+    {
+      "path": "train/Data_01_MNI_to_native_affine.txt",
+      "bytes": 131,
+      "sha256": "48c9d13a0b374cfa4256ca97ee03f8c36efa8af6dd01b8edfb1735c9d60cad73"
+    },
+    {
+      "path": "train/Data_01_MNI_to_native_cpp.nii.gz",
+      "bytes": 1262980,
+      "sha256": "894edee6e187d2ae4b97145c86e948bf3ec42fefdf10c29dc996c9e036968bdb"
+    },
+    {
+      "path": "train/Data_01_MNI_warped.nii.gz",
+      "bytes": 2948296,
+      "sha256": "88afd60d2019f11e926adc3a662aa4ff735b00592dc39f417549344969bf1fcb"
+    },
+    {
+      "path": "train/Data_01_brain.nii.gz",
+      "bytes": 2115382,
+      "sha256": "dd905bcf97795d85041ce3023e2b24444f9adc5f0c92ac35918f62a179c26bbb"
+    },
+    {
+      "path": "train/Data_01_brain_greymatter.nii.gz",
+      "bytes": 1148360,
+      "sha256": "fc07c9ec999d2c61f84c415265238d9c869733ae558f7defd67cfe1c9c9301de"
+    },
+    {
+      "path": "train/Data_01_brain_mask.nii.gz",
+      "bytes": 90604,
+      "sha256": "ebdbfd1dd886328949aacdf6a67935dbc0ed748357a8a25b787e987f15fd8639"
+    },
+    {
+      "path": "train/Data_01_brain_mixeltype.nii.gz",
+      "bytes": 432013,
+      "sha256": "3dc8f1450e6635dbe57e617503dfadcacb72389384eaf19c62dcf897d60ab0a4"
+    },
+    {
+      "path": "train/Data_01_brain_seg.nii.gz",
+      "bytes": 382384,
+      "sha256": "252e44417c76a8d2a6828cb7db155f04ad6141162e614b91d0d543a855d59a77"
+    },
+    {
+      "path": "train/Data_01_csf_mask.nii.gz",
+      "bytes": 235712,
+      "sha256": "f1febf42a578c9c61f464ff945a48dc4ca416cfac27cba7a57ce2f3bba03f8a6"
+    },
+    {
+      "path": "train/Data_01_greymatter_mask.nii.gz",
+      "bytes": 325069,
+      "sha256": "17ab8fa1af0c7e56e5429a22fcba68dc471b8e1fe9a7f020d794921c1683b5b3"
+    },
+    {
+      "path": "train/Data_01_whitematter_mask.nii.gz",
+      "bytes": 213719,
+      "sha256": "bd1ad32706db2e1e72ef404c73352e5599b03d71e6e236c8eae891bd7fd54b87"
+    },
+    {
+      "path": "train/Data_02_MNI_affine.nii.gz",
+      "bytes": 3096740,
+      "sha256": "33c4c16639824378892cedc7e378c4bd896b0776f27c2a9beb3a2e0470a3dae5"
+    },
+    {
+      "path": "train/Data_02_MNI_to_native_affine.txt",
+      "bytes": 133,
+      "sha256": "c6ff330ddc36c866eac8211dec7773f311a5541fef0bf6890dc78633c2fb59af"
+    },
+    {
+      "path": "train/Data_02_MNI_to_native_cpp.nii.gz",
+      "bytes": 1258573,
+      "sha256": "19f3f65c535cee0ccff1a26c1e39966dba169725303795577a0e71624894cf14"
+    },
+    {
+      "path": "train/Data_02_MNI_warped.nii.gz",
+      "bytes": 2922715,
+      "sha256": "9ad1f0231998d030bfb5e130e26e67469d5115b2510857c9ecf139acbdb28812"
+    },
+    {
+      "path": "train/Data_02_brain.nii.gz",
+      "bytes": 2025763,
+      "sha256": "9aede7cfe9df0c547c13f8ff825e8341415a9bffc9f781d2deaa28795ec8ff8b"
+    },
+    {
+      "path": "train/Data_02_brain_greymatter.nii.gz",
+      "bytes": 1033597,
+      "sha256": "c3483b0561e019d511a9067bc33d35c7a7826835a44a9a85804d0a3ea91e01a6"
+    },
+    {
+      "path": "train/Data_02_brain_mask.nii.gz",
+      "bytes": 89244,
+      "sha256": "9f884c0f91b2b8152167ab2eb44a9d6459529f0cda02388d395f3ae42ac4c981"
+    },
+    {
+      "path": "train/Data_02_brain_mixeltype.nii.gz",
+      "bytes": 428920,
+      "sha256": "4a6e642cd27640ecdecdc065d7f763dc3204932a57e3540d6e9a7aeb262e5d88"
+    },
+    {
+      "path": "train/Data_02_brain_seg.nii.gz",
+      "bytes": 372876,
+      "sha256": "6245982446bbe672edb7e994dcd57b32ebe39f985758492a3edcf7494a13e930"
+    },
+    {
+      "path": "train/Data_02_csf_mask.nii.gz",
+      "bytes": 229432,
+      "sha256": "df575b1d81c52c3c81b7bdf230cca7ca60be7f6b18e6e585d05c86231ba6b7b2"
+    },
+    {
+      "path": "train/Data_02_greymatter_mask.nii.gz",
+      "bytes": 316344,
+      "sha256": "c047e6d6933cbda5eda0fa07a07be497e841079bf8a21ed9cd6666b2fa5de178"
+    },
+    {
+      "path": "train/Data_02_whitematter_mask.nii.gz",
+      "bytes": 210385,
+      "sha256": "a7e7d7340a399f006b07dc0a07ee6ac37143ab0c0a536a8e73d5bccfdf397127"
+    },
+    {
+      "path": "train/Data_03_MNI_affine.nii.gz",
+      "bytes": 3039302,
+      "sha256": "76a672085141f424a5770602e79736b987c0558477dd767d5311e83306a7db8a"
+    },
+    {
+      "path": "train/Data_03_MNI_to_native_affine.txt",
+      "bytes": 134,
+      "sha256": "be1e354250cf6ec60ef64a8b31a57f701bbf26cdc325592c92d23bfdb96e034c"
+    },
+    {
+      "path": "train/Data_03_MNI_to_native_cpp.nii.gz",
+      "bytes": 1197177,
+      "sha256": "ee8beea81d9880387054345808a5cda0ea55905af75ec02006ff8fbce19f5a32"
+    },
+    {
+      "path": "train/Data_03_MNI_warped.nii.gz",
+      "bytes": 2932089,
+      "sha256": "0827fd5a973f30289387f2347b3aac3dda3e63b9ed08f2c9bf0a80d526aa4b5e"
+    },
+    {
+      "path": "train/Data_03_brain.nii.gz",
+      "bytes": 5381790,
+      "sha256": "1cb7cf66bc3a6b8f17a972c4a3bad09e42ae9cc66809e1e3d69d94af9a674422"
+    },
+    {
+      "path": "train/Data_03_brain_greymatter.nii.gz",
+      "bytes": 2309390,
+      "sha256": "e55071d67403eaa033c42fa3fbc65e14a5f90842973419138e5fdd89aba26de8"
+    },
+    {
+      "path": "train/Data_03_brain_mask.nii.gz",
+      "bytes": 92045,
+      "sha256": "60871e863a369051116c3a708ff15ae55c655f5a8a966233ce84a20b11215694"
+    },
+    {
+      "path": "train/Data_03_brain_mixeltype.nii.gz",
+      "bytes": 427220,
+      "sha256": "f4e4d877ec9837d189940e753b859cb7df9cd1cdbfb9b0849bfec1f03c30176c"
+    },
+    {
+      "path": "train/Data_03_brain_seg.nii.gz",
+      "bytes": 360815,
+      "sha256": "e1e8c3cee0e048facc79da74285de5e13bb23ef977d1cd3afb843ef276d9a07e"
+    },
+    {
+      "path": "train/Data_03_csf_mask.nii.gz",
+      "bytes": 250564,
+      "sha256": "fa64ed19ef1ea6430f3013dc159432e31d26c0df25dcdedf370fac751ae19582"
+    },
+    {
+      "path": "train/Data_03_greymatter_mask.nii.gz",
+      "bytes": 310469,
+      "sha256": "aad38ea594dbadf4166bdcef2e51f08633d37221173c91f5b971ee4f94d12c31"
+    },
+    {
+      "path": "train/Data_03_whitematter_mask.nii.gz",
+      "bytes": 189358,
+      "sha256": "6d16daeb435ba610201d7f8c998b7b677907acb80f7c031eb36601ffbc41e329"
+    },
+    {
+      "path": "train/Data_04_MNI_affine.nii.gz",
+      "bytes": 3082524,
+      "sha256": "44cfaa8649548a6651505748badad60b213931679048b907a8fcbfa742981f2f"
+    },
+    {
+      "path": "train/Data_04_MNI_to_native_affine.txt",
+      "bytes": 130,
+      "sha256": "ee7f865cc6d2158c325a49c2dabd826d37077d5c2d72ed9897ee993a805932d3"
+    },
+    {
+      "path": "train/Data_04_MNI_to_native_cpp.nii.gz",
+      "bytes": 1251158,
+      "sha256": "5ffe1ec3f1a9608b492c967d50bbebba2c4ba168c1603d427804556e01a23551"
+    },
+    {
+      "path": "train/Data_04_MNI_warped.nii.gz",
+      "bytes": 2998722,
+      "sha256": "7beeebdebd91b74aeeed8a8a68eb49de806bb1059ce7ba2c6d83a7a326812f52"
+    },
+    {
+      "path": "train/Data_04_brain.nii.gz",
+      "bytes": 2127156,
+      "sha256": "4caeaabd0b75f8d61b385731fa5053e25419e9d490f7ca3e7f484b95f529c7a3"
+    },
+    {
+      "path": "train/Data_04_brain_greymatter.nii.gz",
+      "bytes": 1167668,
+      "sha256": "812b82f2556283973311afadea70e5b7e562bad69d71f989cbbb7d42e5e76329"
+    },
+    {
+      "path": "train/Data_04_brain_mask.nii.gz",
+      "bytes": 90164,
+      "sha256": "756eebe71024d53802b684b9314f725345a53352a979738d29e5140c54d97828"
+    },
+    {
+      "path": "train/Data_04_brain_mixeltype.nii.gz",
+      "bytes": 428515,
+      "sha256": "bcdb9dbd5669923b9b54451ddb66739734bf84edb7277bd2fe0356874d2fe237"
+    },
+    {
+      "path": "train/Data_04_brain_seg.nii.gz",
+      "bytes": 381575,
+      "sha256": "4ee8b131551873af90f2c48449f7eea7a888633ce8229669fbdc75bad89b1d74"
+    },
+    {
+      "path": "train/Data_04_csf_mask.nii.gz",
+      "bytes": 230690,
+      "sha256": "e9c053fd3f4f7b4cd74d65a5211d10e203db6d5b8289e51e2c948496330a09a8"
+    },
+    {
+      "path": "train/Data_04_greymatter_mask.nii.gz",
+      "bytes": 326027,
+      "sha256": "f9fe8f9937e86712b3034ea4ac8992334ccca75c7fb2f61b129efe2ffee337ec"
+    },
+    {
+      "path": "train/Data_04_whitematter_mask.nii.gz",
+      "bytes": 216609,
+      "sha256": "b234a2718dad9cb597ae220885e283781145c14299cf1c9a76a99d9c29377d83"
+    },
+    {
+      "path": "train/Data_05_MNI_affine.nii.gz",
+      "bytes": 2481199,
+      "sha256": "2cb5ce82c8ac2bc56291457d15735e7d8f14fe97b3b583de2a52a1ae36e13029"
+    },
+    {
+      "path": "train/Data_05_MNI_to_native_affine.txt",
+      "bytes": 129,
+      "sha256": "d8d622e365e4e737b16cb29c910fe06d291aa43df90778c75f71d2a27ecc87c0"
+    },
+    {
+      "path": "train/Data_05_MNI_to_native_cpp.nii.gz",
+      "bytes": 1263546,
+      "sha256": "7fed1aa1ed66f5142587793b5d04366e935c1bf468394a3e9e4a0a8e971d1649"
+    },
+    {
+      "path": "train/Data_05_MNI_warped.nii.gz",
+      "bytes": 2489453,
+      "sha256": "6e2739b01446f6f27d9798502a42f43499c23e377e0a4807c92cd85d6a16df78"
+    },
+    {
+      "path": "train/Data_05_brain.nii.gz",
+      "bytes": 1848303,
+      "sha256": "1a0cf738022d17ab6f4f1d45df43abe2810bcc49c860d2b680e2da01b5adea2a"
+    },
+    {
+      "path": "train/Data_05_brain_greymatter.nii.gz",
+      "bytes": 970669,
+      "sha256": "6d9604580c944d6f91f640a9395f1ff7803cecccc37e55941a2e6edb1825c650"
+    },
+    {
+      "path": "train/Data_05_brain_mask.nii.gz",
+      "bytes": 79354,
+      "sha256": "308cfa23af44ba291f38dd09efa328909c36a168b4bdaafe7e402c87a91c7c98"
+    },
+    {
+      "path": "train/Data_05_brain_mixeltype.nii.gz",
+      "bytes": 383583,
+      "sha256": "0c849acc92bcc064a268379620e116e4e3ccfd38ca1082022a64d8f53cd793a5"
+    },
+    {
+      "path": "train/Data_05_brain_seg.nii.gz",
+      "bytes": 337918,
+      "sha256": "d911c267148e1375d0ed89741fffe87e0d268a1f6b2fe0f581f456a1c818d01c"
+    },
+    {
+      "path": "train/Data_05_csf_mask.nii.gz",
+      "bytes": 214666,
+      "sha256": "23e8458f1c724f9b823101d89ee31bac8ae70632c1777951f4aa98cba38b9951"
+    },
+    {
+      "path": "train/Data_05_greymatter_mask.nii.gz",
+      "bytes": 285359,
+      "sha256": "106939dca49159e4285ae3b80c8902fa471b3006b805f459fcee66c48325da2e"
+    },
+    {
+      "path": "train/Data_05_whitematter_mask.nii.gz",
+      "bytes": 192637,
+      "sha256": "dc04947c10c346f738186f329e75c4a223c83b2b98ffed631bf03a8d2c01852e"
+    },
+    {
+      "path": "train/Data_06_MNI_affine.nii.gz",
+      "bytes": 2892653,
+      "sha256": "341cdaed07a38590b42f39730105ed611dc59c5184bfe0ae2e47997c447bf603"
+    },
+    {
+      "path": "train/Data_06_MNI_to_native_affine.txt",
+      "bytes": 135,
+      "sha256": "7e9cabd94cadbcdef520b8f22c522342b0901c28c46b9bf20578dcf221f9c430"
+    },
+    {
+      "path": "train/Data_06_MNI_to_native_cpp.nii.gz",
+      "bytes": 1197364,
+      "sha256": "05bc8aee439c183c47260db0cd286a8e36e0f641e8aa7dee18aeab69f9331393"
+    },
+    {
+      "path": "train/Data_06_MNI_warped.nii.gz",
+      "bytes": 2746158,
+      "sha256": "50bae03e29415f0842e38ec3bbc681d5691e61e6d6df28f243432b6482c128f7"
+    },
+    {
+      "path": "train/Data_06_brain.nii.gz",
+      "bytes": 5139763,
+      "sha256": "cf421dca8caba6a1d1e0e7f70726fdd17ab46ca5f9bc63f166941c4cca985401"
+    },
+    {
+      "path": "train/Data_06_brain_greymatter.nii.gz",
+      "bytes": 2010458,
+      "sha256": "a3f499b69499f3beac58ee758cab2c36242041559e5958730b8833eba2974e35"
+    },
+    {
+      "path": "train/Data_06_brain_mask.nii.gz",
+      "bytes": 88542,
+      "sha256": "2787d29340e57024400f7ab0145d4ab511a27db45856b0e027276bc1880e5a9a"
+    },
+    {
+      "path": "train/Data_06_brain_mixeltype.nii.gz",
+      "bytes": 417638,
+      "sha256": "bba8903ccbf214a2b9456910b1594d7310d07218f5bd3732a370dd97c88bdf38"
+    },
+    {
+      "path": "train/Data_06_brain_seg.nii.gz",
+      "bytes": 351601,
+      "sha256": "f63aa333c50891d8528de4dfe4ca610402fdf5e3c6efff8ddab07a727ce7690c"
+    },
+    {
+      "path": "train/Data_06_csf_mask.nii.gz",
+      "bytes": 230926,
+      "sha256": "3ca65ec00e2b93ad60919bdc4dfbac3c4a4f19adf1b27a84646f08790be9760b"
+    },
+    {
+      "path": "train/Data_06_greymatter_mask.nii.gz",
+      "bytes": 302713,
+      "sha256": "a43f637a0117f46b15aa5dadf4e0fe2e6e9570605a11de588608eddc96705738"
+    },
+    {
+      "path": "train/Data_06_whitematter_mask.nii.gz",
+      "bytes": 197637,
+      "sha256": "3afae65db4f5e16a40cd20a7ab52d6599a22d2005e31f690371e0484e186eac4"
+    },
+    {
+      "path": "train/Data_07_MNI_affine.nii.gz",
+      "bytes": 2458542,
+      "sha256": "8709dd5c3fd18a19b5e774a98c4d914d61a02915ffa22b9f6c46df773fc4f019"
+    },
+    {
+      "path": "train/Data_07_MNI_to_native_affine.txt",
+      "bytes": 130,
+      "sha256": "cb6bdcf13e30d0c44a96699b75dee281b8111283d37eca2231321b06449da311"
+    },
+    {
+      "path": "train/Data_07_MNI_to_native_cpp.nii.gz",
+      "bytes": 1208845,
+      "sha256": "68199cd9cbeac40093808cf5e2b8bffee49b0fcb9949d5560e9c4e79de16ff08"
+    },
+    {
+      "path": "train/Data_07_MNI_warped.nii.gz",
+      "bytes": 2459873,
+      "sha256": "f4d9d5443bf0a408c2ede0a76c7a81f9a89b76850f1e33ad0bf9bd7adb5cd3f6"
+    },
+    {
+      "path": "train/Data_07_brain.nii.gz",
+      "bytes": 4498087,
+      "sha256": "0598fae487d85f407d1f409fd7a98b5358dd0f4b1c236b84c21b4166f45b6feb"
+    },
+    {
+      "path": "train/Data_07_brain_greymatter.nii.gz",
+      "bytes": 1800923,
+      "sha256": "1c32596aae13a2114aa801118e5dab9e740c6d818002084fa5843600577c46d1"
+    },
+    {
+      "path": "train/Data_07_brain_mask.nii.gz",
+      "bytes": 83506,
+      "sha256": "da705bfdb8bb3d9e448cc20553f118ecbfbb815e2d5cc60c7708b1055a0b13f6"
+    },
+    {
+      "path": "train/Data_07_brain_mixeltype.nii.gz",
+      "bytes": 395738,
+      "sha256": "bedf71e2b2803e8613c520d5a1f399bc44e48870629bb1009719af91f6cac41e"
+    },
+    {
+      "path": "train/Data_07_brain_seg.nii.gz",
+      "bytes": 334992,
+      "sha256": "8fc47d59ea7a62970039eff6117ea2d1d44542e9bb0ea1278af8bf5be37abbd0"
+    },
+    {
+      "path": "train/Data_07_csf_mask.nii.gz",
+      "bytes": 219790,
+      "sha256": "f48ef9b2d51a80c25b5837a8d276f830a22c317fce16580c5e8a1b60e5056873"
+    },
+    {
+      "path": "train/Data_07_greymatter_mask.nii.gz",
+      "bytes": 287885,
+      "sha256": "5ffbb187ee4b2de1d43caa48af6eb733a7a67bb3bd3e440d152b14734f8e71b5"
+    },
+    {
+      "path": "train/Data_07_whitematter_mask.nii.gz",
+      "bytes": 192832,
+      "sha256": "db127a993fe96a39260a74879c0f71c1df3054fc33a10ef232919223676e66f0"
+    },
+    {
+      "path": "train/Data_08_MNI_affine.nii.gz",
+      "bytes": 2703646,
+      "sha256": "238ca840921793ee777260ed02503f884a83edb6c80c70bcc0a021334b28101c"
+    },
+    {
+      "path": "train/Data_08_MNI_to_native_affine.txt",
+      "bytes": 130,
+      "sha256": "a597726c36776f402186d5f2d957ff363b8bfdc7e04ccf29622fe61105650e86"
+    },
+    {
+      "path": "train/Data_08_MNI_to_native_cpp.nii.gz",
+      "bytes": 1195735,
+      "sha256": "c53671b248968e3c170bedb48edef90b2c393790675219ea1f02ccb47c3f9ab6"
+    },
+    {
+      "path": "train/Data_08_MNI_warped.nii.gz",
+      "bytes": 2756145,
+      "sha256": "eb54d23532f9d2b530195ec2c3eba9deaa573dd6340d05988bb9600fcf0a7f45"
+    },
+    {
+      "path": "train/Data_08_brain.nii.gz",
+      "bytes": 5140825,
+      "sha256": "e5e8c4f62be742a10f575b543c0e78ad0b2efbe50299b14eb77ac627aea35281"
+    },
+    {
+      "path": "train/Data_08_brain_greymatter.nii.gz",
+      "bytes": 2113018,
+      "sha256": "2a1e63c8d51a20af78009019e4bb888a122eef3a06f3527793aaf869f724bcf3"
+    },
+    {
+      "path": "train/Data_08_brain_mask.nii.gz",
+      "bytes": 88487,
+      "sha256": "d27b86469bfbd752ff6723f17c02f480a8ac9e17336e219e124f283e2540cce5"
+    },
+    {
+      "path": "train/Data_08_brain_mixeltype.nii.gz",
+      "bytes": 406958,
+      "sha256": "fc85a47ce56032bd87acd9abc0dcfd745b63b0f34740b7b5e4fa3f46dc3d59f4"
+    },
+    {
+      "path": "train/Data_08_brain_seg.nii.gz",
+      "bytes": 348627,
+      "sha256": "90d97979c6c331e89f92d90dd23c40144237fcab91581679afd1e3863aa07329"
+    },
+    {
+      "path": "train/Data_08_csf_mask.nii.gz",
+      "bytes": 236849,
+      "sha256": "05885c09e39c3d505af2adb30142939871104704cfdc0caf5b7971b3a47846cf"
+    },
+    {
+      "path": "train/Data_08_greymatter_mask.nii.gz",
+      "bytes": 295073,
+      "sha256": "f70587e1f1b3d253c4411d88bb09e180d64e3cc089016e389b85298affd5c83d"
+    },
+    {
+      "path": "train/Data_08_whitematter_mask.nii.gz",
+      "bytes": 189318,
+      "sha256": "7a9450f7087dedb65f2a1cec40f9bc52e5e2764685b75a66ae2a4016662b02ae"
+    },
+    {
+      "path": "train/Data_09_MNI_affine.nii.gz",
+      "bytes": 2171186,
+      "sha256": "21b70f8ae094ba8577aaba06ba0ae3a416ce14d8fc4b8f7b038fba438da5ee7b"
+    },
+    {
+      "path": "train/Data_09_MNI_to_native_affine.txt",
+      "bytes": 131,
+      "sha256": "cd8fdc506e5e72e4ec979292a0cf6d8cd99098290fc8343f124e24c525a6277b"
+    },
+    {
+      "path": "train/Data_09_MNI_to_native_cpp.nii.gz",
+      "bytes": 1199085,
+      "sha256": "2389acc8db88937b2dac5121ea0e63977c42062ad7c0a623c2d2e6ae5bc3d8ca"
+    },
+    {
+      "path": "train/Data_09_MNI_warped.nii.gz",
+      "bytes": 2109469,
+      "sha256": "e468c189208eb2f1eb69fde188bcaf3b3f054e292ce56ccb88048d082687692e"
+    },
+    {
+      "path": "train/Data_09_brain.nii.gz",
+      "bytes": 3916458,
+      "sha256": "a19fac59c24bec6758ff307e5ae8d0c272321672416666b29017ef56a6579676"
+    },
+    {
+      "path": "train/Data_09_brain_greymatter.nii.gz",
+      "bytes": 1706682,
+      "sha256": "b09dd29cd323695609b3c824506fa97062450154121bcaca44a5046d54241c89"
+    },
+    {
+      "path": "train/Data_09_brain_mask.nii.gz",
+      "bytes": 74423,
+      "sha256": "1b5709b2986c2d63da764c92c1f8e218b527667ad2431cf32eaed3026405049e"
+    },
+    {
+      "path": "train/Data_09_brain_mixeltype.nii.gz",
+      "bytes": 329037,
+      "sha256": "71c7315ea6f5d8a64a5c442df74b7ceb1f80c4496a7405e2614e4b2fbb78abe5"
+    },
+    {
+      "path": "train/Data_09_brain_seg.nii.gz",
+      "bytes": 279990,
+      "sha256": "8ca9b6c2b5a7478cc904e12387709b3aeeb9ca7dd9a20d0d4b04b16c53870f27"
+    },
+    {
+      "path": "train/Data_09_csf_mask.nii.gz",
+      "bytes": 187709,
+      "sha256": "d70ff7d117da4992b4221169b001de30ce96c13332e6f9ffee1eea5d7e44c905"
+    },
+    {
+      "path": "train/Data_09_greymatter_mask.nii.gz",
+      "bytes": 235994,
+      "sha256": "e41aaa8c7a15042667053e3d69c0c2f9891b14aa5ce8fc1f9c88cabef7afa020"
+    },
+    {
+      "path": "train/Data_09_whitematter_mask.nii.gz",
+      "bytes": 160511,
+      "sha256": "63d5f71b50e7594ba91eba259d1e1096877ba4c6364fef388ec6a84fa678f0cf"
+    },
+    {
+      "path": "train/Data_10_MNI_affine.nii.gz",
+      "bytes": 2366020,
+      "sha256": "ca2c1890b8d18b1d5854e8f11953b924295677de097a04d39aaab2a17a188cf4"
+    },
+    {
+      "path": "train/Data_10_MNI_to_native_affine.txt",
+      "bytes": 129,
+      "sha256": "f5db2ca17832b21a22d2101161443297d6cca0ddff159292e1325c6d7682b50e"
+    },
+    {
+      "path": "train/Data_10_MNI_to_native_cpp.nii.gz",
+      "bytes": 1204029,
+      "sha256": "d5bcf98fc7c0c20fe64c9e4b909fe797dff425674fc03967c8669566b23a10e5"
+    },
+    {
+      "path": "train/Data_10_MNI_warped.nii.gz",
+      "bytes": 2304209,
+      "sha256": "551e0c08e451614c67a3e1d42d22141945aab665103af2802f7aa702e9e0c8de"
+    },
+    {
+      "path": "train/Data_10_brain.nii.gz",
+      "bytes": 4249619,
+      "sha256": "1b46d37b2a23c132b3577965c7a902a98de9594c6bd61203e9ec8be3528b82fa"
+    },
+    {
+      "path": "train/Data_10_brain_greymatter.nii.gz",
+      "bytes": 1769568,
+      "sha256": "7da1a31fffa62270eeb122224074a5700198da8d77b7e94ba7100875b7793ce6"
+    },
+    {
+      "path": "train/Data_10_brain_mask.nii.gz",
+      "bytes": 81808,
+      "sha256": "b50f1527379570ea7876798fa33e79cede4452463f23fdc417691624e039db51"
+    },
+    {
+      "path": "train/Data_10_brain_mixeltype.nii.gz",
+      "bytes": 360085,
+      "sha256": "061eb3f812b6e6cdb0ce6c485c8ba34dab21d43f2a2768726ecc5b99e2bde7d4"
+    },
+    {
+      "path": "train/Data_10_brain_seg.nii.gz",
+      "bytes": 305436,
+      "sha256": "53db7b40e2b3fe049d36c843758b90945f4099ad9b1df7ac4ff20af4bbee785f"
+    },
+    {
+      "path": "train/Data_10_csf_mask.nii.gz",
+      "bytes": 205814,
+      "sha256": "7b1af337bdfb6f44b733ba041d16f8b57026959802351de73987c7d6e6643e87"
+    },
+    {
+      "path": "train/Data_10_greymatter_mask.nii.gz",
+      "bytes": 257399,
+      "sha256": "4856f349fa8ceec72abbb35f14cf336529cac81a0bcce13f7564de32b68a0282"
+    },
+    {
+      "path": "train/Data_10_whitematter_mask.nii.gz",
+      "bytes": 168027,
+      "sha256": "d298bd0887a9cc9030754980e78f5988b39c26a7e97f799a2529f2e4ef8b14ff"
+    },
+    {
+      "path": "train/Data_11_MNI_affine.nii.gz",
+      "bytes": 2764519,
+      "sha256": "42b6cdc0e2c4a2849060f776c60acc838d83ae00a85e05f5233676fbeabe15d1"
+    },
+    {
+      "path": "train/Data_11_MNI_to_native_affine.txt",
+      "bytes": 130,
+      "sha256": "38713a9edbe7cadbd2a1cd090f9ac000cc14c69dc1ed8a7598b997495a186fa8"
+    },
+    {
+      "path": "train/Data_11_MNI_to_native_cpp.nii.gz",
+      "bytes": 1202871,
+      "sha256": "b97e877e852da42246a86c43e2c296f185a88fbd2c61f1a684aba086d6abc40e"
+    },
+    {
+      "path": "train/Data_11_MNI_warped.nii.gz",
+      "bytes": 2684641,
+      "sha256": "eb30dc035020ea5e6346c016f8eba846f2dfd9b65c710b73cc0a499d1ddb07ab"
+    },
+    {
+      "path": "train/Data_11_brain.nii.gz",
+      "bytes": 4997987,
+      "sha256": "e916d5e5923988958fd7dc8c7a3104c9cf96c5ddd47f76c038efed7c72e19edc"
+    },
+    {
+      "path": "train/Data_11_brain_greymatter.nii.gz",
+      "bytes": 1888806,
+      "sha256": "51f64713c96b3eb1cc9c56ebea234003d0c26d5c569c9d4a8952466629ab8f26"
+    },
+    {
+      "path": "train/Data_11_brain_mask.nii.gz",
+      "bytes": 86544,
+      "sha256": "bb9a9b131335d36a5f135f8e481bf9a315506cb408830aff0869383f75ba9391"
+    },
+    {
+      "path": "train/Data_11_brain_mixeltype.nii.gz",
+      "bytes": 401864,
+      "sha256": "0e6b41a9359b40bb61f00f05d69b5ac307faa532510b9b68b19c28e146de7053"
+    },
+    {
+      "path": "train/Data_11_brain_seg.nii.gz",
+      "bytes": 341798,
+      "sha256": "73b18cf08ac402f3d0a67f23e19b7a742cee44bb1e5d67b8831ac94c2cd022ff"
+    },
+    {
+      "path": "train/Data_11_csf_mask.nii.gz",
+      "bytes": 226874,
+      "sha256": "96eb3415b0d0f0d88d4edee4c6f91bd015c399f1d554a7b397cd1229a9b2fd7b"
+    },
+    {
+      "path": "train/Data_11_greymatter_mask.nii.gz",
+      "bytes": 289879,
+      "sha256": "15f25dfb6ef2e20932534bb36e5cb1ce63778fcdb7fae3cdf46e5e1c80934b0f"
+    },
+    {
+      "path": "train/Data_11_whitematter_mask.nii.gz",
+      "bytes": 192769,
+      "sha256": "3cc9b84f6cacdccd3af8c49884c271f28c94d7c2dad42a3fd20b59e338d6edea"
+    },
+    {
+      "path": "train/Data_12_MNI_affine.nii.gz",
+      "bytes": 2866095,
+      "sha256": "9181f80a7dd0dacbb5f0107ec75ff1a91956b971b238e0a930362961ba1c737a"
+    },
+    {
+      "path": "train/Data_12_MNI_to_native_affine.txt",
+      "bytes": 129,
+      "sha256": "e15c1eb55158ea03d676d5e17b5175fe1da5b731069a33642fb40499d277244a"
+    },
+    {
+      "path": "train/Data_12_MNI_to_native_cpp.nii.gz",
+      "bytes": 1255753,
+      "sha256": "41fcf0f897e901910de73d3f41713292663d7b7e1501b59c4fbd26ce2dd894f1"
+    },
+    {
+      "path": "train/Data_12_MNI_warped.nii.gz",
+      "bytes": 2788228,
+      "sha256": "6a70ddabd11c65f816c0d57eeb1c96958f9c149c5158efc9caff89b8f307bef3"
+    },
+    {
+      "path": "train/Data_12_brain.nii.gz",
+      "bytes": 2000888,
+      "sha256": "edcb3f8e8e821d6e259d35f0f950ac14df4b431ea264e0d1bab4e928c4cfd286"
+    },
+    {
+      "path": "train/Data_12_brain_greymatter.nii.gz",
+      "bytes": 1058200,
+      "sha256": "dfdb7a9dbbdb1e8028a23931024bb9e3293ae0adb3a5068a30c0ce582f440fa0"
+    },
+    {
+      "path": "train/Data_12_brain_mask.nii.gz",
+      "bytes": 85682,
+      "sha256": "69dc72928b4ea9e9c047f1ca889407e10fada74f56077f0799a2080c80f26817"
+    },
+    {
+      "path": "train/Data_12_brain_mixeltype.nii.gz",
+      "bytes": 408293,
+      "sha256": "cf88a0091a6f68ddd8923624f3bb040366b84196a49bb4b98d4a2acc3d0d9cc0"
+    },
+    {
+      "path": "train/Data_12_brain_seg.nii.gz",
+      "bytes": 353575,
+      "sha256": "7b83ed91f44fe758b39d7b2308761e4f97794b95cca92529c83433f5d8f20386"
+    },
+    {
+      "path": "train/Data_12_csf_mask.nii.gz",
+      "bytes": 224231,
+      "sha256": "6f408122dfd30598f4469f579cfe2c8a54d21720cfc66aa1118fcf4fe24be55c"
+    },
+    {
+      "path": "train/Data_12_greymatter_mask.nii.gz",
+      "bytes": 299786,
+      "sha256": "5d1b5a93c85f0ab4de038ed470c6d13c3608cbec78823e7e416466b53d34b715"
+    },
+    {
+      "path": "train/Data_12_whitematter_mask.nii.gz",
+      "bytes": 193528,
+      "sha256": "61f72aa01a32bd5c5d519ca8f95cdded2a3d3e56bbd6ebf2d23676a4be410c27"
+    },
+    {
+      "path": "train/Data_13_MNI_affine.nii.gz",
+      "bytes": 2852508,
+      "sha256": "0ef7145e142eb55fca48d1baaa1ffedb5cc0008efabfbe97e1fef02f27be736f"
+    },
+    {
+      "path": "train/Data_13_MNI_to_native_affine.txt",
+      "bytes": 127,
+      "sha256": "ff7946e6cf7c5c1833b9ee5d4279779fc450fd05f83e0fa8344e68c594f12803"
+    },
+    {
+      "path": "train/Data_13_MNI_to_native_cpp.nii.gz",
+      "bytes": 1210481,
+      "sha256": "60fe16e31aae4c382b31881a22a517b5c58e95390020cf2fd7ecc6b69f26aa68"
+    },
+    {
+      "path": "train/Data_13_MNI_warped.nii.gz",
+      "bytes": 2811992,
+      "sha256": "d4be7bf317730bd4b26a22487e8647205e334fa769bae0581d29e57ee896c5c4"
+    },
+    {
+      "path": "train/Data_13_brain.nii.gz",
+      "bytes": 5218908,
+      "sha256": "4d80e32d0495d5a1f0aaf5c91c79bf768a87cd252db055b6e6b965e690e273c4"
+    },
+    {
+      "path": "train/Data_13_brain_greymatter.nii.gz",
+      "bytes": 1873184,
+      "sha256": "384e97d6c0d0b6248ba8b5fced4c36f306bbd1f77b51f7800ff4bd048b39486d"
+    },
+    {
+      "path": "train/Data_13_brain_mask.nii.gz",
+      "bytes": 88881,
+      "sha256": "6bf4c3640183f8d82d53ddff1ed5ab961f8900e8212b2d52e0563a5c1d869502"
+    },
+    {
+      "path": "train/Data_13_brain_mixeltype.nii.gz",
+      "bytes": 421306,
+      "sha256": "11e3c3dd8e331d2029de9c256bd9df48d24d4fadb9b616033b8047f5a93ee1b3"
+    },
+    {
+      "path": "train/Data_13_brain_seg.nii.gz",
+      "bytes": 357847,
+      "sha256": "af957dfd5b680a522c774e576256b2ffed7947473989ab71b8d888e1edb122e0"
+    },
+    {
+      "path": "train/Data_13_csf_mask.nii.gz",
+      "bytes": 234315,
+      "sha256": "8376721ac48128bc4455c615d76a59441a223e0dbfbb6a86c569fd98a64fe57b"
+    },
+    {
+      "path": "train/Data_13_greymatter_mask.nii.gz",
+      "bytes": 309227,
+      "sha256": "0175410e62b9a79aea9aa20c81f6d53e2d53a4307cf7172eeb9266e64244aabd"
+    },
+    {
+      "path": "train/Data_13_whitematter_mask.nii.gz",
+      "bytes": 206497,
+      "sha256": "3dfcae955e8a9a79861cda75df4192eb378dee68ca770fea51b66f29c58c19e8"
+    },
+    {
+      "path": "train/Data_14_MNI_affine.nii.gz",
+      "bytes": 2549154,
+      "sha256": "9b3d37cfcd00e1a02b8a2888ea92b37a9f65c17b67f17cced28c524c952310e1"
+    },
+    {
+      "path": "train/Data_14_MNI_to_native_affine.txt",
+      "bytes": 130,
+      "sha256": "e6c410f6337a9062e9fd24593f3d3687cc613414f90d523c564bc919c84c6fec"
+    },
+    {
+      "path": "train/Data_14_MNI_to_native_cpp.nii.gz",
+      "bytes": 1261888,
+      "sha256": "6428e0ba8635067f69243bde9f2061092a392a24a562559cbe3aa51ef3453a05"
+    },
+    {
+      "path": "train/Data_14_MNI_warped.nii.gz",
+      "bytes": 2483348,
+      "sha256": "a357f7b4ee483d575df3881fb6589a93161b5db9c4315849b22d9beb72b706b7"
+    },
+    {
+      "path": "train/Data_14_brain.nii.gz",
+      "bytes": 1661387,
+      "sha256": "f4c8445ef363fabbdd62bfc9359d36d63ea8e717b4409f59e179375cf547795b"
+    },
+    {
+      "path": "train/Data_14_brain_greymatter.nii.gz",
+      "bytes": 903263,
+      "sha256": "90c7981d7e736e6a8618ba16c232f353bfa414e6ee91ad6bdd4dc04c6dbfd7c2"
+    },
+    {
+      "path": "train/Data_14_brain_mask.nii.gz",
+      "bytes": 79314,
+      "sha256": "e7acb8156f06914a1a31464949508750ef53c9a92faf41bdee4ae94f5ca17e70"
+    },
+    {
+      "path": "train/Data_14_brain_mixeltype.nii.gz",
+      "bytes": 367459,
+      "sha256": "991a3790ca0f12429b327f07a035a468664d071bdd23417b80e7d6da5eb2ae97"
+    },
+    {
+      "path": "train/Data_14_brain_seg.nii.gz",
+      "bytes": 323214,
+      "sha256": "c1a747f33f36a92014a5ebd848112208312a2bc68fe8586bd7c678d491083870"
+    },
+    {
+      "path": "train/Data_14_csf_mask.nii.gz",
+      "bytes": 209005,
+      "sha256": "bd54618dd898d73403f4a7fcb1c833d96017e584fdc1e9ca0b27d3105e1b3017"
+    },
+    {
+      "path": "train/Data_14_greymatter_mask.nii.gz",
+      "bytes": 272208,
+      "sha256": "9d4456ec39da1d9cc6c9ef47dbc6f30cc955ff581d2a050a5b62af26425de3bf"
+    },
+    {
+      "path": "train/Data_14_whitematter_mask.nii.gz",
+      "bytes": 175265,
+      "sha256": "ff6dc941dc665aeaac766439aa6b8a256baacf59893caa62cf4f02603353f227"
+    },
+    {
+      "path": "train/Data_15_MNI_affine.nii.gz",
+      "bytes": 2581945,
+      "sha256": "332eb8e69f3f0d54970ffab1956fd714d358a25a3d0e0d50c54745c07619be64"
+    },
+    {
+      "path": "train/Data_15_MNI_to_native_affine.txt",
+      "bytes": 131,
+      "sha256": "91d25c7d72ceaebe6f1bc15f987c2ec37fc08151a33d4c92c7c313176544d4c1"
+    },
+    {
+      "path": "train/Data_15_MNI_to_native_cpp.nii.gz",
+      "bytes": 1257947,
+      "sha256": "df5b7895b43995d75933ba605bd0b1c4763783001239ca81d166491b98c40597"
+    },
+    {
+      "path": "train/Data_15_MNI_warped.nii.gz",
+      "bytes": 2519034,
+      "sha256": "9f2b87758680be911e74da29d04ff1e70d762ab737cb4c5d2747fab75f849b73"
+    },
+    {
+      "path": "train/Data_15_brain.nii.gz",
+      "bytes": 1794725,
+      "sha256": "f60c9ad620dc9087d99be405154d2cc986eea1c8d39e0b53d83b6c59181ea47b"
+    },
+    {
+      "path": "train/Data_15_brain_greymatter.nii.gz",
+      "bytes": 917703,
+      "sha256": "dc5b7804e0c504476f616cca94506719a4a2127674c1a79036336439201e2bc7"
+    },
+    {
+      "path": "train/Data_15_brain_mask.nii.gz",
+      "bytes": 80941,
+      "sha256": "58163e75765765fae588203d5ad2d2b2e933cf8f0019fb5551cc03e6ae81f83e"
+    },
+    {
+      "path": "train/Data_15_brain_mixeltype.nii.gz",
+      "bytes": 373475,
+      "sha256": "ebf38987e24dd4967fc0852183fcd0e79b86066e58a5867879eb6d9dbb16b701"
+    },
+    {
+      "path": "train/Data_15_brain_seg.nii.gz",
+      "bytes": 323741,
+      "sha256": "982005bfc74a7150f0461ae9a4f994c9a01163b06aba5f71678afb9f56cfb5ce"
+    },
+    {
+      "path": "train/Data_15_csf_mask.nii.gz",
+      "bytes": 207901,
+      "sha256": "9d1055d98377ab363a4cd467524d317e266bae3409b6c2f258e8f6084a419218"
+    },
+    {
+      "path": "train/Data_15_greymatter_mask.nii.gz",
+      "bytes": 271120,
+      "sha256": "c0ee85832c9e1b807d24a8b0a27606ce34c377f15ca3d771859f24933b979d85"
+    },
+    {
+      "path": "train/Data_15_whitematter_mask.nii.gz",
+      "bytes": 179006,
+      "sha256": "6d075ecf13c1f2aa7f4b6e254fd69ad86f35228dc75051c284d0e5943e5039df"
+    },
+    {
+      "path": "train/Data_16_MNI_affine.nii.gz",
+      "bytes": 3361510,
+      "sha256": "5b2c9409f10665dde3c6783df0118aa6fda35eb1e6b2e8def55e659a9f3383bf"
+    },
+    {
+      "path": "train/Data_16_MNI_to_native_affine.txt",
+      "bytes": 134,
+      "sha256": "6b478b67182d35795ff0c770caf1645b9f34a5047163832ace0fe97368ad39df"
+    },
+    {
+      "path": "train/Data_16_MNI_to_native_cpp.nii.gz",
+      "bytes": 1264392,
+      "sha256": "e4f3033028cb37f3aa48eac60a9878999c8d18a5a5b67d39cce41aaf06dbd58e"
+    },
+    {
+      "path": "train/Data_16_MNI_warped.nii.gz",
+      "bytes": 3222344,
+      "sha256": "51ea3835dedce88d0ea9c7fe78bdbbc5fd5da98003bad6d443c3c8498a3e3886"
+    },
+    {
+      "path": "train/Data_16_brain.nii.gz",
+      "bytes": 2225964,
+      "sha256": "75c09511416bc46b6bddb27cf9ea23d4ba77931f6c9571200e7461a2ccad78b7"
+    },
+    {
+      "path": "train/Data_16_brain_greymatter.nii.gz",
+      "bytes": 1144546,
+      "sha256": "760c1ce2460bccaa9faf90a442a89e71415c215a50c07ac57020f6d34961c42e"
+    },
+    {
+      "path": "train/Data_16_brain_mask.nii.gz",
+      "bytes": 95879,
+      "sha256": "266d8088e2d44343c8e8752eaa4278abb45049192c8f95bb557eee3e094e58d4"
+    },
+    {
+      "path": "train/Data_16_brain_mixeltype.nii.gz",
+      "bytes": 482939,
+      "sha256": "3ecd86754808083e23390713815fce9183d22b530c783721789b745efb36f762"
+    },
+    {
+      "path": "train/Data_16_brain_seg.nii.gz",
+      "bytes": 418499,
+      "sha256": "625ad3b98a2b4e713f8194e144f18b745f66a81287a7fe7f3900aeea14dea175"
+    },
+    {
+      "path": "train/Data_16_csf_mask.nii.gz",
+      "bytes": 256095,
+      "sha256": "e63fde7c9e970bf3b067720f56949fb74ee1e6e679cbb958efc9ccd0e44115de"
+    },
+    {
+      "path": "train/Data_16_greymatter_mask.nii.gz",
+      "bytes": 355353,
+      "sha256": "fa19fe4d6b772930413268334e3d183de316910c81913525aade017974e003e4"
+    },
+    {
+      "path": "train/Data_16_whitematter_mask.nii.gz",
+      "bytes": 233640,
+      "sha256": "a909bf07b70dafaf5b1aabf8fdfbc3c2c72fab1222787e751f9f0b1985d046f4"
+    },
+    {
+      "path": "train/Data_17_MNI_affine.nii.gz",
+      "bytes": 2488023,
+      "sha256": "cbf67e2d585764a9597270e81a4edb0433a2853855271bdcc22f462f47563f5a"
+    },
+    {
+      "path": "train/Data_17_MNI_to_native_affine.txt",
+      "bytes": 133,
+      "sha256": "880b63644174335af411d4381d343e3e7a512fadf67942f3a713e57e5e5bf858"
+    },
+    {
+      "path": "train/Data_17_MNI_to_native_cpp.nii.gz",
+      "bytes": 1259613,
+      "sha256": "8d358158a0459b0a75a1128b1b03443eb5300370d94d1e49ea1a264a906a2746"
+    },
+    {
+      "path": "train/Data_17_MNI_warped.nii.gz",
+      "bytes": 2417278,
+      "sha256": "586689773f21db5882f97113dbc241707a16e561dde94f476ea84a3ef4a0ccb5"
+    },
+    {
+      "path": "train/Data_17_brain.nii.gz",
+      "bytes": 1703456,
+      "sha256": "b671302e003787d0cf8690f4023c2ccafc70425649adcf9ba2c60c6acd559322"
+    },
+    {
+      "path": "train/Data_17_brain_greymatter.nii.gz",
+      "bytes": 915741,
+      "sha256": "3070e7d3d560fa562182c66fece7ba80fa2037195622d9956426a8eb8246001b"
+    },
+    {
+      "path": "train/Data_17_brain_mask.nii.gz",
+      "bytes": 78450,
+      "sha256": "da68e3658bd9c6dc2d1887ee5fe565733d1fc52c748182584deb99b31a2c7e83"
+    },
+    {
+      "path": "train/Data_17_brain_mixeltype.nii.gz",
+      "bytes": 363942,
+      "sha256": "39baf97258f5a7bff427ce791163e7c2a9f38e0c814530c751a795ca56157906"
+    },
+    {
+      "path": "train/Data_17_brain_seg.nii.gz",
+      "bytes": 320779,
+      "sha256": "1d4ebe102cd34b0eaaa5286759ff3e31ea1a8e7dd58ef6146cb59da5a3df4c2d"
+    },
+    {
+      "path": "train/Data_17_csf_mask.nii.gz",
+      "bytes": 204746,
+      "sha256": "a3fc408933c39f807fe7a17ad37427878170e54923ed1fcfba011858e644de59"
+    },
+    {
+      "path": "train/Data_17_greymatter_mask.nii.gz",
+      "bytes": 271213,
+      "sha256": "d258eb754b6a3c055d16b1a99fafe02f3fa474349e9fd8344c80273d9a032ee3"
+    },
+    {
+      "path": "train/Data_17_whitematter_mask.nii.gz",
+      "bytes": 177613,
+      "sha256": "dd3c00aaf5dcddeac9b3557517030ebf642e2916983f8c6e09300792c8eee0e3"
+    },
+    {
+      "path": "train/Data_18_MNI_affine.nii.gz",
+      "bytes": 2926229,
+      "sha256": "1ee3c3d0e46bc48eb5c2dabede09b95580220156cba38aa8ad735f9e56395e0f"
+    },
+    {
+      "path": "train/Data_18_MNI_to_native_affine.txt",
+      "bytes": 133,
+      "sha256": "d6ab07f98e3c91837caceb7d434c8ad80fcc07d07e2853d1d339ade7b8950712"
+    },
+    {
+      "path": "train/Data_18_MNI_to_native_cpp.nii.gz",
+      "bytes": 1206459,
+      "sha256": "ac9a00ee5da76f4106791611820f1d4fe373b1ffd202c28e05a46bcf95d483cb"
+    },
+    {
+      "path": "train/Data_18_MNI_warped.nii.gz",
+      "bytes": 3133800,
+      "sha256": "f0ff5361c5ae00821d63e0af450ec715cd2621b05db0a0b4ed3cb6f90d7a9837"
+    },
+    {
+      "path": "train/Data_18_brain.nii.gz",
+      "bytes": 5844592,
+      "sha256": "141d50adaaafaf3035dd61d17b92e1846e628e83146cc869502aa1ecaf240751"
+    },
+    {
+      "path": "train/Data_18_brain_greymatter.nii.gz",
+      "bytes": 2150721,
+      "sha256": "9d11b505886ad171a3f92b8e3ecfc428baf3a659b7e828a37f38dd7526d99909"
+    },
+    {
+      "path": "train/Data_18_brain_mask.nii.gz",
+      "bytes": 95499,
+      "sha256": "19549ab075ba061b605682bdf6ef25c0efb4b470461f43525da60a1e613a0402"
+    },
+    {
+      "path": "train/Data_18_brain_mixeltype.nii.gz",
+      "bytes": 486737,
+      "sha256": "ad4b526d0cbe275a33ff35726b9a26338aa055c8965f9f0f3a2cef20b99944aa"
+    },
+    {
+      "path": "train/Data_18_brain_seg.nii.gz",
+      "bytes": 408549,
+      "sha256": "c7cc8865ba393470519c30520d8eca8fd1af1bfd152eb6999243333431ee4d6e"
+    },
+    {
+      "path": "train/Data_18_csf_mask.nii.gz",
+      "bytes": 259474,
+      "sha256": "8dec820346a3c23281a903e86feaf1e81647689b5ca2a11081af60daa7ce13e1"
+    },
+    {
+      "path": "train/Data_18_greymatter_mask.nii.gz",
+      "bytes": 357635,
+      "sha256": "ba1cad19dd5de700996cab6d743af97f6df6ad69ad2721c8aeccb12bc71e8554"
+    },
+    {
+      "path": "train/Data_18_whitematter_mask.nii.gz",
+      "bytes": 236243,
+      "sha256": "dd1fc628ca36e09bb14cd5d3fa3e63e507ac59aa72ad42a0bb621cfc9a114c01"
+    },
+    {
+      "path": "train/Data_19_MNI_affine.nii.gz",
+      "bytes": 2387332,
+      "sha256": "ab78b8f1b16b177d7c604e178f11d3ff5abc846e944bc71fadf748655b06d9ab"
+    },
+    {
+      "path": "train/Data_19_MNI_to_native_affine.txt",
+      "bytes": 132,
+      "sha256": "a9de63415591f93307d2bd798c86c6b5b4d4c9fd863e56e501d0f3006fd2e90a"
+    },
+    {
+      "path": "train/Data_19_MNI_to_native_cpp.nii.gz",
+      "bytes": 1193273,
+      "sha256": "da1a4293e18cd49f42ee875cabc8ee108f94f4113206b63d2bfa24cc53b70e7a"
+    },
+    {
+      "path": "train/Data_19_MNI_warped.nii.gz",
+      "bytes": 2282987,
+      "sha256": "ee523a9765716d3dcf65b657a4e0e8e293968e10965d5fa86158348b88c6a51f"
+    },
+    {
+      "path": "train/Data_19_brain.nii.gz",
+      "bytes": 4154801,
+      "sha256": "7962740a6356fa44ad3a5f3679723b42e4821e13b8b680dfdbec80c0ec3aa6aa"
+    },
+    {
+      "path": "train/Data_19_brain_greymatter.nii.gz",
+      "bytes": 1721104,
+      "sha256": "91ac7be554e8acea0ee5680c857005ea285f73e404fc92fe0c3a9e1ac94f0c4a"
+    },
+    {
+      "path": "train/Data_19_brain_mask.nii.gz",
+      "bytes": 79016,
+      "sha256": "260c52be377a7eec5af02f811ec36cd9e4d4a42f6b0f7582337a6f95ceef0481"
+    },
+    {
+      "path": "train/Data_19_brain_mixeltype.nii.gz",
+      "bytes": 365943,
+      "sha256": "4f989648b3b62e0271d39c122e0c80b561295d7f346cd50615c17d0b49cd36b7"
+    },
+    {
+      "path": "train/Data_19_brain_seg.nii.gz",
+      "bytes": 307508,
+      "sha256": "36f8738bafbd2a7a1f1d4039c2c64d987c1a04c1c59550e1bce0334b96343312"
+    },
+    {
+      "path": "train/Data_19_csf_mask.nii.gz",
+      "bytes": 210804,
+      "sha256": "9888c30b0fe2eacfd6300babb8d01dce488fdce1090c7050394df831dc501465"
+    },
+    {
+      "path": "train/Data_19_greymatter_mask.nii.gz",
+      "bytes": 262218,
+      "sha256": "9e044696d6ed4bf95c9b124fbc12aae5052b675c692ab52cbf4a2a5d8b9c7623"
+    },
+    {
+      "path": "train/Data_19_whitematter_mask.nii.gz",
+      "bytes": 169966,
+      "sha256": "9f2e75a2fbf9cffccabf6dcc1bc8684209d93e43a438133f9e2f8c3c71e61696"
+    },
+    {
+      "path": "train/Data_20_MNI_affine.nii.gz",
+      "bytes": 2143060,
+      "sha256": "77d7e3576817dd0d5b3dee2fe9864f9a80eef3e141c502475490ba09dde3086c"
+    },
+    {
+      "path": "train/Data_20_MNI_to_native_affine.txt",
+      "bytes": 131,
+      "sha256": "6e888ba37388d27e33bec984b945526c8ebd3c9c8ac72ea6393e26536dfa4292"
+    },
+    {
+      "path": "train/Data_20_MNI_to_native_cpp.nii.gz",
+      "bytes": 1200927,
+      "sha256": "7cae408c413e99394c7b57adceda0c377049a8c7d8437203e63bb53af808fdff"
+    },
+    {
+      "path": "train/Data_20_MNI_warped.nii.gz",
+      "bytes": 2049915,
+      "sha256": "b07402a4f424de45e609431f68890fa3331e827e2a3db34c11c9240a4167e2cf"
+    },
+    {
+      "path": "train/Data_20_brain.nii.gz",
+      "bytes": 3807036,
+      "sha256": "d5d5a1012ca4b0646933ef1e45e2543ca8e734430eb8a5fe30f13011a76a97a9"
+    },
+    {
+      "path": "train/Data_20_brain_greymatter.nii.gz",
+      "bytes": 1509649,
+      "sha256": "7f2a61e45e6ff39053d89d186c9bedc6990ea2e7f268aeafd9a5de5935e7db59"
+    },
+    {
+      "path": "train/Data_20_brain_mask.nii.gz",
+      "bytes": 71905,
+      "sha256": "15a304c890393fa3b06ca28ad553789855d5e297ef20d743e375bc6c9a0df7fc"
+    },
+    {
+      "path": "train/Data_20_brain_mixeltype.nii.gz",
+      "bytes": 325759,
+      "sha256": "2d60d04618fe16375bf8ac380aac3ba90097b3f806db1d3eb8ccb910a4b7ca93"
+    },
+    {
+      "path": "train/Data_20_brain_seg.nii.gz",
+      "bytes": 279408,
+      "sha256": "56f425e0a4986954dc1478cd31abd8ee93405f70472eeffa24d37ddf0ca010f8"
+    },
+    {
+      "path": "train/Data_20_csf_mask.nii.gz",
+      "bytes": 188100,
+      "sha256": "5926bbf0b1697ab31127407bfc1a50973ddca3bada1f8294f56622e992212d3b"
+    },
+    {
+      "path": "train/Data_20_greymatter_mask.nii.gz",
+      "bytes": 236517,
+      "sha256": "f6fe0121e630eb3303afacea25bf9469193df3cede7e1f5b03c8693e422eb3bf"
+    },
+    {
+      "path": "train/Data_20_whitematter_mask.nii.gz",
+      "bytes": 160811,
+      "sha256": "2eee8fd5d5423d8d8fe019af8d7fcc629c1d95d19305ab94e55e61907eb76d98"
+    },
+    {
+      "path": "train/Data_21_MNI_affine.nii.gz",
+      "bytes": 2670103,
+      "sha256": "65c374e1602fbd68a4e2445f8f9365c1d4e103b5d689e88430149f2229ac9e84"
+    },
+    {
+      "path": "train/Data_21_MNI_to_native_affine.txt",
+      "bytes": 128,
+      "sha256": "239e5968c7206c256c9733ea8f29bc5eddf3ac3878b31ebf7a53a04cdc961534"
+    },
+    {
+      "path": "train/Data_21_MNI_to_native_cpp.nii.gz",
+      "bytes": 1258803,
+      "sha256": "2a40c30b5544d3071c957727d7b279c336dd9b52ffe2306f049c8143cbbf6ddd"
+    },
+    {
+      "path": "train/Data_21_MNI_warped.nii.gz",
+      "bytes": 2554873,
+      "sha256": "cf499c0e64c124b0cb29a0a94e00b382e1698b71a89269887900cce7563d9217"
+    },
+    {
+      "path": "train/Data_21_brain.nii.gz",
+      "bytes": 1796355,
+      "sha256": "3737084398c5d3528f623ba9c923db8335eda0ac20606474a99a56833eedb733"
+    },
+    {
+      "path": "train/Data_21_brain_greymatter.nii.gz",
+      "bytes": 938746,
+      "sha256": "7b6464263a434da04968d4a273643220c7883b00ca337c9c7f4f9249e6138443"
+    },
+    {
+      "path": "train/Data_21_brain_mask.nii.gz",
+      "bytes": 80986,
+      "sha256": "e4d593ce2ddbf98c1c56af51e1502e8a7ef68927f1ec73b314bca610834cb307"
+    },
+    {
+      "path": "train/Data_21_brain_mixeltype.nii.gz",
+      "bytes": 379248,
+      "sha256": "415415f9ab56550648445f8368c56aad1a6c2a06705fc4c2658a3e9a362776ca"
+    },
+    {
+      "path": "train/Data_21_brain_seg.nii.gz",
+      "bytes": 327047,
+      "sha256": "4908292b9fe9ddf9267f6b956a72468a0da32f1a4a9bee13a1350e517beda540"
+    },
+    {
+      "path": "train/Data_21_csf_mask.nii.gz",
+      "bytes": 210743,
+      "sha256": "d37f1fce521a2ad715da4a98ef11107acde4a5e8ce8668df7dee7e6892121b3d"
+    },
+    {
+      "path": "train/Data_21_greymatter_mask.nii.gz",
+      "bytes": 279045,
+      "sha256": "7ac0ed4d8699ea894cab728b086756528725bfc0110c406a24d82640a589bc6d"
+    },
+    {
+      "path": "train/Data_21_whitematter_mask.nii.gz",
+      "bytes": 178424,
+      "sha256": "f4bd760dfbf95aed66eb45a0c8c41967d7aff763291bbf0a00126eae7dbc4f69"
+    },
+    {
+      "path": "train/Data_22_MNI_affine.nii.gz",
+      "bytes": 2538495,
+      "sha256": "6c7afb009a563af9ddf33fe1a5f0e3fc9c6fc2968c38faa6dc7fd2a3e7db5154"
+    },
+    {
+      "path": "train/Data_22_MNI_to_native_affine.txt",
+      "bytes": 134,
+      "sha256": "5393aa2e57c46bc0427de54015bf8352a645db2603ce4dc56dc4196d77a3538a"
+    },
+    {
+      "path": "train/Data_22_MNI_to_native_cpp.nii.gz",
+      "bytes": 1200316,
+      "sha256": "3f988edc440520d0418408c5ed0708ff259c82698e07935a74580b5f0e255ada"
+    },
+    {
+      "path": "train/Data_22_MNI_warped.nii.gz",
+      "bytes": 2522601,
+      "sha256": "f5a0a0077937e56d6228dd18cde522acbbb2070d58dc4f79034ed39fa426f8f8"
+    },
+    {
+      "path": "train/Data_22_brain.nii.gz",
+      "bytes": 4692876,
+      "sha256": "803ca4b31b610f0061726e745e4b2dd507598f58d9ff276d232f74fc2cedd86a"
+    },
+    {
+      "path": "train/Data_22_brain_greymatter.nii.gz",
+      "bytes": 2067419,
+      "sha256": "d6f109cf872519b98a5c44b81a2910494ec79dae24c0c7fbe33a305b4082ac2f"
+    },
+    {
+      "path": "train/Data_22_brain_mask.nii.gz",
+      "bytes": 80708,
+      "sha256": "22a9e9e9740a560ead1d36a6db1c53ba77e2614842f3e558ecb6672c14c34423"
+    },
+    {
+      "path": "train/Data_22_brain_mixeltype.nii.gz",
+      "bytes": 373988,
+      "sha256": "14d00212b4f320025b9cc9af565f3ce1f5d4dd8b06ca87f97c530a8537f1f6a1"
+    },
+    {
+      "path": "train/Data_22_brain_seg.nii.gz",
+      "bytes": 317219,
+      "sha256": "247e16fb7554eb920e6673a28558dd93ba735dd01c7e448c19e83cca3ced78cb"
+    },
+    {
+      "path": "train/Data_22_csf_mask.nii.gz",
+      "bytes": 216843,
+      "sha256": "1ca097fee232f50dfd1a83bde688e0903209801980606e5c815de6b04bea0eab"
+    },
+    {
+      "path": "train/Data_22_greymatter_mask.nii.gz",
+      "bytes": 267996,
+      "sha256": "a6923005a895d6b7d738ea34e226ec6d8b638b58f110a3ca6a934af3a41c8b9e"
+    },
+    {
+      "path": "train/Data_22_whitematter_mask.nii.gz",
+      "bytes": 171665,
+      "sha256": "b3966cb16a41a9f72500ab8426d75dda919310f5ae660b5b14dd7224724b7a90"
+    },
+    {
+      "path": "train/Data_23_MNI_affine.nii.gz",
+      "bytes": 2739053,
+      "sha256": "e0d7a5313733cbb3b7006efe617a3b5e3cb25d96e10955373d99c8956d0aa31d"
+    },
+    {
+      "path": "train/Data_23_MNI_to_native_affine.txt",
+      "bytes": 130,
+      "sha256": "f30140a1584872be10a8e76cd835b4b1b8606d71f6fdfe570a5ead6d26722b0f"
+    },
+    {
+      "path": "train/Data_23_MNI_to_native_cpp.nii.gz",
+      "bytes": 1203687,
+      "sha256": "db4c7cf6d94ea982c2b9c335ef2a43fb8eee8cd6d3b842b3517b89efd8cd6b96"
+    },
+    {
+      "path": "train/Data_23_MNI_warped.nii.gz",
+      "bytes": 2523612,
+      "sha256": "1326fdfab1e233302520a4ee30817f43fa8477906323deddd291a9b6a5531aca"
+    },
+    {
+      "path": "train/Data_23_brain.nii.gz",
+      "bytes": 4641921,
+      "sha256": "5798f8cc2e003ca184a3788c8de1e21e4edf2ce2050770e8a3328bd6ddb4778a"
+    },
+    {
+      "path": "train/Data_23_brain_greymatter.nii.gz",
+      "bytes": 2119905,
+      "sha256": "cc7042f6a91ef340d4c3ad64d5135ea10a6f27e5a8d0c3377144f3e556e42d1e"
+    },
+    {
+      "path": "train/Data_23_brain_mask.nii.gz",
+      "bytes": 82981,
+      "sha256": "09bc750bc86f09841a7a7af530d00d2c0b334bca9d3e912ae6dfeddf3ad5a16d"
+    },
+    {
+      "path": "train/Data_23_brain_mixeltype.nii.gz",
+      "bytes": 374434,
+      "sha256": "150907befc633119ddb442131ef92e052a00bbdf11c9bc135d5daad30e1c929c"
+    },
+    {
+      "path": "train/Data_23_brain_seg.nii.gz",
+      "bytes": 315237,
+      "sha256": "5e76da04bfef192cd3260a162a52b09b1a45e3f6f7975cd5ebe2322071052451"
+    },
+    {
+      "path": "train/Data_23_csf_mask.nii.gz",
+      "bytes": 208196,
+      "sha256": "e9f05708f8bb5d7c548e23497265cf3ce00e2f38b9f787899d428b204410b0e7"
+    },
+    {
+      "path": "train/Data_23_greymatter_mask.nii.gz",
+      "bytes": 270703,
+      "sha256": "433f3873e79cba8ba1b01ad2bafd35615381b696f9da756ef682eca338a25d4b"
+    },
+    {
+      "path": "train/Data_23_whitematter_mask.nii.gz",
+      "bytes": 171395,
+      "sha256": "ab43496df411dbbf1fb8992fe3d2fd3d593351f0bb338f1919381ea5900d0f1a"
+    },
+    {
+      "path": "train/Data_24_MNI_affine.nii.gz",
+      "bytes": 2909616,
+      "sha256": "9e2b86d2ff0151ec6400d4ccd38e38b46420afb90337d49a76a0beab09aeef45"
+    },
+    {
+      "path": "train/Data_24_MNI_to_native_affine.txt",
+      "bytes": 136,
+      "sha256": "11eec12c64b75d3127ce20e5d1a59e55c731482b30774a38db3ab48355da56d8"
+    },
+    {
+      "path": "train/Data_24_MNI_to_native_cpp.nii.gz",
+      "bytes": 1256979,
+      "sha256": "e72c7b717fcd681e95d62f879fe4729c7b49f8bd848125d8124af606a12f2e24"
+    },
+    {
+      "path": "train/Data_24_MNI_warped.nii.gz",
+      "bytes": 2805367,
+      "sha256": "c276b7f611fd32712c8c3eefed065a6a1fc855b52c95ab33ea0f456fb09fed87"
+    },
+    {
+      "path": "train/Data_24_brain.nii.gz",
+      "bytes": 2004938,
+      "sha256": "4838764ad3e655fd4fddc4a0b812fc8034b1adbf1141dfb204774a6f7d0a85c7"
+    },
+    {
+      "path": "train/Data_24_brain_greymatter.nii.gz",
+      "bytes": 1059347,
+      "sha256": "ec193e1c5b645281766904d1c76a361b1016b103dcf034d50d59254db72fad66"
+    },
+    {
+      "path": "train/Data_24_brain_mask.nii.gz",
+      "bytes": 84705,
+      "sha256": "a004eca7030c632fdfc023cf5b97906f3c728c0f0819d1460ffd29e5054be0a7"
+    },
+    {
+      "path": "train/Data_24_brain_mixeltype.nii.gz",
+      "bytes": 412735,
+      "sha256": "f4ccf8c60ddf25e94f4de0a503557907674d912a45c99c691736af6529ebc8b1"
+    },
+    {
+      "path": "train/Data_24_brain_seg.nii.gz",
+      "bytes": 360727,
+      "sha256": "f4e0d102a5de492e3e9c02796f635b21ee9918c786e63f78f33645c5013a5a9d"
+    },
+    {
+      "path": "train/Data_24_csf_mask.nii.gz",
+      "bytes": 223297,
+      "sha256": "f2c8fb1e295376c1d6b165ca083cdc0b7061d75d97e9a8639bbf8c8f24b2c5cb"
+    },
+    {
+      "path": "train/Data_24_greymatter_mask.nii.gz",
+      "bytes": 306533,
+      "sha256": "caa3dca7e7673ae2e0709e8d9797363a1eaf480b3de941206c1a25253b8e6e8a"
+    },
+    {
+      "path": "train/Data_24_whitematter_mask.nii.gz",
+      "bytes": 205613,
+      "sha256": "9062f4984ba8da6837a2685f7b6ca208c044a36afab3dd609ea229721847d08d"
+    },
+    {
+      "path": "train/Data_25_MNI_affine.nii.gz",
+      "bytes": 2743888,
+      "sha256": "079b0cf26cf0cacac41c7df241081a1cc53a5aa73ef272c1b325962a0cf5798e"
+    },
+    {
+      "path": "train/Data_25_MNI_to_native_affine.txt",
+      "bytes": 134,
+      "sha256": "0292254d27dbd8daaeac24b91f81d39b9ebfa0edee1cf899ac8e93ef9be39eeb"
+    },
+    {
+      "path": "train/Data_25_MNI_to_native_cpp.nii.gz",
+      "bytes": 1263918,
+      "sha256": "6fa48c47a593386ad468b36a67b4f2ca10f7903730e65c41a78b4bde100d03f7"
+    },
+    {
+      "path": "train/Data_25_MNI_warped.nii.gz",
+      "bytes": 2656754,
+      "sha256": "e4104e0cf68e5af1d7c5ded6f1bb203b337911ac4e812412b075afabe7c93e78"
+    },
+    {
+      "path": "train/Data_25_brain.nii.gz",
+      "bytes": 1862619,
+      "sha256": "31627935fee4dca0de2e1f638c3786103ce88429d24ae546840a357710aad992"
+    },
+    {
+      "path": "train/Data_25_brain_greymatter.nii.gz",
+      "bytes": 982193,
+      "sha256": "b1c8b13a3a2cc3db449c66440ac7a5b8e6091263f9214e3fbae987f149761e8c"
+    },
+    {
+      "path": "train/Data_25_brain_mask.nii.gz",
+      "bytes": 84055,
+      "sha256": "106459a743e860a93d7dc10afaaefb3f465b5b0f79420ec995abd99f562c8fdc"
+    },
+    {
+      "path": "train/Data_25_brain_mixeltype.nii.gz",
+      "bytes": 395234,
+      "sha256": "104e74db2bacb64e3d28393a2b51479d71b8d28ac40164bcc40008bd9f7ebdac"
+    },
+    {
+      "path": "train/Data_25_brain_seg.nii.gz",
+      "bytes": 348066,
+      "sha256": "6bee314631091d4a51746b4e7ccd7529178d10207f7eb3c6650aa4b1ebb3089d"
+    },
+    {
+      "path": "train/Data_25_csf_mask.nii.gz",
+      "bytes": 216028,
+      "sha256": "5c69d049423718c756f129de98aa47f90321cc17b73fa344d566c2bed0a90064"
+    },
+    {
+      "path": "train/Data_25_greymatter_mask.nii.gz",
+      "bytes": 296328,
+      "sha256": "d2c3bf323c397082826434fbd7a39e02dfbe47e80cdfc2ceb9d2674912d6f768"
+    },
+    {
+      "path": "train/Data_25_whitematter_mask.nii.gz",
+      "bytes": 197681,
+      "sha256": "e49ea68874a0baf590bec5615df823dbe3aa1b0077e7d1ccd780d96f52a9f25e"
+    },
+    {
+      "path": "train/Data_26_MNI_affine.nii.gz",
+      "bytes": 2583286,
+      "sha256": "bc4470010f40e92712c8a1eab11a7adc61f29e55d967789046c87535f1ae8304"
+    },
+    {
+      "path": "train/Data_26_MNI_to_native_affine.txt",
+      "bytes": 131,
+      "sha256": "909e79611097a0d99d1089d99f1bc9453276bd6685cdcf2f7f12b11d9811d8f1"
+    },
+    {
+      "path": "train/Data_26_MNI_to_native_cpp.nii.gz",
+      "bytes": 1261789,
+      "sha256": "7eebc3ab73cd843cf93738a93c442328be9b21b6ea983461cded3854819dd214"
+    },
+    {
+      "path": "train/Data_26_MNI_warped.nii.gz",
+      "bytes": 2533159,
+      "sha256": "94eb2163a3c582b7f11e90d063538043137781ee053a4c5e2c7a5522b28fdc50"
+    },
+    {
+      "path": "train/Data_26_brain.nii.gz",
+      "bytes": 1807317,
+      "sha256": "dc64f1509660ab3f64cacd5aed65b7fbd7371052234a20fd1d519177b4572bd5"
+    },
+    {
+      "path": "train/Data_26_brain_greymatter.nii.gz",
+      "bytes": 971428,
+      "sha256": "2460fc32477fceb1ae55eedfec1775ab2a61d8a25b61ccbeae6b4769bcfa7106"
+    },
+    {
+      "path": "train/Data_26_brain_mask.nii.gz",
+      "bytes": 80998,
+      "sha256": "42d915def005227ca16e138fca6a47f184015842d93094582b6b8c2f8f243462"
+    },
+    {
+      "path": "train/Data_26_brain_mixeltype.nii.gz",
+      "bytes": 375763,
+      "sha256": "b545f94fccf1477ccfc155360af5c4ea42d9d0de8880903d6f296f7aebd1b538"
+    },
+    {
+      "path": "train/Data_26_brain_seg.nii.gz",
+      "bytes": 327048,
+      "sha256": "948fee755a800e88feec8b346753a8aefca47a2df2936030c728f228c3cef079"
+    },
+    {
+      "path": "train/Data_26_csf_mask.nii.gz",
+      "bytes": 207547,
+      "sha256": "4436e5925ad261b69690d92b6640370a58126326a82dd7a5e9fb981fccc8b1bc"
+    },
+    {
+      "path": "train/Data_26_greymatter_mask.nii.gz",
+      "bytes": 273998,
+      "sha256": "3cee5afc083f83c96fe97a4d935c8f1a371654c1f4f51e64c4c161753f9f28a7"
+    },
+    {
+      "path": "train/Data_26_whitematter_mask.nii.gz",
+      "bytes": 182833,
+      "sha256": "1ff7bab07d1c984afa745700cbe05cd59f8fd9f9494a9401328548de5cc01e14"
+    },
+    {
+      "path": "train/Data_27_MNI_affine.nii.gz",
+      "bytes": 2762824,
+      "sha256": "be5bbe5541780a37b678b2cb2e576aa702d6c0ecfa89887ef988338a5422f06c"
+    },
+    {
+      "path": "train/Data_27_MNI_to_native_affine.txt",
+      "bytes": 129,
+      "sha256": "42c5ef0dcab120863370c899e73a0d99701d48f8c031eb5402da823a3eb9ac3f"
+    },
+    {
+      "path": "train/Data_27_MNI_to_native_cpp.nii.gz",
+      "bytes": 1255755,
+      "sha256": "10c071a13e74940d3d7aa5a5c8d899ce56ec1746d85a3aff599bdbaf1752c3cd"
+    },
+    {
+      "path": "train/Data_27_MNI_warped.nii.gz",
+      "bytes": 2693238,
+      "sha256": "0da00e6b9338135f7f34b3bd8b1ab9378d4bb000b2231fa4c88a37e60b8130b3"
+    },
+    {
+      "path": "train/Data_27_brain.nii.gz",
+      "bytes": 1856001,
+      "sha256": "82b7c5791df49ea8a66c220a99115f56736da7931866814390fd0ca0c38958c0"
+    },
+    {
+      "path": "train/Data_27_brain_greymatter.nii.gz",
+      "bytes": 976110,
+      "sha256": "d0df659eda57144351c6b742038c019eb6460016972fe38de2aefaf3b34c44ac"
+    },
+    {
+      "path": "train/Data_27_brain_mask.nii.gz",
+      "bytes": 85500,
+      "sha256": "cac64a95b3679cbef58be53fc576900bd262ce65150353e7ccfb68d7186405c8"
+    },
+    {
+      "path": "train/Data_27_brain_mixeltype.nii.gz",
+      "bytes": 407708,
+      "sha256": "95af2c9aa7f6dd77e1cfb81b70e4eb3ab69c863710df4b1db1d2271fe845221d"
+    },
+    {
+      "path": "train/Data_27_brain_seg.nii.gz",
+      "bytes": 350760,
+      "sha256": "48c0870d7476a5300ab0a1766a5990000bec96fa82331f13498a2366f3230c96"
+    },
+    {
+      "path": "train/Data_27_csf_mask.nii.gz",
+      "bytes": 221698,
+      "sha256": "82d06f0ad710baaee081a0bdde9b686c06c0122c44d9f78c65439609ae466863"
+    },
+    {
+      "path": "train/Data_27_greymatter_mask.nii.gz",
+      "bytes": 297667,
+      "sha256": "c2d13e6492fbfcf0f4220506c227d0b0f23a83f88f1ab9a1e7ef07ba5d6a0ce1"
+    },
+    {
+      "path": "train/Data_27_whitematter_mask.nii.gz",
+      "bytes": 191506,
+      "sha256": "51c2174c480789f1e3befd641bc66c9aa79af030b69a0c78dde7880ab219ee2a"
+    },
+    {
+      "path": "train/Data_28_MNI_affine.nii.gz",
+      "bytes": 2565322,
+      "sha256": "5a0ac9ba0581baedb8a45a8d7e391e19b68bc49a3bc66aab10a630b65b984521"
+    },
+    {
+      "path": "train/Data_28_MNI_to_native_affine.txt",
+      "bytes": 135,
+      "sha256": "b752a285d11d88d466f8e9ed682738fd09ae9c37cda79542426b3145bc517114"
+    },
+    {
+      "path": "train/Data_28_MNI_to_native_cpp.nii.gz",
+      "bytes": 1260408,
+      "sha256": "bb05489392ae6b3cdddcf5a27f04caadcec368c3c1f8d64eb079225de08b207c"
+    },
+    {
+      "path": "train/Data_28_MNI_warped.nii.gz",
+      "bytes": 2508365,
+      "sha256": "2a9b348858aba0c4088f00451380a0ac069f146125600b14efecefdf08cdb143"
+    },
+    {
+      "path": "train/Data_28_brain.nii.gz",
+      "bytes": 1759106,
+      "sha256": "e36bd00d6cdc224a18a33009648e25d9643dfdddc6d0db0f79f0e26c6e1b3982"
+    },
+    {
+      "path": "train/Data_28_brain_greymatter.nii.gz",
+      "bytes": 964631,
+      "sha256": "b7011dd4751a84da8c9e5e177fdca1613106c5cc2f1d13e637a48a85d80b8bd3"
+    },
+    {
+      "path": "train/Data_28_brain_mask.nii.gz",
+      "bytes": 80581,
+      "sha256": "aaf1b5e939d22b1b2b767cd51e004085c4ccf9dd75538bc43d8b2f88c12c4aba"
+    },
+    {
+      "path": "train/Data_28_brain_mixeltype.nii.gz",
+      "bytes": 372571,
+      "sha256": "0c0cd7a72a6ca71bef19adc244c0bf004779902d4147fe8b6823ab4a0c316583"
+    },
+    {
+      "path": "train/Data_28_brain_seg.nii.gz",
+      "bytes": 325636,
+      "sha256": "2d624a7cae48a5464415a48efe24f039d4e50f7669fa7142708327094af75b99"
+    },
+    {
+      "path": "train/Data_28_csf_mask.nii.gz",
+      "bytes": 210355,
+      "sha256": "0471a6aa2a85fa7eaa7a16f7343ea0d104d8a9fc35e975b989772733d037b146"
+    },
+    {
+      "path": "train/Data_28_greymatter_mask.nii.gz",
+      "bytes": 276939,
+      "sha256": "0fc44643c9a058b99f58628d2a9d26a8c9d653a54777d0535186910106f4285a"
+    },
+    {
+      "path": "train/Data_28_whitematter_mask.nii.gz",
+      "bytes": 175968,
+      "sha256": "bfa838159f517c4293d3bc6d7cb670c099724471e92da4bb5ca783d482d7755d"
+    },
+    {
+      "path": "train/Data_29_MNI_affine.nii.gz",
+      "bytes": 2343850,
+      "sha256": "45a2ccc1e1d7c1bf6730d4b11072ebade44878424995e84c4a8e01158b819127"
+    },
+    {
+      "path": "train/Data_29_MNI_to_native_affine.txt",
+      "bytes": 130,
+      "sha256": "19193b40ccf44dde94175e82342c6379f5d9fea70ee53d97edf188510af3cf43"
+    },
+    {
+      "path": "train/Data_29_MNI_to_native_cpp.nii.gz",
+      "bytes": 1269353,
+      "sha256": "c2faa6eb3316d16b64067f964c94e6e2ab76dee4810ff6b6fb672b782bb934a7"
+    },
+    {
+      "path": "train/Data_29_MNI_warped.nii.gz",
+      "bytes": 2283723,
+      "sha256": "e6520b151443007c1645eeafd33b4e2a92ad45212fa9f9d65244a0bc8fae2a76"
+    },
+    {
+      "path": "train/Data_29_brain.nii.gz",
+      "bytes": 1629936,
+      "sha256": "018c3ae3ec320cf6adf8dbb6d5881329705f6dd04a185be5b1e776584fcdf46d"
+    },
+    {
+      "path": "train/Data_29_brain_greymatter.nii.gz",
+      "bytes": 882907,
+      "sha256": "481d00564ab7726d669e3e003ded69ab10410506d089e78ebf65ffc368b7ebe6"
+    },
+    {
+      "path": "train/Data_29_brain_mask.nii.gz",
+      "bytes": 75476,
+      "sha256": "5c5c6f5cd5723b89b41f256843260869bebc6d7159f4740b638445de2bd9b050"
+    },
+    {
+      "path": "train/Data_29_brain_mixeltype.nii.gz",
+      "bytes": 346667,
+      "sha256": "d56ef4f2ac460379d5a5e3c354b1de3ffb8c1d56529d55f6ec5e27526e804094"
+    },
+    {
+      "path": "train/Data_29_brain_seg.nii.gz",
+      "bytes": 302545,
+      "sha256": "5fb7cdb247f60a9877a53fdcf2c64f08210349142bf8261b38d343756184561f"
+    },
+    {
+      "path": "train/Data_29_csf_mask.nii.gz",
+      "bytes": 199704,
+      "sha256": "56e1c5e533a5dd6aa2e803de47a5df2298853f68449467b382f101b6c90593fd"
+    },
+    {
+      "path": "train/Data_29_greymatter_mask.nii.gz",
+      "bytes": 255361,
+      "sha256": "a13ff0e84f522614d8fd3f4ef63017097debaf4d2ea7d846e9b638272cc8e545"
+    },
+    {
+      "path": "train/Data_29_whitematter_mask.nii.gz",
+      "bytes": 165518,
+      "sha256": "a8e549d9ef1e907a065e006ff32f3ecdbd8302a98b5370fdc5b60dbab3420e8b"
+    },
+    {
+      "path": "train/Data_30_MNI_affine.nii.gz",
+      "bytes": 2613070,
+      "sha256": "74500399d80eee26fa9a6db9972f13924c9961c0c76003a7fa3ff95e27c711e0"
+    },
+    {
+      "path": "train/Data_30_MNI_to_native_affine.txt",
+      "bytes": 133,
+      "sha256": "db0a73e472833030745ba11e9cf7a4fa7ea5cf2cc74c8f1e70da371fe583db7e"
+    },
+    {
+      "path": "train/Data_30_MNI_to_native_cpp.nii.gz",
+      "bytes": 1255883,
+      "sha256": "f1acd06c1fddc5b112f06a8e47e93512540a5bfc2a8a3a3b3e7411e7e346214b"
+    },
+    {
+      "path": "train/Data_30_MNI_warped.nii.gz",
+      "bytes": 2579240,
+      "sha256": "ffdd3158392bf1a6d3eb7d52a013bb7a21d79d8520701a417e4233d23a873bb4"
+    },
+    {
+      "path": "train/Data_30_brain.nii.gz",
+      "bytes": 1829892,
+      "sha256": "aadbbdbebfbe2b251e8a4859eb53fb5f110ee88b32e6da65109139bbc3959da3"
+    },
+    {
+      "path": "train/Data_30_brain_greymatter.nii.gz",
+      "bytes": 962821,
+      "sha256": "dcd8efed5fa03240fcb304754a8e4da6aa07a20677cb401dff97d3c57e7d236e"
+    },
+    {
+      "path": "train/Data_30_brain_mask.nii.gz",
+      "bytes": 81189,
+      "sha256": "1276250ac57d15a169492d291c66f5f90afe715421715333dff3a82a1091f018"
+    },
+    {
+      "path": "train/Data_30_brain_mixeltype.nii.gz",
+      "bytes": 382162,
+      "sha256": "237fbea2f88378ac60dbe12c575e65b5aab45b021136b7f8c2a090d8f6e1a1e1"
+    },
+    {
+      "path": "train/Data_30_brain_seg.nii.gz",
+      "bytes": 334151,
+      "sha256": "eb11c491396a5ca0f2598771c0b32ea48a1a60f29c16658a70eda7b2390ca39a"
+    },
+    {
+      "path": "train/Data_30_csf_mask.nii.gz",
+      "bytes": 215476,
+      "sha256": "554c9ed28f32f0d050f21d9ccf933e8f100d56ca9e13ed1701486d3e53fbd5ed"
+    },
+    {
+      "path": "train/Data_30_greymatter_mask.nii.gz",
+      "bytes": 283026,
+      "sha256": "c1aa7231386063f59f390f65ced0403e8371a46d7e6dbd6b0f6227a130124cb6"
+    },
+    {
+      "path": "train/Data_30_whitematter_mask.nii.gz",
+      "bytes": 183943,
+      "sha256": "6257cdbe0c9d7ef76a152ce6785535e06a98a94e2cd164ae7604d003a0a5f547"
+    },
+    {
+      "path": "train/Data_31_MNI_affine.nii.gz",
+      "bytes": 2693374,
+      "sha256": "f236a2f5e8876bb44a4b514cd7eaa89c3127de60951aa1c4acfff50ba5d7cb96"
+    },
+    {
+      "path": "train/Data_31_MNI_to_native_affine.txt",
+      "bytes": 131,
+      "sha256": "6eb9a296878d6d67ab0b3056d4817a68ef12074d4ddde1ad8bba9fe109de52be"
+    },
+    {
+      "path": "train/Data_31_MNI_to_native_cpp.nii.gz",
+      "bytes": 1263914,
+      "sha256": "830d2764ab917d7e47755e47489ba1a8536d1b3603bd13ddc2070972c99f3b73"
+    },
+    {
+      "path": "train/Data_31_MNI_warped.nii.gz",
+      "bytes": 2600484,
+      "sha256": "a6a4562b320b76c363866a31109bfc96e61852a61e969d3ac35906a58bdb72d5"
+    },
+    {
+      "path": "train/Data_31_brain.nii.gz",
+      "bytes": 1824975,
+      "sha256": "141be580b7e3ec81005d49ffedc452103cce5cdc575c121d7ae9661f8f1f6d6f"
+    },
+    {
+      "path": "train/Data_31_brain_greymatter.nii.gz",
+      "bytes": 998512,
+      "sha256": "5e0903e4d1e052e96e8c8688488f1fd25c9f08a46c72e06b558756aece139975"
+    },
+    {
+      "path": "train/Data_31_brain_mask.nii.gz",
+      "bytes": 81975,
+      "sha256": "a21acfd8d0bc1f38869b41480054414d152d5803fa2627ffb814fbfb33ca936d"
+    },
+    {
+      "path": "train/Data_31_brain_mixeltype.nii.gz",
+      "bytes": 375643,
+      "sha256": "309cb86ce27cd9f2867703f81b89fc629b021b5524777b037b271329d7583836"
+    },
+    {
+      "path": "train/Data_31_brain_seg.nii.gz",
+      "bytes": 329482,
+      "sha256": "60b5363d6990c8d06d4aba56ada2aaa0c679088c5330fe25c9781a5a79495214"
+    },
+    {
+      "path": "train/Data_31_csf_mask.nii.gz",
+      "bytes": 211934,
+      "sha256": "e09403e792caa6f54f7a568fa5a9e8586622dd7a53b69747498bf95029b5d416"
+    },
+    {
+      "path": "train/Data_31_greymatter_mask.nii.gz",
+      "bytes": 278225,
+      "sha256": "0953f3f3e03f989c343f595f56e69a702889b817a52011cb54554dac753823ce"
+    },
+    {
+      "path": "train/Data_31_whitematter_mask.nii.gz",
+      "bytes": 180986,
+      "sha256": "3084e73ad7a37f0e42c5907d62f87ae4cb34e399583b9c215351863f284554e4"
+    },
+    {
+      "path": "train/Data_32_MNI_affine.nii.gz",
+      "bytes": 2644616,
+      "sha256": "e1914177fee64e34d895c1c3035347086a293d457ee080bc2440e3f7cab1fd4a"
+    },
+    {
+      "path": "train/Data_32_MNI_to_native_affine.txt",
+      "bytes": 131,
+      "sha256": "134c763d7ce1363cfab7fe0929c5803f7eaa4e97591f5f0fb7c85d5a3c9cf389"
+    },
+    {
+      "path": "train/Data_32_MNI_to_native_cpp.nii.gz",
+      "bytes": 1261923,
+      "sha256": "56900192361a07db99d80a08c6740db6d4a7d1abd895c42411d56179f5f586b9"
+    },
+    {
+      "path": "train/Data_32_MNI_warped.nii.gz",
+      "bytes": 2548549,
+      "sha256": "684f84982a37054ddb4919e50a1902bd2e29b0c1910e5a295cc3ca5fd18101f3"
+    },
+    {
+      "path": "train/Data_32_brain.nii.gz",
+      "bytes": 1825492,
+      "sha256": "681aae414f209f85f34482339a3ef8b2bef2d98b795a131cf056c19b910e5aaf"
+    },
+    {
+      "path": "train/Data_32_brain_greymatter.nii.gz",
+      "bytes": 967792,
+      "sha256": "3953b8c5232e15356be7cd46814b1086ee3bffd39886c1c8a3c651d911853160"
+    },
+    {
+      "path": "train/Data_32_brain_mask.nii.gz",
+      "bytes": 81454,
+      "sha256": "5354dd38254d3f0a9e2c644592a8351652a0d98b6011a28ef6ad0824314b08ac"
+    },
+    {
+      "path": "train/Data_32_brain_mixeltype.nii.gz",
+      "bytes": 380502,
+      "sha256": "71d4ffb241cd389537e39c76029f49c473ac913094732036207e5fca5d66a23b"
+    },
+    {
+      "path": "train/Data_32_brain_seg.nii.gz",
+      "bytes": 330633,
+      "sha256": "7deb265cb73b603ea9fec37c3acfb7306e5cff5ffce75995ae9106da7769c78b"
+    },
+    {
+      "path": "train/Data_32_csf_mask.nii.gz",
+      "bytes": 210493,
+      "sha256": "a8c374baf6ae3a9e1991ecdc75720bf9d1071f61307fab3a4e215631abe20b71"
+    },
+    {
+      "path": "train/Data_32_greymatter_mask.nii.gz",
+      "bytes": 279396,
+      "sha256": "4631b0fc8e1f8d07bb8b4e908b56f5b24fb1508d6b462411e4928b30a510c953"
+    },
+    {
+      "path": "train/Data_32_whitematter_mask.nii.gz",
+      "bytes": 185038,
+      "sha256": "35bb87ceefd68c4e617a69307bfacf2a8e98b072c41dfe7a3f2c3f8ef714a128"
+    },
+    {
+      "path": "train/Data_33_MNI_affine.nii.gz",
+      "bytes": 2678296,
+      "sha256": "60c29da1eabef07a7901f62c630ff9f9af402079bd9137c1d19a9eb3b763a278"
+    },
+    {
+      "path": "train/Data_33_MNI_to_native_affine.txt",
+      "bytes": 129,
+      "sha256": "ba880f3f701ae486b3926fe8cc61933b4cfae1bd3adb8d25f744f51c9804a304"
+    },
+    {
+      "path": "train/Data_33_MNI_to_native_cpp.nii.gz",
+      "bytes": 1205867,
+      "sha256": "60bc679cd7c26626dbf54b22c5ecb2009d1db7426b4090c45368f221b815601f"
+    },
+    {
+      "path": "train/Data_33_MNI_warped.nii.gz",
+      "bytes": 2575401,
+      "sha256": "16641f1d3d1859a9ebe7ff58f413b22370eb4253c349a42c7e7b7832ea47848d"
+    },
+    {
+      "path": "train/Data_33_brain.nii.gz",
+      "bytes": 4703639,
+      "sha256": "661efc8d624e4cf67afe115a6c38e665da11b716cae6da87d938be34a9ee2f15"
+    },
+    {
+      "path": "train/Data_33_brain_greymatter.nii.gz",
+      "bytes": 1882602,
+      "sha256": "e914c9871d1a55c14b2b4f6faff0d33d627b8594a77071104437ae09cd4ca2c4"
+    },
+    {
+      "path": "train/Data_33_brain_mask.nii.gz",
+      "bytes": 86001,
+      "sha256": "ed9ad3cacd722bdc37526d129466a57742e61a88d26944bcf9e9be5108288fc1"
+    },
+    {
+      "path": "train/Data_33_brain_mixeltype.nii.gz",
+      "bytes": 398729,
+      "sha256": "bd510f1691d80f16607aa2057781d65663850d0e42b38f8dfee73d8bc194d747"
+    },
+    {
+      "path": "train/Data_33_brain_seg.nii.gz",
+      "bytes": 340208,
+      "sha256": "cd9bf4df542f3af33201a216e26562d7300a0187e065420ebed985422b833684"
+    },
+    {
+      "path": "train/Data_33_csf_mask.nii.gz",
+      "bytes": 217967,
+      "sha256": "ab1a34e870777e17d4a8aa6b1b23a0f5e243984f86fab284494d777b8511b7fe"
+    },
+    {
+      "path": "train/Data_33_greymatter_mask.nii.gz",
+      "bytes": 293975,
+      "sha256": "76f350f60e7b24d9395bf922ce4893683b44a84840f74651e11dc5161bcb7cf8"
+    },
+    {
+      "path": "train/Data_33_whitematter_mask.nii.gz",
+      "bytes": 194562,
+      "sha256": "91fb0fac38ad140b2f46da2db10122365a63c07ea8bde9ec140a64efad46a6a7"
+    },
+    {
+      "path": "train/Data_34_MNI_affine.nii.gz",
+      "bytes": 2183151,
+      "sha256": "81fbf4ba14154fce419a77ebaa58412cb51a2664a16f1f70056d35ddccb9c1de"
+    },
+    {
+      "path": "train/Data_34_MNI_to_native_affine.txt",
+      "bytes": 133,
+      "sha256": "4e0a23e25f48fbea128d37249ca0a8047e5f9f98ec11ffdb18c4ac9806654d0f"
+    },
+    {
+      "path": "train/Data_34_MNI_to_native_cpp.nii.gz",
+      "bytes": 1197081,
+      "sha256": "02f9efa3cf9874d62049645ca9be290a5626fc124549dfb40cee313d31ae6dee"
+    },
+    {
+      "path": "train/Data_34_MNI_warped.nii.gz",
+      "bytes": 2121398,
+      "sha256": "ac1a323974d169bd25a338620f51e3eea038322421cc7339dbaf107d25e2de82"
+    },
+    {
+      "path": "train/Data_34_brain.nii.gz",
+      "bytes": 3867747,
+      "sha256": "7d7c92d0e9bb46ebf6337f803e04ce4f0929c32951e0a70c65bbf095be696189"
+    },
+    {
+      "path": "train/Data_34_brain_greymatter.nii.gz",
+      "bytes": 1688200,
+      "sha256": "f224aa8da7674e9c074ff1944ea271fcdb0e396502e05598cd6cb4c8eae26dcd"
+    },
+    {
+      "path": "train/Data_34_brain_mask.nii.gz",
+      "bytes": 74951,
+      "sha256": "538e6e5954959be18e9193a67e66d1d866227f7b155a1dafe66451f4ee7a7e67"
+    },
+    {
+      "path": "train/Data_34_brain_mixeltype.nii.gz",
+      "bytes": 336076,
+      "sha256": "4025a8f07d53c9a87e17ea3b63e374c53c0ca4a343f625983ea6edc72731df7a"
+    },
+    {
+      "path": "train/Data_34_brain_seg.nii.gz",
+      "bytes": 284783,
+      "sha256": "604bb762a2f462641e3e4035131583e2674c6d67f39379d053fab1ac1eaa944e"
+    },
+    {
+      "path": "train/Data_34_csf_mask.nii.gz",
+      "bytes": 197542,
+      "sha256": "622f4a9d2e8ea3481df5b160dd9a0b23b781a052d7377c05c7c015df95bf6cb5"
+    },
+    {
+      "path": "train/Data_34_greymatter_mask.nii.gz",
+      "bytes": 242462,
+      "sha256": "8d042745f2db72290e0c3b222f372e120198f26a329f6a6eec547fc8b0f6c949"
+    },
+    {
+      "path": "train/Data_34_whitematter_mask.nii.gz",
+      "bytes": 156540,
+      "sha256": "4c9bdaa5f4fa37f84bd4658e6663cf831ed3187ef4fb8586f3ba961dc526b098"
+    },
+    {
+      "path": "train/Data_35_MNI_affine.nii.gz",
+      "bytes": 2459928,
+      "sha256": "69998233f68f43cfdaa2b859c358ab1bf13cbecb22bb8e4bac56b733a82d70ee"
+    },
+    {
+      "path": "train/Data_35_MNI_to_native_affine.txt",
+      "bytes": 130,
+      "sha256": "7707d5ebd132037cba3508b39f0a6c66194bafd46494043f2436671e8e8defbe"
+    },
+    {
+      "path": "train/Data_35_MNI_to_native_cpp.nii.gz",
+      "bytes": 1211209,
+      "sha256": "1219f0178bbbea64b1bedeb2112a5ced2f5bae4a12abde568a7be1559fd09497"
+    },
+    {
+      "path": "train/Data_35_MNI_warped.nii.gz",
+      "bytes": 2261841,
+      "sha256": "136799ac9a50d1b1a638866a13817bf10d38ca92c3964ead8faa3514e63137e7"
+    },
+    {
+      "path": "train/Data_35_brain.nii.gz",
+      "bytes": 4113614,
+      "sha256": "7e345dc052db68a594280238c5e555ffacddbe13bfcdd8a857b72f34c6b93289"
+    },
+    {
+      "path": "train/Data_35_brain_greymatter.nii.gz",
+      "bytes": 1593868,
+      "sha256": "d91b8e569db8265326eed226669863c77ededd5fa026a43274ffc93982cffe69"
+    },
+    {
+      "path": "train/Data_35_brain_mask.nii.gz",
+      "bytes": 77126,
+      "sha256": "48b93f78ab1efb80ead25b3775937bf51212813f3de3f6491a96db7a57030b19"
+    },
+    {
+      "path": "train/Data_35_brain_mixeltype.nii.gz",
+      "bytes": 350621,
+      "sha256": "e286438d99a50f73037d52e5611e64fcd502df56121b903f6cecbaa9a964d9b2"
+    },
+    {
+      "path": "train/Data_35_brain_seg.nii.gz",
+      "bytes": 300283,
+      "sha256": "194777d814b397869465580729573ac64189eba514fb95d8756ae0221571cb4c"
+    },
+    {
+      "path": "train/Data_35_csf_mask.nii.gz",
+      "bytes": 194713,
+      "sha256": "e3a4b82bf9b0bef51a589b0702b1d5260342cf0e8e4299839358cfee844bb284"
+    },
+    {
+      "path": "train/Data_35_greymatter_mask.nii.gz",
+      "bytes": 256345,
+      "sha256": "b813b85b191772678e7d3cfc4c9328d179c042625d82e9a268bc6a95d6a8255b"
+    },
+    {
+      "path": "train/Data_35_whitematter_mask.nii.gz",
+      "bytes": 176632,
+      "sha256": "337e5d4d0a9760c31ebcce8e5b05604a90ab3c8533ed5de3118df64c82f346ea"
+    },
+    {
+      "path": "train/Data_36_MNI_affine.nii.gz",
+      "bytes": 2440303,
+      "sha256": "ef2408cee3ed265027e4fa256f9f83a8c6f7094d48460b2e9d49530deb1ac3d2"
+    },
+    {
+      "path": "train/Data_36_MNI_to_native_affine.txt",
+      "bytes": 132,
+      "sha256": "58eb96cb2821adecba69d396939e4bd964e87bbe6bc17d7cd1c7ebedbdb6523e"
+    },
+    {
+      "path": "train/Data_36_MNI_to_native_cpp.nii.gz",
+      "bytes": 1205301,
+      "sha256": "d0eda1c775b1805767f926c7e3dd242aea2589b9cc1bc589a9511699f3ff4c67"
+    },
+    {
+      "path": "train/Data_36_MNI_warped.nii.gz",
+      "bytes": 2298801,
+      "sha256": "7469c097802a7238eb81eb061a1ac81b26b0e0d789d36e847b98a7a1ddaed040"
+    },
+    {
+      "path": "train/Data_36_brain.nii.gz",
+      "bytes": 4197487,
+      "sha256": "e8f891724399262bd494609c1d4d3ec3fce828d2cadbbf541aae620a91d485ad"
+    },
+    {
+      "path": "train/Data_36_brain_greymatter.nii.gz",
+      "bytes": 1653528,
+      "sha256": "6781edef0a3ccc3ba3aaca8c977bdfd798251e6bac9e39c9e01a4eddf29e7ceb"
+    },
+    {
+      "path": "train/Data_36_brain_mask.nii.gz",
+      "bytes": 79139,
+      "sha256": "249ab83790c09f5e4ecabb25cd747ac943e27f7c7d324bdc0ab7f411c0d19bed"
+    },
+    {
+      "path": "train/Data_36_brain_mixeltype.nii.gz",
+      "bytes": 365423,
+      "sha256": "fdea148005b05241697e717067ffb47e8420c57dbee8413d20590cf48b8a781c"
+    },
+    {
+      "path": "train/Data_36_brain_seg.nii.gz",
+      "bytes": 310442,
+      "sha256": "caef7aed43c56b8eb9137d86077a3540952bf7527ad25a99a4fca425ea51decd"
+    },
+    {
+      "path": "train/Data_36_csf_mask.nii.gz",
+      "bytes": 202405,
+      "sha256": "f0089481aba5feb4b8ef83bace0fd06163beb046d27b18b4bdd81bc7e36efaec"
+    },
+    {
+      "path": "train/Data_36_greymatter_mask.nii.gz",
+      "bytes": 268283,
+      "sha256": "18e7ddd40008b6dd71b67552e6e83e1484795477eceb63542daece8984d4815d"
+    },
+    {
+      "path": "train/Data_36_whitematter_mask.nii.gz",
+      "bytes": 181989,
+      "sha256": "fb18ff79f14cab47690972cb12751cf431ed49d591dacac9b1c03ab83741c080"
+    },
+    {
+      "path": "train/Data_37_MNI_affine.nii.gz",
+      "bytes": 2736103,
+      "sha256": "8c4caff4dc966edf11bb0beadea6115ded253298bc7b391ff0a47b6f7adb6e39"
+    },
+    {
+      "path": "train/Data_37_MNI_to_native_affine.txt",
+      "bytes": 134,
+      "sha256": "f5bb7e0f3945adf03822667e10b0944dedc3d4cd64bc90f6c83f0a150abf081f"
+    },
+    {
+      "path": "train/Data_37_MNI_to_native_cpp.nii.gz",
+      "bytes": 1260181,
+      "sha256": "9f4d25f26071c4d7db9a973ce2d9ae8397c3f87b7286df1290f361f8c964c322"
+    },
+    {
+      "path": "train/Data_37_MNI_warped.nii.gz",
+      "bytes": 2715055,
+      "sha256": "ad7d5494150b937b37f2ab57837f1d00b275db6ddce6ab21512c48dba8beb99d"
+    },
+    {
+      "path": "train/Data_37_brain.nii.gz",
+      "bytes": 1883084,
+      "sha256": "49b1371a3492d2ec3c74ae6b895882d8da2db57e8ce48fa96b007bb4ff976bb4"
+    },
+    {
+      "path": "train/Data_37_brain_greymatter.nii.gz",
+      "bytes": 981989,
+      "sha256": "2e192ef60e587fcb967da55ccf9efb0f77dba9101b0f115a2cafb342080f91db"
+    },
+    {
+      "path": "train/Data_37_brain_mask.nii.gz",
+      "bytes": 83121,
+      "sha256": "813bb51d30a7fff7b2d00a849736bc53c968bbcff6847d2fee8d2dd582a9c9aa"
+    },
+    {
+      "path": "train/Data_37_brain_mixeltype.nii.gz",
+      "bytes": 398401,
+      "sha256": "f243fdb4045be442b20068cc5ff6c8d3c1df25378db17bbc1b0f3a67309c6440"
+    },
+    {
+      "path": "train/Data_37_brain_seg.nii.gz",
+      "bytes": 347700,
+      "sha256": "bec8298b3f6cb4caa85e57624bc37401150a66260ab8f09f504f2f019723dbd0"
+    },
+    {
+      "path": "train/Data_37_csf_mask.nii.gz",
+      "bytes": 224662,
+      "sha256": "fe2d4fc14d5aac003371c2faebcc7e07cc680441352b9d228887a1260889f574"
+    },
+    {
+      "path": "train/Data_37_greymatter_mask.nii.gz",
+      "bytes": 292948,
+      "sha256": "5900e1c2c24b620a07bf40623d48a918d2e13d501dd11beb6b6e626b6c3a5a3f"
+    },
+    {
+      "path": "train/Data_37_whitematter_mask.nii.gz",
+      "bytes": 188803,
+      "sha256": "00f8a322503a45db21b8cf6e73f5b80c6bddb132d3b68f77a4f3e3bcceffa147"
+    },
+    {
+      "path": "train/Data_38_MNI_affine.nii.gz",
+      "bytes": 3107635,
+      "sha256": "bfcd9b0d97b72a16a9fc72c6a112661d0094f70bb01cac6d42ff5c9fb8c77475"
+    },
+    {
+      "path": "train/Data_38_MNI_to_native_affine.txt",
+      "bytes": 128,
+      "sha256": "8fd32d813ad60d480ff6a411386e29e3f75e450f029008371b68c8f3dc72b955"
+    },
+    {
+      "path": "train/Data_38_MNI_to_native_cpp.nii.gz",
+      "bytes": 1263169,
+      "sha256": "4f197ea3c22c8af7af1b5f2adb05497b466e9e47d926aaea6b228a166269f3aa"
+    },
+    {
+      "path": "train/Data_38_MNI_warped.nii.gz",
+      "bytes": 3051320,
+      "sha256": "2f41b68378072df6df1aa7e9663081939f27b333e513b09404584d447892bd10"
+    },
+    {
+      "path": "train/Data_38_brain.nii.gz",
+      "bytes": 2091096,
+      "sha256": "1a94fc9825364c9ec8fa51cfb89d98d4448dc404e5ddef34538c1fabafaa6d89"
+    },
+    {
+      "path": "train/Data_38_brain_greymatter.nii.gz",
+      "bytes": 1112075,
+      "sha256": "86fa392282b1ef8d107abff96358acdb9e5a5ea451a89ed48165993210e65f70"
+    },
+    {
+      "path": "train/Data_38_brain_mask.nii.gz",
+      "bytes": 88247,
+      "sha256": "29e2e387cdc9183aea7ac998f42e374a924683ca63eda993ef2ca31f7e33dbca"
+    },
+    {
+      "path": "train/Data_38_brain_mixeltype.nii.gz",
+      "bytes": 432682,
+      "sha256": "0f006bd3af726ccd077f7eece2d868e947dcac4602dbdfe78fd23c2f9119cc59"
+    },
+    {
+      "path": "train/Data_38_brain_seg.nii.gz",
+      "bytes": 375649,
+      "sha256": "7ec2a32aca1509f0b256ea5901821793faa3f113fde15884ca78a2de5927d30d"
+    },
+    {
+      "path": "train/Data_38_csf_mask.nii.gz",
+      "bytes": 226440,
+      "sha256": "79e8d2b13868cf636944ef4432b857a2aa46faf30b120255d41a58627a4c5147"
+    },
+    {
+      "path": "train/Data_38_greymatter_mask.nii.gz",
+      "bytes": 319123,
+      "sha256": "efb4f821f941dc2079a93f398ac9d0096af98bd010795a0d57eee4c52f88d439"
+    },
+    {
+      "path": "train/Data_38_whitematter_mask.nii.gz",
+      "bytes": 214768,
+      "sha256": "7fdf537b3a518f78ad49ad43a84668108a6e89c3c81e054e14324df53412fca8"
+    },
+    {
+      "path": "train/Data_39_MNI_affine.nii.gz",
+      "bytes": 2530269,
+      "sha256": "fd874769fb5d5b0212660f8a996dc97523307a17a5c488b2e248fbaded14d51a"
+    },
+    {
+      "path": "train/Data_39_MNI_to_native_affine.txt",
+      "bytes": 130,
+      "sha256": "54d9145f9c5ddfd379477bb35f93b1b4d7d44b1ab06eb60817f763a36019569b"
+    },
+    {
+      "path": "train/Data_39_MNI_to_native_cpp.nii.gz",
+      "bytes": 1203441,
+      "sha256": "913ba337ebd425eda9f8f30a0f60e6b55027f1280c6c56d447a26d53c616bf89"
+    },
+    {
+      "path": "train/Data_39_MNI_warped.nii.gz",
+      "bytes": 2329264,
+      "sha256": "63542c5cde0994abccab9587cb6f032ae15cb2c1c3fc9070c88b5beb4cc98410"
+    },
+    {
+      "path": "train/Data_39_brain.nii.gz",
+      "bytes": 4331135,
+      "sha256": "b04aa7d8c3e99cca3fa8b606d75302327df08f2171968c20ebb983953804a77e"
+    },
+    {
+      "path": "train/Data_39_brain_greymatter.nii.gz",
+      "bytes": 1729296,
+      "sha256": "701355f4368cf2e509eeb3ed23a69962d5175fb45ad502533ec32a7639d1da26"
+    },
+    {
+      "path": "train/Data_39_brain_mask.nii.gz",
+      "bytes": 79501,
+      "sha256": "430268a23f6cf621b3c596d70d023a2aab7a6ff703e90310da77d574ccf05984"
+    },
+    {
+      "path": "train/Data_39_brain_mixeltype.nii.gz",
+      "bytes": 356218,
+      "sha256": "c7adea8edbc6d16fc3ef5c42844a8de6160f46c70749f665c1b07fda1d00f6c5"
+    },
+    {
+      "path": "train/Data_39_brain_seg.nii.gz",
+      "bytes": 302043,
+      "sha256": "4d699d56818bfe19b35ed525e0f6c71852540c278b735a2898938a51e2c01caf"
+    },
+    {
+      "path": "train/Data_39_csf_mask.nii.gz",
+      "bytes": 204213,
+      "sha256": "55e1c8ba6c63936b42144cfcf824c5aaaf95b4e9b46fbdbe4bdb3b421e8e08f5"
+    },
+    {
+      "path": "train/Data_39_greymatter_mask.nii.gz",
+      "bytes": 254943,
+      "sha256": "cc5dc168b8f5786280730119976b01d4373392fb957a8fa2303df36891e6771f"
+    },
+    {
+      "path": "train/Data_39_whitematter_mask.nii.gz",
+      "bytes": 169134,
+      "sha256": "339a79db208c975219bb1153056fa5fb884771c15b31680c135c8ded3df94168"
+    }
+  ],
+  "download_verified_against_vm_sha256": true
+}

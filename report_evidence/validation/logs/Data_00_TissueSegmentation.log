@@ -1,0 +1,95 @@
+[TissueSegmentation] train/Data_00.nii
+Starting Single Image Segmentation
+T1-weighted image
+Imagesize : 256 x 256 x 166
+Pixelsize : 0.94158 x 0.942197 x 1.20363
+
+1 6.01277
+2 6.37618
+3 6.57387
+KMeans Iteration 0
+KMeans Iteration 1
+KMeans Iteration 2
+KMeans Iteration 3
+KMeans Iteration 4
+KMeans Iteration 5
+KMeans Iteration 6
+KMeans Iteration 7
+KMeans Iteration 8
+KMeans Iteration 9
+KMeans Iteration 10
+KMeans Iteration 11
+KMeans Iteration 12
+KMeans Iteration 13
+KMeans Iteration 14
+KMeans Iteration 15
+KMeans Iteration 16
+KMeans Iteration 17
+KMeans Iteration 18
+Tanaka Iteration 0 bias field 4
+Tanaka-inner-loop-iteration=0 MRFWeightsTotal=1.07915e+07 beta=0.02
+Tanaka-inner-loop-iteration=1 MRFWeightsTotal=1.08996e+07 beta=0.02
+Tanaka-inner-loop-iteration=2 MRFWeightsTotal=1.09015e+07 beta=0.02
+Tanaka-inner-loop-iteration=3 MRFWeightsTotal=1.09015e+07 beta=0.02
+Tanaka-inner-loop-iteration=4 MRFWeightsTotal=1.09015e+07 beta=0.02
+ CLASS 1 MEAN 284.629 STDDEV 155.668 CLASS 2 MEAN 571.213 STDDEV 80.7857 CLASS 3 MEAN 739.447 STDDEV 47.4294
+Tanaka Iteration 1 bias field 4
+Tanaka-inner-loop-iteration=0 MRFWeightsTotal=1.08933e+07 beta=0.02
+Tanaka-inner-loop-iteration=1 MRFWeightsTotal=1.09974e+07 beta=0.02
+Tanaka-inner-loop-iteration=2 MRFWeightsTotal=1.09991e+07 beta=0.02
+Tanaka-inner-loop-iteration=3 MRFWeightsTotal=1.09991e+07 beta=0.02
+Tanaka-inner-loop-iteration=4 MRFWeightsTotal=1.09991e+07 beta=0.02
+ CLASS 1 MEAN 280.96 STDDEV 150.608 CLASS 2 MEAN 570.79 STDDEV 78.5918 CLASS 3 MEAN 734.663 STDDEV 42.8892
+Tanaka Iteration 2 bias field 4
+Tanaka-inner-loop-iteration=0 MRFWeightsTotal=1.09454e+07 beta=0.02
+Tanaka-inner-loop-iteration=1 MRFWeightsTotal=1.1047e+07 beta=0.02
+Tanaka-inner-loop-iteration=2 MRFWeightsTotal=1.10486e+07 beta=0.02
+Tanaka-inner-loop-iteration=3 MRFWeightsTotal=1.10487e+07 beta=0.02
+Tanaka-inner-loop-iteration=4 MRFWeightsTotal=1.10487e+07 beta=0.02
+ CLASS 1 MEAN 279.737 STDDEV 149.257 CLASS 2 MEAN 570.281 STDDEV 77.3201 CLASS 3 MEAN 734.653 STDDEV 41.618
+Tanaka Iteration 3 bias field 4
+Tanaka-inner-loop-iteration=0 MRFWeightsTotal=1.09733e+07 beta=0.02
+Tanaka-inner-loop-iteration=1 MRFWeightsTotal=1.10737e+07 beta=0.02
+Tanaka-inner-loop-iteration=2 MRFWeightsTotal=1.10752e+07 beta=0.02
+Tanaka-inner-loop-iteration=3 MRFWeightsTotal=1.10753e+07 beta=0.02
+Tanaka-inner-loop-iteration=4 MRFWeightsTotal=1.10753e+07 beta=0.02
+ CLASS 1 MEAN 279.458 STDDEV 148.91 CLASS 2 MEAN 570.165 STDDEV 76.5983 CLASS 3 MEAN 735.129 STDDEV 41.0625
+Tanaka Iteration 0 hyperparameter 4
+Tanaka-inner-loop-iteration=0 MRFWeightsTotal=1.09885e+07 beta=0.02
+Tanaka-inner-loop-iteration=1 MRFWeightsTotal=1.1088e+07 beta=0.02
+Tanaka-inner-loop-iteration=2 MRFWeightsTotal=1.10896e+07 beta=0.02
+Tanaka-inner-loop-iteration=3 MRFWeightsTotal=1.10896e+07 beta=0.02
+Tanaka-inner-loop-iteration=4 MRFWeightsTotal=1.10896e+07 beta=0.02
+ CLASS 1 MEAN 279.523 STDDEV 148.893 CLASS 2 MEAN 570.281 STDDEV 76.1622 CLASS 3 MEAN 735.545 STDDEV 40.7657
+ BETA 0.1
+Tanaka Iteration 1 hyperparameter 4
+Tanaka-inner-loop-iteration=0 MRFWeightsTotal=1.13766e+07 beta=0.1
+Tanaka-inner-loop-iteration=1 MRFWeightsTotal=1.17643e+07 beta=0.1
+Tanaka-inner-loop-iteration=2 MRFWeightsTotal=1.17869e+07 beta=0.1
+Tanaka-inner-loop-iteration=3 MRFWeightsTotal=1.17888e+07 beta=0.1
+Tanaka-inner-loop-iteration=4 MRFWeightsTotal=1.1789e+07 beta=0.1
+ CLASS 1 MEAN 279.719 STDDEV 148.991 CLASS 2 MEAN 570.507 STDDEV 75.8499 CLASS 3 MEAN 735.766 STDDEV 40.5162
+ BETA 0.1
+Tanaka Iteration 2 hyperparameter 4
+Tanaka-inner-loop-iteration=0 MRFWeightsTotal=1.15452e+07 beta=0.1
+Tanaka-inner-loop-iteration=1 MRFWeightsTotal=1.18797e+07 beta=0.1
+Tanaka-inner-loop-iteration=2 MRFWeightsTotal=1.18976e+07 beta=0.1
+Tanaka-inner-loop-iteration=3 MRFWeightsTotal=1.18991e+07 beta=0.1
+Tanaka-inner-loop-iteration=4 MRFWeightsTotal=1.18993e+07 beta=0.1
+ CLASS 1 MEAN 269.443 STDDEV 137.202 CLASS 2 MEAN 568 STDDEV 71.1283 CLASS 3 MEAN 736.722 STDDEV 39.949
+ BETA 0.1
+Tanaka Iteration 3 hyperparameter 4
+Tanaka-inner-loop-iteration=0 MRFWeightsTotal=1.1595e+07 beta=0.1
+Tanaka-inner-loop-iteration=1 MRFWeightsTotal=1.19128e+07 beta=0.1
+Tanaka-inner-loop-iteration=2 MRFWeightsTotal=1.19293e+07 beta=0.1
+Tanaka-inner-loop-iteration=3 MRFWeightsTotal=1.19307e+07 beta=0.1
+Tanaka-inner-loop-iteration=4 MRFWeightsTotal=1.19308e+07 beta=0.1
+ CLASS 1 MEAN 266.828 STDDEV 134.048 CLASS 2 MEAN 567.488 STDDEV 69.4036 CLASS 3 MEAN 736.906 STDDEV 39.8442
+ BETA 0.1
+ Starting Partial Volume Estimation 
+
+ tissue 1 330648
+ tissue 2 445841
+ tissue 3 463772
+ total tissue 1.24026e+06
+TissueSegmentation finished: 1 subject(s). Inspect the GM masks in FSLeyes.

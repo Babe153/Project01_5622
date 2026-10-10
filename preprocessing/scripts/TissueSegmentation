@@ -1,0 +1,52 @@
+#!/bin/bash
+# Lab 1 section 2.2 / Actions 3-4 (PDF page 4).
+# Output: CSF/GM/WM binary masks and the grey-matter intensity image.
+# Optional: SUBJECT_ID=Data_00 bash TissueSegmentation.
+
+set -eo pipefail
+root_path="${PROJECT_ROOT:-$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)}"
+data_root="$root_path/Data"
+output_path="$root_path/Output"
+export FSLDIR="${FSLDIR:-/home/elec5622/fsl}"
+[[ -r "$FSLDIR/etc/fslconf/fsl.sh" ]] || { echo "FSL setup not found in $FSLDIR" >&2; exit 1; }
+export PATH="$FSLDIR/share/fsl/bin:$FSLDIR/bin:$PATH"
+. "$FSLDIR/etc/fslconf/fsl.sh"
+export FSLOUTPUTTYPE=NIFTI_GZ LC_ALL=C
+set -u
+shopt -s nullglob
+for tool in fast fslmaths; do command -v "$tool" >/dev/null; done
+
+processed=0
+for split in train test; do
+    [[ -d "$data_root/$split" ]] || { echo "Missing: $data_root/$split" >&2; exit 1; }
+    mkdir -p "$output_path/$split"
+    images=("$data_root/$split/"*.nii "$data_root/$split/"*.nii.gz)
+    for input_image in "${images[@]}"; do
+        subID="${input_image##*/}"
+        filename="${subID%%.*}"
+        [[ -z "${SUBJECT_ID:-}" || "$filename" == "$SUBJECT_ID" ]] || continue
+        base="$output_path/$split/$filename"
+        brain_image="${base}_brain.nii.gz"
+        [[ -s "$brain_image" ]] || { echo "Run SkullStripping first: $brain_image" >&2; exit 1; }
+        echo "[TissueSegmentation] $split/$subID"
+
+        # Completed TODO: exactly the FAST options from the teacher's example.
+        # One channel, three tissue classes, T1, individual binary masks, verbose.
+        fast -S 1 -n 3 -t 1 -g -v -o "${base}_brain" "$brain_image"
+
+        # Use the teacher's output names: class indices 0=CSF, 1=GM, 2=WM.
+        mv -f -- "${base}_brain_seg_0.nii.gz" "${base}_csf_mask.nii.gz"
+        mv -f -- "${base}_brain_seg_1.nii.gz" "${base}_greymatter_mask.nii.gz"
+        mv -f -- "${base}_brain_seg_2.nii.gz" "${base}_whitematter_mask.nii.gz"
+        rm -f -- "${base}_brain_pve"*
+
+        # Action 4: multiply the brain by the GM mask to get the GM intensity image.
+        fslmaths "$brain_image" -mul "${base}_greymatter_mask.nii.gz" \
+            "${base}_brain_greymatter.nii.gz"
+        [[ -s "${base}_csf_mask.nii.gz" && -s "${base}_greymatter_mask.nii.gz" \
+            && -s "${base}_whitematter_mask.nii.gz" && -s "${base}_brain_greymatter.nii.gz" ]]
+        processed=$((processed + 1))
+    done
+done
+(( processed > 0 )) || { echo 'No matching MRI images found.' >&2; exit 1; }
+echo "TissueSegmentation finished: $processed subject(s). Inspect the GM masks in FSLeyes."

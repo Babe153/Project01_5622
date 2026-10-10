@@ -1,0 +1,68 @@
+#!/bin/bash
+# Register the MNI brain template to each native-space, BET-extracted brain.
+# Then propagate the AAL labels into that same native space.
+# Output: affine matrix, nonlinear CPP, warped template, and AAL_to_Data_XX.nii.gz.
+# Optional: SUBJECT_ID=Data_00 bash Registration.
+# Lab 1 sections 3.1-3.2 (PDF page 5); keep both registration previews for QC.
+
+set -eo pipefail
+root_path="${PROJECT_ROOT:-$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)}"
+data_root="$root_path/Data"
+package_DIR="$root_path/Packages"
+output_path="$root_path/Output"
+export FSLDIR="${FSLDIR:-/home/elec5622/fsl}"
+[[ -r "$FSLDIR/etc/fslconf/fsl.sh" ]] || { echo "FSL setup not found in $FSLDIR" >&2; exit 1; }
+export NIFTYREG_INSTALL="${NIFTYREG_INSTALL:-/home/elec5622/niftyreg/niftyreg_install}"
+export PATH="$FSLDIR/share/fsl/bin:$FSLDIR/bin:$NIFTYREG_INSTALL/bin:$PATH"
+. "$FSLDIR/etc/fslconf/fsl.sh"
+export FSLOUTPUTTYPE=NIFTI_GZ LC_ALL=C
+# This VM has two virtual CPUs; avoid oversubscribing it.
+export OMP_NUM_THREADS="${OMP_NUM_THREADS:-2}"
+set -u
+shopt -s nullglob
+for tool in reg_aladin reg_f3d reg_resample; do command -v "$tool" >/dev/null; done
+
+floImg="$package_DIR/MNI152_T1_1mm_brain.nii.gz"
+aalImg="$package_DIR/aal.nii.gz"
+[[ -s "$floImg" && -s "$aalImg" ]] || { echo 'Missing MNI template or AAL atlas.' >&2; exit 1; }
+processed=0
+for split in train test; do
+    [[ -d "$data_root/$split" ]] || { echo "Missing: $data_root/$split" >&2; exit 1; }
+    mkdir -p "$output_path/$split"
+    images=("$data_root/$split/"*.nii "$data_root/$split/"*.nii.gz)
+    for input_image in "${images[@]}"; do
+        subID="${input_image##*/}"
+        filename="${subID%%.*}"
+        [[ -z "${SUBJECT_ID:-}" || "$filename" == "$SUBJECT_ID" ]] || continue
+        base="$output_path/$split/$filename"
+        refImg="${base}_brain.nii.gz"
+        [[ -s "$refImg" ]] || { echo "Run SkullStripping first: $refImg" >&2; exit 1; }
+        echo "[Registration] $split/$subID"
+
+        # Completed TODO 1: rigid+affine alignment (NiftyReg defaults), template -> subject.
+        reg_aladin -ref "$refImg" -flo "$floImg" \
+            -aff "${base}_MNI_to_native_affine.txt" \
+            -res "${base}_MNI_affine.nii.gz"
+
+        # Completed TODO 2: nonlinear refinement initialised by the affine matrix.
+        # Use the ORIGINAL template here, so the affine is applied only once.
+        reg_f3d -ref "$refImg" -flo "$floImg" \
+            -aff "${base}_MNI_to_native_affine.txt" \
+            -cpp "${base}_MNI_to_native_cpp.nii.gz" \
+            -res "${base}_MNI_warped.nii.gz"
+
+        # Completed TODO 3: propagate atlas with nearest-neighbour interpolation.
+        # -inter 0 preserves discrete ROI labels rather than averaging their IDs.
+        reg_resample -ref "$refImg" -flo "$aalImg" \
+            -trans "${base}_MNI_to_native_cpp.nii.gz" \
+            -inter 0 -res "$output_path/$split/AAL_to_${filename}.nii.gz"
+        [[ -s "$output_path/$split/AAL_to_${filename}.nii.gz" ]]
+
+        # Cleanup TODO: all four named registration outputs are useful for QC or
+        # reproducibility, so retain them. In particular, Lab 1 Action 5 needs BOTH
+        # affine and nonlinear images. No disposable registration files are created.
+        processed=$((processed + 1))
+    done
+done
+(( processed > 0 )) || { echo 'No matching MRI images found.' >&2; exit 1; }
+echo "Registration finished: $processed subject(s). Inspect template/atlas overlays in FSLeyes."

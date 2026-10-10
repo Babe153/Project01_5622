@@ -1,0 +1,2 @@
+subject_id	split	bet_options	parameter_source	output
+Data_33	train	-f 0.55 -g -0.15 -c 116 158 82	/home/elec5622/Project01/bet_parameters.csv	/home/elec5622/Project01/Output/train/Data_33_brain.nii.gz

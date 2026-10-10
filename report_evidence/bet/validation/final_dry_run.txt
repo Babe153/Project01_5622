@@ -1,0 +1,102 @@
+[SkullStripping] Parameter table: /home/elec5622/Project01/bet_parameters.csv
+[SkullStripping] Data_00 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_00.nii /home/elec5622/Project01/Output/train/Data_00_brain.nii.gz -f 0.3 -g 0 -c 109 165 82 -m 
+[SkullStripping] Data_01 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_01.nii /home/elec5622/Project01/Output/train/Data_01_brain.nii.gz -f 0.5 -g 0 -m 
+[SkullStripping] Data_02 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_02.nii /home/elec5622/Project01/Output/train/Data_02_brain.nii.gz -f 0.5 -g 0 -m 
+[SkullStripping] Data_03 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_03.nii /home/elec5622/Project01/Output/train/Data_03_brain.nii.gz -f 0.3 -g 0 -c 113 161 82 -m 
+[SkullStripping] Data_04 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_04.nii /home/elec5622/Project01/Output/train/Data_04_brain.nii.gz -f 0.5 -g 0 -m 
+[SkullStripping] Data_05 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_05.nii /home/elec5622/Project01/Output/train/Data_05_brain.nii.gz -f 0.5 -g 0 -m 
+[SkullStripping] Data_06 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_06.nii /home/elec5622/Project01/Output/train/Data_06_brain.nii.gz -f 0.2 -g 0 -c 108 160 82 -m 
+[SkullStripping] Data_07 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_07.nii /home/elec5622/Project01/Output/train/Data_07_brain.nii.gz -f 0.3 -g 0 -c 106 164 82 -m 
+[SkullStripping] Data_08 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_08.nii /home/elec5622/Project01/Output/train/Data_08_brain.nii.gz -f 0.3 -g 0 -c 107 159 82 -m 
+[SkullStripping] Data_09 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_09.nii /home/elec5622/Project01/Output/train/Data_09_brain.nii.gz -f 0.4 -g 0 -c 104 158 82 -m 
+[SkullStripping] Data_10 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_10.nii /home/elec5622/Project01/Output/train/Data_10_brain.nii.gz -f 0.3 -g 0 -c 104 158 82 -m 
+[SkullStripping] Data_11 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_11.nii /home/elec5622/Project01/Output/train/Data_11_brain.nii.gz -f 0.2 -g 0 -c 106 161 82 -m 
+[SkullStripping] Data_12 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_12.nii /home/elec5622/Project01/Output/train/Data_12_brain.nii.gz -f 0.5 -g 0 -m 
+[SkullStripping] Data_13 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_13.nii /home/elec5622/Project01/Output/train/Data_13_brain.nii.gz -f 0.2 -g 0 -c 104 164 82 -m 
+[SkullStripping] Data_14 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_14.nii /home/elec5622/Project01/Output/train/Data_14_brain.nii.gz -f 0.5 -g 0 -m 
+[SkullStripping] Data_15 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_15.nii /home/elec5622/Project01/Output/train/Data_15_brain.nii.gz -f 0.55 -g 0 -c 141 95 87 -m 
+[SkullStripping] Data_16 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_16.nii /home/elec5622/Project01/Output/train/Data_16_brain.nii.gz -f 0.5 -g 0 -m 
+[SkullStripping] Data_17 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_17.nii /home/elec5622/Project01/Output/train/Data_17_brain.nii.gz -f 0.5 -g 0 -m 
+[SkullStripping] Data_18 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_18.nii /home/elec5622/Project01/Output/train/Data_18_brain.nii.gz -f 0.1 -g 0 -c 104 159 82 -m 
+[SkullStripping] Data_19 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_19.nii /home/elec5622/Project01/Output/train/Data_19_brain.nii.gz -f 0.4 -g 0 -c 105 162 82 -m 
+[SkullStripping] Data_20 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_20.nii /home/elec5622/Project01/Output/train/Data_20_brain.nii.gz -f 0.3 -g 0 -c 106 157 82 -m 
+[SkullStripping] Data_21 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_21.nii /home/elec5622/Project01/Output/train/Data_21_brain.nii.gz -f 0.55 -g 0 -c 147 96 87 -m 
+[SkullStripping] Data_22 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_22.nii /home/elec5622/Project01/Output/train/Data_22_brain.nii.gz -f 0.2 -g 0 -c 106 160 82 -m 
+[SkullStripping] Data_23 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_23.nii /home/elec5622/Project01/Output/train/Data_23_brain.nii.gz -f 0.3 -g 0 -c 103 164 82 -m 
+[SkullStripping] Data_24 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_24.nii /home/elec5622/Project01/Output/train/Data_24_brain.nii.gz -f 0.5 -g 0 -m 
+[SkullStripping] Data_25 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_25.nii /home/elec5622/Project01/Output/train/Data_25_brain.nii.gz -f 0.55 -g 0 -c 147 99 87 -m 
+[SkullStripping] Data_26 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_26.nii /home/elec5622/Project01/Output/train/Data_26_brain.nii.gz -f 0.5 -g 0 -m 
+[SkullStripping] Data_27 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_27.nii /home/elec5622/Project01/Output/train/Data_27_brain.nii.gz -f 0.55 -g 0 -c 149 100 87 -m 
+[SkullStripping] Data_28 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_28.nii /home/elec5622/Project01/Output/train/Data_28_brain.nii.gz -f 0.5 -g 0 -m 
+[SkullStripping] Data_29 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_29.nii /home/elec5622/Project01/Output/train/Data_29_brain.nii.gz -f 0.55 -g 0 -c 136 92 87 -m 
+[SkullStripping] Data_30 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_30.nii /home/elec5622/Project01/Output/train/Data_30_brain.nii.gz -f 0.55 -g 0 -c 148 98 87 -m 
+[SkullStripping] Data_31 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_31.nii /home/elec5622/Project01/Output/train/Data_31_brain.nii.gz -f 0.55 -g 0 -c 139 93 87 -m 
+[SkullStripping] Data_32 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_32.nii /home/elec5622/Project01/Output/train/Data_32_brain.nii.gz -f 0.5 -g 0 -m 
+[SkullStripping] Data_33 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_33.nii /home/elec5622/Project01/Output/train/Data_33_brain.nii.gz -f 0.55 -g -0.15 -c 116 158 82 -m 
+[SkullStripping] Data_34 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_34.nii /home/elec5622/Project01/Output/train/Data_34_brain.nii.gz -f 0.4 -g 0 -c 112 160 83 -m 
+[SkullStripping] Data_35 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_35.nii /home/elec5622/Project01/Output/train/Data_35_brain.nii.gz -f 0.65 -g -0.075 -c 120 156 82 -m 
+[SkullStripping] Data_36 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_36.nii /home/elec5622/Project01/Output/train/Data_36_brain.nii.gz -f 0.45 -g 0 -c 92 175 82 -m 
+[SkullStripping] Data_37 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_37.nii /home/elec5622/Project01/Output/train/Data_37_brain.nii.gz -f 0.5 -g 0 -m 
+[SkullStripping] Data_38 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_38.nii /home/elec5622/Project01/Output/train/Data_38_brain.nii.gz -f 0.5 -g 0 -m 
+[SkullStripping] Data_39 (train)
+Command: bet /home/elec5622/Project01/Data/train/Data_39.nii /home/elec5622/Project01/Output/train/Data_39_brain.nii.gz -f 0.3 -g 0 -c 110 159 82 -m 
+[SkullStripping] Data_40 (test)
+Command: bet /home/elec5622/Project01/Data/test/Data_40.nii /home/elec5622/Project01/Output/test/Data_40_brain.nii.gz -f 0.55 -g 0 -c 139 96 87 -m 
+[SkullStripping] Data_41 (test)
+Command: bet /home/elec5622/Project01/Data/test/Data_41.nii /home/elec5622/Project01/Output/test/Data_41_brain.nii.gz -f 0.5 -g 0 -m 
+[SkullStripping] Data_42 (test)
+Command: bet /home/elec5622/Project01/Data/test/Data_42.nii /home/elec5622/Project01/Output/test/Data_42_brain.nii.gz -f 0.2 -g 0 -c 117 162 82 -m 
+[SkullStripping] Data_43 (test)
+Command: bet /home/elec5622/Project01/Data/test/Data_43.nii /home/elec5622/Project01/Output/test/Data_43_brain.nii.gz -f 0.5 -g 0 -m 
+[SkullStripping] Data_44 (test)
+Command: bet /home/elec5622/Project01/Data/test/Data_44.nii /home/elec5622/Project01/Output/test/Data_44_brain.nii.gz -f 0.2 -g 0 -c 104 166 82 -m 
+[SkullStripping] Data_45 (test)
+Command: bet /home/elec5622/Project01/Data/test/Data_45.nii /home/elec5622/Project01/Output/test/Data_45_brain.nii.gz -f 0.55 -g 0 -c 147 93 86 -m 
+[SkullStripping] Data_46 (test)
+Command: bet /home/elec5622/Project01/Data/test/Data_46.nii /home/elec5622/Project01/Output/test/Data_46_brain.nii.gz -f 0.3 -g 0 -c 116 151 81 -m 
+[SkullStripping] Data_47 (test)
+Command: bet /home/elec5622/Project01/Data/test/Data_47.nii /home/elec5622/Project01/Output/test/Data_47_brain.nii.gz -f 0.2 -g 0 -c 108 163 82 -m 
+[SkullStripping] Data_48 (test)
+Command: bet /home/elec5622/Project01/Data/test/Data_48.nii /home/elec5622/Project01/Output/test/Data_48_brain.nii.gz -f 0.3 -g 0 -c 111 158 82 -m 
+[SkullStripping] Data_49 (test)
+Command: bet /home/elec5622/Project01/Data/test/Data_49.nii /home/elec5622/Project01/Output/test/Data_49_brain.nii.gz -f 0.3 -g 0 -c 104 164 82 -m 
+SkullStripping finished: 50 subject(s).

@@ -1,0 +1,294 @@
+[Registration] train/Data_11.nii
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref /home/elec5622/Project01/Output/train/Data_11_brain.nii.gz -flo /home/elec5622/Project01/Packages/MNI152_T1_1mm_brain.nii.gz -aff /home/elec5622/Project01/Output/train/Data_11_MNI_to_native_affine.txt -res /home/elec5622/Project01/Output/train/Data_11_MNI_affine.nii.gz
+[reg_aladin] 
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: /home/elec5622/Project01/Output/train/Data_11_brain.nii.gz
+[reg_aladin_sym] 	256x256x166 voxels
+[reg_aladin_sym] 	0.945339x0.934291x1.20616 mm
+[reg_aladin_sym] Floating image name: /home/elec5622/Project01/Packages/MNI152_T1_1mm_brain.nii.gz
+[reg_aladin_sym] 	182x218x182 voxels
+[reg_aladin_sym] 	1x1x1 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	64x64x42 voxels	3.78136x3.73716x4.82466 mm
+[reg_aladin_sym] floating image size: 	46x55x46 voxels	4x4x4 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [16 16 11]
+[reg_aladin_sym] Backward Block number = [12 14 12]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0.1113448
+0	1	0	-39.78376
+0	0	1	21.74044
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	-0.1113448
+0	1	0	39.78376
+0	0	1	-21.74044
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9742098	-0.03623955	0.01771889	0.01359541
+0.04106787	1.069749	0.1941747	-39.49706
+-0.02690574	-0.1725539	1.152418	-17.99183
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+1.024572	0.03131691	-0.02102991	0.8446298
+-0.04251987	0.9087647	-0.152467	33.15095
+0.01755431	0.1368024	0.8444207	20.59573
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	128x128x83 voxels	1.89068x1.86858x2.41233 mm
+[reg_aladin_sym] floating image size: 	91x109x91 voxels	2x2x2 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [32 32 21]
+[reg_aladin_sym] Backward Block number = [23 28 23]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9742098	-0.03623955	0.01771889	0.01359541
+0.04106787	1.069749	0.1941747	-39.49706
+-0.02690574	-0.1725539	1.152418	-17.99183
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1.024572	0.03131691	-0.02102991	0.8446298
+-0.04251987	0.9087647	-0.152467	33.15095
+0.01755431	0.1368024	0.8444207	20.59573
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9712903	-0.04274009	0.01585166	0.2680593
+0.05735349	1.063836	0.1987516	-40.12363
+-0.03358548	-0.168989	1.154376	-17.54383
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+1.026603	0.03796657	-0.0206339	0.8861685
+-0.05930436	0.9127776	-0.1563407	33.89703
+0.02118649	0.134726	0.8427819	20.18564
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	256x256x166 voxels	0.945339x0.934291x1.20616 mm
+[reg_aladin_sym] floating image size: 	182x218x182 voxels	1x1x1 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [64 64 42]
+[reg_aladin_sym] Backward Block number = [46 55 46]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9712903	-0.04274009	0.01585166	0.2680593
+0.05735349	1.063836	0.1987516	-40.12363
+-0.03358548	-0.168989	1.154376	-17.54383
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1.026603	0.03796657	-0.0206339	0.8861685
+-0.05930436	0.9127776	-0.1563407	33.89703
+0.02118649	0.134726	0.8427819	20.18564
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9825435	-0.0523476	0.0118804	0.4274937
+0.05237497	1.052018	0.198146	-40.09776
+-0.02713809	-0.1631688	1.154815	-17.77274
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+1.014715	0.04760542	-0.01860734	1.144383
+-0.05358316	0.9233993	-0.1578878	34.24305
+0.01627475	0.1315898	0.8431933	20.25535
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Padding value here nan
+[reg_aladin] Registration performed in 0 min 57 sec
+[reg_aladin] Have a good day !
+[reg_f3d] 
+[reg_f3d] Command line:
+[reg_f3d] 	 reg_f3d -ref /home/elec5622/Project01/Output/train/Data_11_brain.nii.gz -flo /home/elec5622/Project01/Packages/MNI152_T1_1mm_brain.nii.gz -aff /home/elec5622/Project01/Output/train/Data_11_MNI_to_native_affine.txt -cpp /home/elec5622/Project01/Output/train/Data_11_MNI_to_native_cpp.nii.gz -res /home/elec5622/Project01/Output/train/Data_11_MNI_warped.nii.gz
+[reg_f3d] 
+[NiftyReg F3D] ***********************************************************
+[NiftyReg F3D] INPUT PARAMETERS
+[NiftyReg F3D] ***********************************************************
+[NiftyReg F3D] Reference image:
+[NiftyReg F3D] 	* name: /home/elec5622/Project01/Output/train/Data_11_brain.nii.gz
+[NiftyReg F3D] 	* image dimension: 256 x 256 x 166 x 1
+[NiftyReg F3D] 	* image spacing: 0.945339 x 0.934291 x 1.20616 mm
+[NiftyReg F3D] 	* intensity threshold for timepoint 0/0: [-3.4e+38 3.4e+38]
+[NiftyReg F3D] 	* binnining size for timepoint 0/0: 64
+[NiftyReg F3D] 	* gaussian smoothing sigma: 0
+[NiftyReg F3D] 
+[NiftyReg F3D] Floating image:
+[NiftyReg F3D] 	* gaussian smoothing sigma: 0
+[NiftyReg F3D] 	* name: /home/elec5622/Project01/Packages/MNI152_T1_1mm_brain.nii.gz
+[NiftyReg F3D] 	* image dimension: 182 x 218 x 182 x 1
+[NiftyReg F3D] 	* image spacing: 1 x 1 x 1 mm
+[NiftyReg F3D] 	* intensity threshold for timepoint 0/0: [-3.4e+38 3.4e+38]
+[NiftyReg F3D] 	* binnining size for timepoint 0/0: 64
+[NiftyReg F3D] 	* gaussian smoothing sigma: 0
+[NiftyReg F3D] 
+[NiftyReg F3D] Warped image padding value: nan
+[NiftyReg F3D] 
+[NiftyReg F3D] Level number: 3
+[NiftyReg F3D] 
+[NiftyReg F3D] Maximum iteration number during the last level: 150
+[NiftyReg F3D] 
+[NiftyReg F3D] Final spacing in mm: -5 -5 -5
+[NiftyReg F3D] 
+[NiftyReg F3D] The NMI is used as a similarity measure.
+[NiftyReg F3D] Similarity measure term weight: 0.989
+[NiftyReg F3D] 
+[NiftyReg F3D] Bending energy penalty term weight: 0.001
+[NiftyReg F3D] 
+[NiftyReg F3D] Linear energy penalty term weight: 0.01
+[NiftyReg F3D] 
+[NiftyReg F3D] ***********************************************************
+[NiftyReg F3D] Current level: 1 / 3
+[NiftyReg F3D] Maximum iteration number: 600
+[NiftyReg F3D] Current reference image
+[NiftyReg F3D] 	* image dimension: 64 x 64 x 42 x 1
+[NiftyReg F3D] 	* image spacing: 3.78136 x 3.73716 x 4.82466 mm
+[NiftyReg F3D] Current floating image
+[NiftyReg F3D] 	* image dimension: 46 x 55 x 46 x 1
+[NiftyReg F3D] 	* image spacing: 4 x 4 x 4 mm
+[NiftyReg F3D] Current control point image
+[NiftyReg F3D] 	* image dimension: 16 x 16 x 12
+[NiftyReg F3D] 	* image spacing: 18.9068 x 18.6858 x 24.1233 mm
+[NiftyReg F3D] Initial objective function: 1.15311 = (wSIM)1.15312 - (wBE)5.2182e-14 - (wLE)1.81181e-05 - (wJAC)0 - (wLAN)0
+[NiftyReg F3D] [10] Current objective function: 1.1688 = (wSIM)1.16882 - (wBE)4.64e-06 - (wLE)1.89e-05 [+ 9.64931 mm]
+[NiftyReg F3D] [19] Current objective function: 1.16981 = (wSIM)1.16984 - (wBE)8.10e-06 - (wLE)1.94e-05 [+ 2.41233 mm]
+[NiftyReg F3D] [28] Current objective function: 1.17645 = (wSIM)1.17648 - (wBE)1.25e-05 - (wLE)1.97e-05 [+ 5.06589 mm]
+[NiftyReg F3D] [37] Current objective function: 1.17759 = (wSIM)1.17763 - (wBE)1.62e-05 - (wLE)1.99e-05 [+ 2.41233 mm]
+[NiftyReg F3D] [45] Current objective function: 1.18176 = (wSIM)1.1818 - (wBE)2.04e-05 - (wLE)2.02e-05 [+ 2.41233 mm]
+[NiftyReg F3D] [53] Current objective function: 1.18396 = (wSIM)1.184 - (wBE)2.32e-05 - (wLE)2.04e-05 [+ 2.41233 mm]
+[NiftyReg F3D] [61] Current objective function: 1.18511 = (wSIM)1.18516 - (wBE)2.81e-05 - (wLE)2.07e-05 [+ 2.41233 mm]
+[NiftyReg F3D] [70] Current objective function: 1.18731 = (wSIM)1.18737 - (wBE)3.52e-05 - (wLE)2.10e-05 [+ 3.07572 mm]
+[NiftyReg F3D] [79] Current objective function: 1.18837 = (wSIM)1.18844 - (wBE)4.53e-05 - (wLE)2.16e-05 [+ 3.07572 mm]
+[NiftyReg F3D] [89] Current objective function: 1.18892 = (wSIM)1.18899 - (wBE)5.37e-05 - (wLE)2.20e-05 [+ 1.64359 mm]
+[NiftyReg F3D] [98] Current objective function: 1.19025 = (wSIM)1.19033 - (wBE)5.99e-05 - (wLE)2.24e-05 [+ 1.86958 mm]
+[NiftyReg F3D] [106] Current objective function: 1.19036 = (wSIM)1.19045 - (wBE)6.77e-05 - (wLE)2.30e-05 [+ 1.86958 mm]
+[NiftyReg F3D] [115] Current objective function: 1.19107 = (wSIM)1.19117 - (wBE)7.59e-05 - (wLE)2.35e-05 [+ 1.99811 mm]
+[NiftyReg F3D] [124] Current objective function: 1.19233 = (wSIM)1.19244 - (wBE)8.33e-05 - (wLE)2.39e-05 [+ 2.0668 mm]
+[NiftyReg F3D] [132] Current objective function: 1.19246 = (wSIM)1.19257 - (wBE)9.01e-05 - (wLE)2.44e-05 [+ 2.0668 mm]
+[NiftyReg F3D] [140] Current objective function: 1.19335 = (wSIM)1.19347 - (wBE)9.48e-05 - (wLE)2.47e-05 [+ 2.0668 mm]
+[NiftyReg F3D] [148] Current objective function: 1.1935 = (wSIM)1.19362 - (wBE)9.88e-05 - (wLE)2.50e-05 [+ 2.0668 mm]
+[NiftyReg F3D] [156] Current objective function: 1.19365 = (wSIM)1.19378 - (wBE)1.01e-04 - (wLE)2.52e-05 [+ 0.5167 mm]
+[NiftyReg F3D] [163] Current objective function: 1.19427 = (wSIM)1.1944 - (wBE)1.05e-04 - (wLE)2.55e-05 [+ 1.08507 mm]
+[NiftyReg F3D] [170] Current objective function: 1.19447 = (wSIM)1.1946 - (wBE)1.08e-04 - (wLE)2.57e-05 [+ 1.08507 mm]
+[NiftyReg F3D] [177] Current objective function: 1.19475 = (wSIM)1.19489 - (wBE)1.10e-04 - (wLE)2.60e-05 [+ 1.08507 mm]
+[NiftyReg F3D] [184] Current objective function: 1.19494 = (wSIM)1.19508 - (wBE)1.14e-04 - (wLE)2.63e-05 [+ 1.08507 mm]
+[NiftyReg F3D] [192] Current objective function: 1.1952 = (wSIM)1.19534 - (wBE)1.17e-04 - (wLE)2.66e-05 [+ 0.691732 mm]
+[NiftyReg F3D] [200] Current objective function: 1.19548 = (wSIM)1.19563 - (wBE)1.18e-04 - (wLE)2.66e-05 [+ 1.07218 mm]
+[NiftyReg F3D] [207] Current objective function: 1.1955 = (wSIM)1.19564 - (wBE)1.18e-04 - (wLE)2.67e-05 [+ 0.268046 mm]
+[NiftyReg F3D] [214] Current objective function: 1.19563 = (wSIM)1.19578 - (wBE)1.19e-04 - (wLE)2.68e-05 [+ 0.643981 mm]
+[NiftyReg F3D] [220] Current objective function: 1.19565 = (wSIM)1.1958 - (wBE)1.20e-04 - (wLE)2.69e-05 [+ 0.643981 mm]
+[NiftyReg F3D] [226] Current objective function: 1.19567 = (wSIM)1.19581 - (wBE)1.21e-04 - (wLE)2.70e-05 [+ 0.160995 mm]
+[NiftyReg F3D] [230] Current objective function: 1.19569 = (wSIM)1.19584 - (wBE)1.21e-04 - (wLE)2.70e-05 [+ 0.160995 mm]
+[NiftyReg F3D] [236] Current objective function: 1.19575 = (wSIM)1.1959 - (wBE)1.22e-04 - (wLE)2.70e-05 [+ 0.33809 mm]
+[NiftyReg F3D] [244] Current objective function: 1.19591 = (wSIM)1.19606 - (wBE)1.23e-04 - (wLE)2.72e-05 [+ 0.914533 mm]
+[NiftyReg F3D] [251] Current objective function: 1.19595 = (wSIM)1.1961 - (wBE)1.26e-04 - (wLE)2.74e-05 [+ 0.914533 mm]
+[NiftyReg F3D] [258] Current objective function: 1.196 = (wSIM)1.19615 - (wBE)1.27e-04 - (wLE)2.75e-05 [+ 0.228633 mm]
+[NiftyReg F3D] [266] Current objective function: 1.19615 = (wSIM)1.19631 - (wBE)1.28e-04 - (wLE)2.76e-05 [+ 0.694531 mm]
+[NiftyReg F3D] [272] Current objective function: 1.19619 = (wSIM)1.19634 - (wBE)1.29e-04 - (wLE)2.77e-05 [+ 0.694531 mm]
+[NiftyReg F3D] [278] Current objective function: 1.1962 = (wSIM)1.19635 - (wBE)1.29e-04 - (wLE)2.78e-05 [+ 0.347266 mm]
+[NiftyReg F3D] [283] Current objective function: 1.19623 = (wSIM)1.19638 - (wBE)1.30e-04 - (wLE)2.79e-05 [+ 0.347266 mm]
+[NiftyReg F3D] [288] Current objective function: 1.19639 = (wSIM)1.19655 - (wBE)1.31e-04 - (wLE)2.80e-05 [+ 0.347266 mm]
+[NiftyReg F3D] [293] Current objective function: 1.1964 = (wSIM)1.19656 - (wBE)1.31e-04 - (wLE)2.80e-05 [+ 0.0868164 mm]
+[NiftyReg F3D] [295] Current objective function: 1.1964 = (wSIM)1.19656 - (wBE)1.31e-04 - (wLE)2.80e-05 [+ 0 mm]
+[NiftyReg F3D] Current registration level done
+[NiftyReg F3D] ***********************************************************
+[NiftyReg F3D] Current level: 2 / 3
+[NiftyReg F3D] Maximum iteration number: 300
+[NiftyReg F3D] Current reference image
+[NiftyReg F3D] 	* image dimension: 128 x 128 x 83 x 1
+[NiftyReg F3D] 	* image spacing: 1.89068 x 1.86858 x 2.41233 mm
+[NiftyReg F3D] Current floating image
+[NiftyReg F3D] 	* image dimension: 91 x 109 x 91 x 1
+[NiftyReg F3D] 	* image spacing: 2 x 2 x 2 mm
+[NiftyReg F3D] Current control point image
+[NiftyReg F3D] 	* image dimension: 29 x 29 x 20
+[NiftyReg F3D] 	* image spacing: 9.45339 x 9.34291 x 12.0616 mm
+[NiftyReg F3D] Initial objective function: 1.16505 = (wSIM)1.16529 - (wBE)0.00012919 - (wLE)0.000110439 - (wJAC)0 - (wLAN)0
+[NiftyReg F3D] [10] Current objective function: 1.16913 = (wSIM)1.16938 - (wBE)1.40e-04 - (wLE)1.11e-04 [+ 4.82466 mm]
+[NiftyReg F3D] [21] Current objective function: 1.17284 = (wSIM)1.17314 - (wBE)1.88e-04 - (wLE)1.14e-04 [+ 5.1262 mm]
+[NiftyReg F3D] [32] Current objective function: 1.1761 = (wSIM)1.17644 - (wBE)2.28e-04 - (wLE)1.17e-04 [+ 4.86235 mm]
+[NiftyReg F3D] [43] Current objective function: 1.17856 = (wSIM)1.17897 - (wBE)2.91e-04 - (wLE)1.20e-04 [+ 6.03082 mm]
+[NiftyReg F3D] [52] Current objective function: 1.1795 = (wSIM)1.18002 - (wBE)3.97e-04 - (wLE)1.26e-04 [+ 2.41233 mm]
+[NiftyReg F3D] [62] Current objective function: 1.18208 = (wSIM)1.18266 - (wBE)4.48e-04 - (wLE)1.28e-04 [+ 3.61849 mm]
+[NiftyReg F3D] [73] Current objective function: 1.18339 = (wSIM)1.184 - (wBE)4.78e-04 - (wLE)1.30e-04 [+ 4.90004 mm]
+[NiftyReg F3D] [83] Current objective function: 1.18415 = (wSIM)1.18481 - (wBE)5.27e-04 - (wLE)1.33e-04 [+ 4.82466 mm]
+[NiftyReg F3D] [92] Current objective function: 1.18462 = (wSIM)1.18534 - (wBE)5.83e-04 - (wLE)1.36e-04 [+ 1.20616 mm]
+[NiftyReg F3D] [101] Current objective function: 1.18595 = (wSIM)1.18673 - (wBE)6.40e-04 - (wLE)1.39e-04 [+ 2.53295 mm]
+[NiftyReg F3D] [111] Current objective function: 1.18694 = (wSIM)1.18779 - (wBE)7.10e-04 - (wLE)1.43e-04 [+ 2.45002 mm]
+[NiftyReg F3D] [120] Current objective function: 1.18765 = (wSIM)1.18858 - (wBE)7.83e-04 - (wLE)1.47e-04 [+ 2.41233 mm]
+[NiftyReg F3D] [130] Current objective function: 1.18833 = (wSIM)1.18936 - (wBE)8.86e-04 - (wLE)1.53e-04 [+ 2.45002 mm]
+[NiftyReg F3D] [139] Current objective function: 1.18903 = (wSIM)1.19017 - (wBE)9.90e-04 - (wLE)1.59e-04 [+ 2.41233 mm]
+[NiftyReg F3D] [148] Current objective function: 1.18959 = (wSIM)1.19088 - (wBE)1.12e-03 - (wLE)1.66e-04 [+ 2.41233 mm]
+[NiftyReg F3D] [157] Current objective function: 1.19019 = (wSIM)1.19163 - (wBE)1.27e-03 - (wLE)1.74e-04 [+ 2.41233 mm]
+[NiftyReg F3D] [166] Current objective function: 1.19079 = (wSIM)1.19239 - (wBE)1.42e-03 - (wLE)1.83e-04 [+ 2.41233 mm]
+[NiftyReg F3D] [175] Current objective function: 1.19154 = (wSIM)1.19326 - (wBE)1.53e-03 - (wLE)1.90e-04 [+ 2.41233 mm]
+[NiftyReg F3D] [184] Current objective function: 1.19185 = (wSIM)1.19366 - (wBE)1.61e-03 - (wLE)1.95e-04 [+ 1.20616 mm]
+[NiftyReg F3D] [192] Current objective function: 1.19235 = (wSIM)1.1942 - (wBE)1.65e-03 - (wLE)1.98e-04 [+ 1.20616 mm]
+[NiftyReg F3D] [200] Current objective function: 1.19254 = (wSIM)1.19442 - (wBE)1.68e-03 - (wLE)2.01e-04 [+ 1.20616 mm]
+[NiftyReg F3D] [208] Current objective function: 1.19274 = (wSIM)1.19466 - (wBE)1.71e-03 - (wLE)2.04e-04 [+ 1.20616 mm]
+[NiftyReg F3D] [216] Current objective function: 1.19292 = (wSIM)1.19486 - (wBE)1.74e-03 - (wLE)2.06e-04 [+ 1.20616 mm]
+[NiftyReg F3D] [225] Current objective function: 1.19305 = (wSIM)1.19503 - (wBE)1.78e-03 - (wLE)2.11e-04 [+ 1.28909 mm]
+[NiftyReg F3D] [233] Current objective function: 1.19319 = (wSIM)1.19522 - (wBE)1.81e-03 - (wLE)2.15e-04 [+ 1.28909 mm]
+[NiftyReg F3D] [241] Current objective function: 1.19333 = (wSIM)1.19542 - (wBE)1.86e-03 - (wLE)2.20e-04 [+ 1.28909 mm]
+[NiftyReg F3D] [249] Current objective function: 1.19351 = (wSIM)1.19564 - (wBE)1.90e-03 - (wLE)2.24e-04 [+ 1.28909 mm]
+[NiftyReg F3D] [257] Current objective function: 1.19366 = (wSIM)1.19583 - (wBE)1.95e-03 - (wLE)2.29e-04 [+ 1.28909 mm]
+[NiftyReg F3D] [265] Current objective function: 1.19376 = (wSIM)1.19597 - (wBE)1.98e-03 - (wLE)2.32e-04 [+ 0.644544 mm]
+[NiftyReg F3D] [272] Current objective function: 1.19386 = (wSIM)1.19609 - (wBE)1.99e-03 - (wLE)2.33e-04 [+ 0.644544 mm]
+[NiftyReg F3D] [279] Current objective function: 1.19387 = (wSIM)1.19612 - (wBE)2.01e-03 - (wLE)2.35e-04 [+ 0.322272 mm]
+[NiftyReg F3D] [287] Current objective function: 1.19394 = (wSIM)1.19619 - (wBE)2.01e-03 - (wLE)2.36e-04 [+ 0.499522 mm]
+[NiftyReg F3D] [293] Current objective function: 1.19394 = (wSIM)1.19619 - (wBE)2.01e-03 - (wLE)2.36e-04 [+ 0 mm]
+[NiftyReg F3D] Current registration level done
+[NiftyReg F3D] ***********************************************************
+[NiftyReg F3D] Current level: 3 / 3
+[NiftyReg F3D] Maximum iteration number: 150
+[NiftyReg F3D] Current reference image
+[NiftyReg F3D] 	* image dimension: 256 x 256 x 166 x 1
+[NiftyReg F3D] 	* image spacing: 0.945339 x 0.934291 x 1.20616 mm
+[NiftyReg F3D] Current floating image
+[NiftyReg F3D] 	* image dimension: 182 x 218 x 182 x 1
+[NiftyReg F3D] 	* image spacing: 1 x 1 x 1 mm
+[NiftyReg F3D] Current control point image
+[NiftyReg F3D] 	* image dimension: 55 x 55 x 37
+[NiftyReg F3D] 	* image spacing: 4.7267 x 4.67145 x 6.03082 mm
+[NiftyReg F3D] Initial objective function: 1.17227 = (wSIM)1.17479 - (wBE)0.00169961 - (wLE)0.000823973 - (wJAC)0 - (wLAN)0
+[NiftyReg F3D] [13] Current objective function: 1.17629 = (wSIM)1.17922 - (wBE)2.08e-03 - (wLE)8.46e-04 [+ 9.64931 mm]
+[NiftyReg F3D] [25] Current objective function: 1.17966 = (wSIM)1.18324 - (wBE)2.71e-03 - (wLE)8.73e-04 [+ 4.22158 mm]
+[NiftyReg F3D] [37] Current objective function: 1.18143 = (wSIM)1.18528 - (wBE)2.96e-03 - (wLE)8.84e-04 [+ 4.82466 mm]
+[NiftyReg F3D] [49] Current objective function: 1.18298 = (wSIM)1.18744 - (wBE)3.55e-03 - (wLE)9.07e-04 [+ 4.82466 mm]
+[NiftyReg F3D] [59] Current objective function: 1.18418 = (wSIM)1.18921 - (wBE)4.10e-03 - (wLE)9.28e-04 [+ 2.41233 mm]
+[NiftyReg F3D] [71] Current objective function: 1.185 = (wSIM)1.19025 - (wBE)4.31e-03 - (wLE)9.36e-04 [+ 2.60456 mm]
+[NiftyReg F3D] [81] Current objective function: 1.18543 = (wSIM)1.19111 - (wBE)4.73e-03 - (wLE)9.52e-04 [+ 1.80925 mm]
+[NiftyReg F3D] [92] Current objective function: 1.18599 = (wSIM)1.19183 - (wBE)4.89e-03 - (wLE)9.57e-04 [+ 1.54917 mm]
+[NiftyReg F3D] [101] Current objective function: 1.18601 = (wSIM)1.1923 - (wBE)5.31e-03 - (wLE)9.73e-04 [+ 1.20616 mm]
+[NiftyReg F3D] [111] Current objective function: 1.18662 = (wSIM)1.19297 - (wBE)5.38e-03 - (wLE)9.75e-04 [+ 1.80925 mm]
+[NiftyReg F3D] [120] Current objective function: 1.18663 = (wSIM)1.19303 - (wBE)5.42e-03 - (wLE)9.77e-04 [+ 0.150771 mm]
+[NiftyReg F3D] [132] Current objective function: 1.18683 = (wSIM)1.19332 - (wBE)5.52e-03 - (wLE)9.80e-04 [+ 0.825274 mm]
+[NiftyReg F3D] [141] Current objective function: 1.18688 = (wSIM)1.19355 - (wBE)5.69e-03 - (wLE)9.87e-04 [+ 0.412637 mm]
+[NiftyReg F3D] [150] Current objective function: 1.18707 = (wSIM)1.19377 - (wBE)5.72e-03 - (wLE)9.88e-04 [+ 0.866538 mm]
+[NiftyReg WARNING] The current level reached the maximum number of iteration
+[NiftyReg F3D] Current registration level done
+[NiftyReg F3D] ***********************************************************
+[reg_f3d] Registration performed in 4 min 35 sec
+[reg_f3d] Have a good day !
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Command line:
+ reg_resample -ref /home/elec5622/Project01/Output/train/Data_11_brain.nii.gz -flo /home/elec5622/Project01/Packages/aal.nii.gz -trans /home/elec5622/Project01/Output/train/Data_11_MNI_to_native_cpp.nii.gz -inter 0 -res /home/elec5622/Project01/Output/train/AAL_to_Data_11.nii.gz
+Parameters
+Reference image name: /home/elec5622/Project01/Output/train/Data_11_brain.nii.gz
+	256x256x166 voxels, 1 volumes
+	0.945339x0.934291x1.20616 mm
+Floating image name: /home/elec5622/Project01/Packages/aal.nii.gz
+	181x217x181 voxels, 1 volumes
+	1x1x1 mm
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+[NiftyReg] Resampled image has been saved: /home/elec5622/Project01/Output/train/AAL_to_Data_11.nii.gz
+Registration finished: 1 subject(s). Inspect template/atlas overlays in FSLeyes.

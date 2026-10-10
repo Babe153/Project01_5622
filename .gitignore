@@ -10,3 +10,6 @@ Thumbs.db
 *ed25519*
 *.nii
 *.nii.gz
+
+# Explicitly publish verified final preprocessing volumes.
+!preprocessing/Output/**/*.nii.gz

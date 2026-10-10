@@ -1,0 +1,62 @@
+[
+  {
+    "subject": "Data_00",
+    "tissue_reviewed": true,
+    "registration_reviewed": true,
+    "note": "已查看三个方向各三处抽样切片：组织类别分布及 MNI/AAL 对齐未见明显整体错位；局部皮质、脑沟边界仍属自动分割结果。"
+  },
+  {
+    "subject": "Data_01",
+    "tissue_reviewed": true,
+    "registration_reviewed": true,
+    "note": "已查看三个方向各三处抽样切片：脑主体及图谱基本对齐；BET 颅底少量残留延续到组织分割，颅底局部标签与边界需关注。"
+  },
+  {
+    "subject": "Data_15",
+    "tissue_reviewed": true,
+    "registration_reviewed": true,
+    "note": "已查看三个方向各三处抽样切片：脑主体、灰白质分布及非线性模板/AAL 基本对齐；额底、颞叶底等局部边界仍需常规关注。"
+  },
+  {
+    "subject": "Data_18",
+    "tissue_reviewed": true,
+    "registration_reviewed": true,
+    "note": "已查看三个方向各三处抽样切片：脑主体和图谱基本对齐；脑室周围、皮质沟回仍有局部配准差异，颅底少量残留延续到组织分割。"
+  },
+  {
+    "subject": "Data_33",
+    "tissue_reviewed": true,
+    "registration_reviewed": true,
+    "note": "已查看三个方向各三处抽样切片：非线性配准较仿射更贴合脑主体，AAL 未见明显整体错位；原图模糊及局部外围残留使皮质边界仍有不确定性。"
+  },
+  {
+    "subject": "Data_35",
+    "tissue_reviewed": true,
+    "registration_reviewed": true,
+    "note": "已查看三个方向各三处抽样切片：脑主体及非线性模板/AAL 基本对齐；原图模糊、局部额部和皮质边界不规则，自动组织分类及区域边界需保留质量备注。"
+  },
+  {
+    "subject": "Data_36",
+    "tissue_reviewed": true,
+    "registration_reviewed": true,
+    "note": "已查看三个方向各三处抽样切片：组织类别分布及非线性模板/AAL 与脑主体基本对齐；仿射阶段额部及颞底边界差异经非线性配准改善，局部沟回边界仍有差异。"
+  },
+  {
+    "subject": "Data_40",
+    "tissue_reviewed": true,
+    "registration_reviewed": true,
+    "note": "已查看三个方向各三处抽样切片：脑主体和非线性模板/AAL 基本对齐；脑干下端及颅底少量残留、细小组织分类斑点需关注。"
+  },
+  {
+    "subject": "Data_44",
+    "tissue_reviewed": true,
+    "registration_reviewed": true,
+    "note": "已查看三个方向各三处抽样切片：非线性模板/AAL 对脑主体和脑室的拟合较仿射改善；BET 额部上方边界不完整、外围残留和较大脑室周围局部配准差异仍可见，当前数据保留这些限制。"
+  },
+  {
+    "subject": "Data_49",
+    "tissue_reviewed": true,
+    "registration_reviewed": true,
+    "note": "已查看三个方向各三处抽样切片：组织分割和非线性模板/AAL 与脑主体基本对齐；脑干及颅底局部细小分类斑点和局部边界差异需关注。"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "reviewed_sheets": [
+    "Train",
+    "Test"
+  ],
+  "reviewed_ranges": [
+    "A1:G12",
+    "CI1:CM6"
+  ],
+  "headers_and_numbers_readable": true,
+  "display_decimals": 3,
+  "underlying_numeric_precision_preserved": true,
+  "all_100_qc_png_files_decoded": true
+}

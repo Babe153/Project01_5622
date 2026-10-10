@@ -1,0 +1,6 @@
+[Measurement] test/Data_48.nii: AAL 1..90, binary GM volume in mm^3
+>>>>>>>>>>>>>> seedMask_DIR:/home/elec5622/Project01/Output/test/.measurement_Data_48.5nksrS/seedMasks/
+>>>>>>>>>atlasIMG:/home/elec5622/Project01/Output/test/.measurement_Data_48.5nksrS/atlas.nii.gz
+min_i:1.000000 max_i:116.000000
+Saved 1 subject(s): /home/elec5622/Project01/Output/test/AAL_statistics_volumn_test_Data_48.csv
+Measurement finished: 1 subject(s), 90 ROI volumes per subject.

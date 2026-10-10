@@ -1,0 +1,79 @@
+{
+  "fixture": "/home/elec5622/Project01/Validation/bet_final_tuning_20261008/parameter_table_test_8frbxyfl",
+  "tests": [
+    {
+      "name": "table selects distinct train/test parameters and mask option",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "name": "Windows CRLF table",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "name": "single subject only",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "name": "duplicate subject rejected",
+      "passed": true,
+      "exit_code": 1
+    },
+    {
+      "name": "missing subject rejected",
+      "passed": true,
+      "exit_code": 1
+    },
+    {
+      "name": "out of range f rejected",
+      "passed": true,
+      "exit_code": 1
+    },
+    {
+      "name": "out of range g rejected",
+      "passed": true,
+      "exit_code": 1
+    },
+    {
+      "name": "incomplete centre rejected",
+      "passed": true,
+      "exit_code": 1
+    },
+    {
+      "name": "out of image centre rejected",
+      "passed": true,
+      "exit_code": 1
+    },
+    {
+      "name": "manual override replaces table centre",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "name": "manual override requires one subject",
+      "passed": true,
+      "exit_code": 1
+    },
+    {
+      "name": "malformed override rejected",
+      "passed": true,
+      "exit_code": 1
+    },
+    {
+      "name": "explicit missing table rejected",
+      "passed": true,
+      "exit_code": 1
+    },
+    {
+      "name": "actual BET train/test execution",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "name": "actual outputs match independent BET runs; binary masks and manifest correct",
+      "passed": true
+    }
+  ]
+}
