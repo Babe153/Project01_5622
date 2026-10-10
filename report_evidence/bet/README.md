@@ -1,9 +1,13 @@
-# 50 人最终 BET 效果
+# Final BET results for 50 subjects
 
-`images/` 中每人两张 PNG：`comparison` 展示原图边界、默认 BET 和最终 BET；`dense` 展示三个方向共 27 个位置的掩膜边界。每人的 JSON 和 `qc_manifest.json` 保存最终参数、切片位置和 NIfTI 校验值。全部 100 张图对应当前选定的 50 人 BET 结果。
+[English](README.md) · [中文版](README_zh-CN.md)
 
-下载整个仓库后可打开 [index.html](index.html) 逐人浏览。GitHub 页面直接点击 [images/](images/) 预览图片。
+`images/` contains two PNGs per subject: `comparison` shows original-image boundaries, default BET, and final BET; `dense` shows mask boundaries at 27 positions across three directions. Per-subject JSON files and `qc_manifest.json` record final parameters, slice locations, and NIfTI checksums. All 100 figures correspond to the current selected BET outputs.
 
-33、35、36 已在四人专项复核后更新正式结果；44 保留原结果，已知额部边界及非脑组织残留限制仍存在。最终执行参数以 [preprocessing/scripts/bet_parameters.csv](../../preprocessing/scripts/bet_parameters.csv) 为准。专项新旧对照图在 [bet_review4/](../bet_review4/)。
+After downloading the repository, open [index.html](index.html) to browse subjects. On GitHub, open [images/](images/) to preview figures.
 
-这是抽样切片视觉检查，没有人工标准掩膜，也没有逐层检查每个三维体素；不能据此称参数全局最优或分割完全准确。完整预处理与 SVM 已随后完成，当前整体状态见 [报告素材索引](../README.md)。
+Data_33, Data_35, and Data_36 were updated after the four-subject review. Data_44 retains the previous output and its known frontal-boundary/non-brain-remnant limitations. Final execution settings are in [bet_parameters.csv](../../preprocessing/scripts/bet_parameters.csv); before/after figures are in [bet_review4/](../bet_review4/).
+
+This is visual inspection of sampled slices, without manual ground-truth masks or review of every 3D voxel. It does not establish globally optimal parameters or perfect segmentation. The complete preprocessing and SVM were subsequently completed; see the [report evidence index](../README.md).
+
+The review notes include historical recommendations made before the agreed decision to retain Data_44 for the completed pipeline. English QC notes are in [parameters_and_qc_records.csv](parameters_and_qc_records.csv).

@@ -75,8 +75,8 @@
         189
       ]
     ],
-    "note_zh": "g 从 0 改为 -0.15，顶部及一侧的部分头皮条带残留减少。原图模糊/重影，仍可见少量外围残留，局部皮质及小脑边缘需要继续关注。更强的梯度或更高阈值会增加脑组织遗漏，采用当前折中。",
-    "qc_status_zh": "已改善，仍有局部边界关注点"
+    "note_zh": "Changing g from 0 to -0.15 reduces some scalp-strip remnants at the top and one side. Source-image blur/ghosting, small peripheral remnants and local cortical/cerebellar boundary concerns remain. Stronger gradients or higher thresholds increase brain-tissue omission; the current compromise was selected.",
+    "qc_status_zh": "Improved; local boundary concerns remain"
   },
   {
     "subject": "Data_35",
@@ -154,8 +154,8 @@
         175
       ]
     ],
-    "note_zh": "g 从 0 改为 -0.075，顶部条带残留减少。仍有小片顶部和颅底残留以及局部皮质边界风险。更激进的负梯度或提高 f 会使部分皮质覆盖变差，采用当前折中。",
-    "qc_status_zh": "已改善，仍有局部边界关注点"
+    "note_zh": "Changing g from 0 to -0.075 reduces superior strip remnants. Small superior/skull-base remnants and local cortical-boundary risks remain. More aggressive negative gradients or higher f worsen some cortical coverage; the current compromise was selected.",
+    "qc_status_zh": "Improved; local boundary concerns remain"
   },
   {
     "subject": "Data_36",
@@ -233,8 +233,8 @@
         213
       ]
     ],
-    "note_zh": "中心从 (104,165,82) 改为 (92,175,82)，脑干前方/斜坡附近的软组织残留明显减少。仍有少量颅底残留，小脑下缘及顶部外周局部边界需要关注。提高 f 到 0.5 的某些组合会增加额叶遗漏。",
-    "qc_status_zh": "已改善，仍有局部边界关注点"
+    "note_zh": "Changing the centre from (104,165,82) to (92,175,82) substantially reduces soft-tissue remnants anterior to the brainstem/near the clivus. Small skull-base remnants and local inferior cerebellar/superior peripheral boundaries require attention. Some combinations with f=0.5 increase frontal omission.",
+    "qc_status_zh": "Improved; local boundary concerns remain"
   },
   {
     "subject": "Data_44",
@@ -312,7 +312,7 @@
         219
       ]
     ],
-    "note_zh": "本轮追加 36 组候选，没有找到明确优于旧结果的组合。部分新候选在稀疏切片上看似改善，但密集切片仍显示内侧额叶疑似遗漏、后方头皮及颅底残留。较低 f 或部分中心变化可突然保留大片头颈组织，提高 f 又增加脑组织遗漏，因此暂留旧参数，标为复核未通过。",
-    "qc_status_zh": "未通过：暂留旧结果"
+    "note_zh": "Thirty-six additional candidates were tested, without finding a clear improvement over the previous result. Some candidates appeared better on sparse slices, but dense slices still showed suspected medial frontal omission and posterior scalp/skull-base remnants. Lower f or some centre changes can suddenly retain extensive head/neck tissue, while higher f increases brain-tissue omission. Previous parameters were retained and the review was marked as failed.",
+    "qc_status_zh": "Review failed: previous result retained"
   }
 ]

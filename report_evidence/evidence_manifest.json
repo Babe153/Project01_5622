@@ -1,6 +1,4 @@
 {
-  "file_count": 1194,
-  "total_bytes": 948073320,
   "bet_final_pngs": 100,
   "tissue_registration_pngs": 100,
   "review_pngs": 8,
@@ -8,6 +6,10 @@
   "all_relative_markdown_links_verified": true,
   "all_vm_output_hashes_verified": true,
   "all_bet_metadata_matches_final_brain_and_mask": true,
+  "file_count": 1199,
+  "total_bytes": 948097696,
+  "default_language": "English",
+  "localization_source_commit": "a8404658ef1e82c0cf00e5ec176b9c050c3ebb65",
   "records": [
     {
       "path": "preprocessing/Output/test/AAL_statistics_volumn_test.csv",
@@ -3506,8 +3508,13 @@
     },
     {
       "path": "preprocessing/README.md",
-      "bytes": 3868,
-      "sha256": "ec4522da1da5c209389d9db189ff26ed8bebaed9802e03b64ac6487dd35cc2c2"
+      "bytes": 4108,
+      "sha256": "e585ba539e3d85c6fddc7cfd648181298fc3ad1abda6a145b70fc04e5b1f008d"
+    },
+    {
+      "path": "preprocessing/README_zh-CN.md",
+      "bytes": 3927,
+      "sha256": "6e4379cd96cb7087d985550a96a7eb1389454d75f243da5bb4cf6c689c9c5601"
     },
     {
       "path": "preprocessing/scripts/bet_parameters.csv",
@@ -4296,18 +4303,28 @@
     },
     {
       "path": "report_evidence/bet/index.html",
-      "bytes": 64689,
-      "sha256": "3611b97208caf866be8331efad9f42e9cf13c94a8cc151558af4a2164a1e3065"
+      "bytes": 67183,
+      "sha256": "47c0676888053da7e2a9ca41851d63e44f6f0e557076e8c1d66ae72e6c20e475"
+    },
+    {
+      "path": "report_evidence/bet/parameters_and_qc_records.csv",
+      "bytes": 10989,
+      "sha256": "b02ac1535e83e1ef6cbab2fbfdd564f975fabee66ac236d4430d4243e039bb90"
     },
     {
       "path": "report_evidence/bet/qc_manifest.json",
-      "bytes": 103105,
-      "sha256": "2db4a05404a2d2d11a2e82ed5c1b2d49e91c8c36b562855dedb75742c8eb1096"
+      "bytes": 105225,
+      "sha256": "5af125c69748a07c9e981202a7f6a3f583172a96feae3ba5f276253281d137f0"
     },
     {
       "path": "report_evidence/bet/README.md",
-      "bytes": 1058,
-      "sha256": "6b7daa60d178c79913bf75dbb5e6a35a28a3bf0ac0dc86dfcbe3d135e6989c1b"
+      "bytes": 1453,
+      "sha256": "24d3026adb741c06d40c28a1aa5cd3d8b8fa98ec7ddb3c97980ff3590128f83d"
+    },
+    {
+      "path": "report_evidence/bet/README_zh-CN.md",
+      "bytes": 1117,
+      "sha256": "730cec06e0685e44eb2525d24ed9c4b4112bcf839287f93b9f6ae70c180c88e8"
     },
     {
       "path": "report_evidence/bet/validation/final_dry_run.txt",
@@ -4343,11 +4360,6 @@
       "path": "report_evidence/bet/validation/SkullStripping_20261008_004654_157796.tsv",
       "bytes": 196,
       "sha256": "de87ffad2fe4febcfa9a2cc57bc950b72483e0317daa6f9ddb0cddbb66696001"
-    },
-    {
-      "path": "report_evidence/bet/参数与质控记录.csv",
-      "bytes": 8640,
-      "sha256": "60b4d1a38ce30864f6130177de28eafe845561f6e831d6ef1ee0cf0e73615ccf"
     },
     {
       "path": "report_evidence/bet_review4/Data_33_before_after.png",
@@ -4396,18 +4408,23 @@
     },
     {
       "path": "report_evidence/bet_review4/README.md",
-      "bytes": 754,
-      "sha256": "786f20d2eceb1f46ecbdc334d9793d484a48328804fe8a9a7fff22f896736dc7"
+      "bytes": 1218,
+      "sha256": "ee13bf0007f755ccd6fb0ca8c3b18ba7402c5a75e25f80bd35e063078fa378bc"
+    },
+    {
+      "path": "report_evidence/bet_review4/README_zh-CN.md",
+      "bytes": 807,
+      "sha256": "cb324e0f22555f8c86e4383a4e3e13dbef9b4de7c3c9252d212d7a2dfc59cf33"
     },
     {
       "path": "report_evidence/bet_review4/review_decisions.json",
-      "bytes": 6504,
-      "sha256": "b3ef83eb02b2f655b524688de5534a44dd4a4f3ffb59531496691649546e98d7"
+      "bytes": 6790,
+      "sha256": "f1ea035ace01b50527c7dc0dd0648d554e9c402ff773565f1f3c0c1386d98003"
     },
     {
-      "path": "report_evidence/bet_review4/推荐参数与复核记录.csv",
-      "bytes": 1472,
-      "sha256": "97e7fc64c024926165fbec5d60007e5e4d488bd6f505e291b3a43bf59a68e057"
+      "path": "report_evidence/bet_review4/selected_parameters_and_review.csv",
+      "bytes": 1804,
+      "sha256": "6f089d9a16db10b0091c9634d77d4bc3df1481f3b66929e8e6ec3ddb11a566bf"
     },
     {
       "path": "report_evidence/figure_code/make_summary_figures.py",
@@ -4430,9 +4447,19 @@
       "sha256": "8be8a2aaf7ee87b6ee38e48dc891d3cfc0c154b2a19dce73ada7a2b38edc33f1"
     },
     {
+      "path": "report_evidence/localization_verification.json",
+      "bytes": 575,
+      "sha256": "4a9cf2083aae77bc201c07ce97202e239f979967bed18f72f9388c108b0817c1"
+    },
+    {
       "path": "report_evidence/README.md",
-      "bytes": 6456,
-      "sha256": "a6d2de6371c841cb1353eb09aab8cbd7d38f07029b17935a3a3fc8843c7e25bd"
+      "bytes": 7170,
+      "sha256": "ae8ecf792ccd262cc407e9214e45a9c7a0cef3b3faa87d71717d1fc74d52166d"
+    },
+    {
+      "path": "report_evidence/README_zh-CN.md",
+      "bytes": 6506,
+      "sha256": "6577fea73fb959fad4c25df96b5edc1bc749b5baa8a41e83a0b930765591201e"
     },
     {
       "path": "report_evidence/tissue_registration/Data_00.json",
@@ -5186,8 +5213,8 @@
     },
     {
       "path": "report_evidence/tissue_registration/index.html",
-      "bytes": 18987,
-      "sha256": "20df5bf1639b20e0c6594dd3f513761a708111303f574e37e70394e67bd1cc39"
+      "bytes": 20342,
+      "sha256": "bdbd53149e07e1ff6a0ca5cf62257f9a4cbe85b5adf7e4ccef28d4810cf3e863"
     },
     {
       "path": "report_evidence/validation/inputs.json",
@@ -5966,8 +5993,8 @@
     },
     {
       "path": "report_evidence/validation/visual_review.json",
-      "bytes": 3057,
-      "sha256": "6d1ab3a546c4127ad81d765ea5377733eff8eabba043e938faababa299c30c73"
+      "bytes": 3752,
+      "sha256": "bb542dbb03cdfbf04bb567b63cc487094104259349fcb14167af6dc2c70216cd"
     },
     {
       "path": "report_evidence/validation/volume_verification.json",

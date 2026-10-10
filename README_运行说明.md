@@ -1,10 +1,12 @@
+[中文](README_运行说明.md) · [English](RUNNING_GUIDE.md)
+
 # Project01 SVM
 
 用 AAL 前 90 个脑区的灰质体积预测 AD/NC。此目录在本地 Windows / VSCode 上运行；不需要 FSL，也不需要连接虚拟机。
 
 ## 文件
 
-- `Project01_SVM.ipynb`：按 Lab 2 的步骤逐段运行，附中文解释；正式训练、预测与最后评估的代码均已完成。
+- `Project01_SVM.ipynb`：按 Lab 2 的步骤逐段运行，附英文解释；正式训练、预测与最后评估的代码均已完成。
 - `project01_svm.py`：相同模型的命令行版本，也提供 Notebook 共用的文件读取和结果保存函数。
 - `data/`：训练集 40 人的体积、测试集 10 人的体积，以及原始标签表的副本。
 - `requirements.txt`：Python 依赖。
@@ -66,3 +68,6 @@ PDF 的结果表正文要求 Data_40～49，例表第一行误写为 Data_30；�
 `training_record.json` 保存软件版本、CV 分数、输入 SHA256、标签编码和 scaler 参数，便于复现。`svm_model.joblib` 保存模型和特征顺序；在与训练时相同的依赖版本中加载。这里只输出作业数据上的结果，没有证明某个参数组合最优或对其它数据的泛化性能。
 
 参考：[SVC 官方文档](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html)、[数据泄漏与 Pipeline](https://scikit-learn.org/stable/common_pitfalls.html)、[交叉验证](https://scikit-learn.org/stable/modules/cross_validation.html)。
+
+
+相关说明：[中文主页](README_zh-CN.md) · [中文运行指南](README_运行说明.md) · [中文运行结果](运行结果说明.md) · [中文报告素材索引](report_evidence/README_zh-CN.md)

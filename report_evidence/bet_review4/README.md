@@ -1,9 +1,16 @@
-# Data_33、35、36、44 的专项复核证据
+# Focused review: Data_33, Data_35, Data_36, and Data_44
 
-四张 `before_after.png` 展示复核前后结果；33、35、36 的 `dense36` 是采用参数的密集切片，44 的 `retained_dense27` 是保留结果。
+[English](README.md) · [中文版](README_zh-CN.md)
 
-最终参数：33 为 `-f 0.55 -g -0.15 -c 116 158 82`；35 为 `-f 0.65 -g -0.075 -c 120 156 82`；36 为 `-f 0.45 -g 0 -c 92 175 82`；44 为 `-f 0.2 -g 0 -c 104 166 82`。
+The four `before_after.png` figures compare outputs before and after review. The `dense36` figures for 33/35/36 show sampled slices of the adopted candidates; `Data_44_retained_dense27.png` shows the retained output.
 
-`review_decisions.json` 记录图像比较、质量备注和选择理由；`deployment.json` 记录哪三人更新、哪一人保留。复核只依据图像边界和覆盖情况，没有疾病标签或分类得分参与。
+| Subject | Final BET options |
+| --- | --- |
+| Data_33 | `-f 0.55 -g -0.15 -c 116 158 82` |
+| Data_35 | `-f 0.65 -g -0.075 -c 120 156 82` |
+| Data_36 | `-f 0.45 -g 0 -c 92 175 82` |
+| Data_44 | `-f 0.2 -g 0 -c 104 166 82` |
 
-这些是最终采用值，不能证明数学意义上的最优。Data_44 的边界问题在后续处理及报告中继续保留备注。
+`review_decisions.json` records comparisons, quality notes, and selection reasons; `deployment.json` records the three updates and one retained subject. [selected_parameters_and_review.csv](selected_parameters_and_review.csv) provides the English review table. Review considered image boundaries and coverage, without disease labels or classification scores.
+
+These are the adopted settings, not proof of mathematical optimality. Data_44's boundary issues remain in downstream processing and report notes. The earlier failed review and recommendation for correction are historical records; the agreed final workflow retained the existing result.

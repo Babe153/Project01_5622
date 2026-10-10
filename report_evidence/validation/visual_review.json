@@ -3,60 +3,60 @@
     "subject": "Data_00",
     "tissue_reviewed": true,
     "registration_reviewed": true,
-    "note": "已查看三个方向各三处抽样切片：组织类别分布及 MNI/AAL 对齐未见明显整体错位；局部皮质、脑沟边界仍属自动分割结果。"
+    "note": "Reviewed three sampled slices in each of three directions: tissue distributions and MNI/AAL alignment show no obvious global displacement. Local cortical and sulcal boundaries remain automatic segmentation estimates."
   },
   {
     "subject": "Data_01",
     "tissue_reviewed": true,
     "registration_reviewed": true,
-    "note": "已查看三个方向各三处抽样切片：脑主体及图谱基本对齐；BET 颅底少量残留延续到组织分割，颅底局部标签与边界需关注。"
+    "note": "Reviewed three sampled slices in each of three directions: the brain and atlas are broadly aligned. Small residual tissues at the skull base after BET persist into tissue segmentation; local skull-base labels and boundaries require attention."
   },
   {
     "subject": "Data_15",
     "tissue_reviewed": true,
     "registration_reviewed": true,
-    "note": "已查看三个方向各三处抽样切片：脑主体、灰白质分布及非线性模板/AAL 基本对齐；额底、颞叶底等局部边界仍需常规关注。"
+    "note": "Reviewed three sampled slices in each of three directions: the brain, GM/WM distribution and nonlinear template/AAL are broadly aligned. Local boundaries at the frontal and temporal bases still require routine attention."
   },
   {
     "subject": "Data_18",
     "tissue_reviewed": true,
     "registration_reviewed": true,
-    "note": "已查看三个方向各三处抽样切片：脑主体和图谱基本对齐；脑室周围、皮质沟回仍有局部配准差异，颅底少量残留延续到组织分割。"
+    "note": "Reviewed three sampled slices in each of three directions: the brain and atlas are broadly aligned. Local registration differences remain around the ventricles and cortical folds; small skull-base remnants persist into tissue segmentation."
   },
   {
     "subject": "Data_33",
     "tissue_reviewed": true,
     "registration_reviewed": true,
-    "note": "已查看三个方向各三处抽样切片：非线性配准较仿射更贴合脑主体，AAL 未见明显整体错位；原图模糊及局部外围残留使皮质边界仍有不确定性。"
+    "note": "Reviewed three sampled slices in each of three directions: nonlinear registration follows the brain more closely than affine registration, and AAL shows no obvious global displacement. Source-image blur and local peripheral remnants leave uncertainty at cortical boundaries."
   },
   {
     "subject": "Data_35",
     "tissue_reviewed": true,
     "registration_reviewed": true,
-    "note": "已查看三个方向各三处抽样切片：脑主体及非线性模板/AAL 基本对齐；原图模糊、局部额部和皮质边界不规则，自动组织分类及区域边界需保留质量备注。"
+    "note": "Reviewed three sampled slices in each of three directions: the brain and nonlinear template/AAL are broadly aligned. Source-image blur and irregular local frontal/cortical boundaries require continued quality notes for tissue classification and regional boundaries."
   },
   {
     "subject": "Data_36",
     "tissue_reviewed": true,
     "registration_reviewed": true,
-    "note": "已查看三个方向各三处抽样切片：组织类别分布及非线性模板/AAL 与脑主体基本对齐；仿射阶段额部及颞底边界差异经非线性配准改善，局部沟回边界仍有差异。"
+    "note": "Reviewed three sampled slices in each of three directions: tissue distributions and nonlinear template/AAL are broadly aligned with the brain. Nonlinear registration improves affine-stage differences at frontal and temporal-base boundaries; local cortical-fold differences remain."
   },
   {
     "subject": "Data_40",
     "tissue_reviewed": true,
     "registration_reviewed": true,
-    "note": "已查看三个方向各三处抽样切片：脑主体和非线性模板/AAL 基本对齐；脑干下端及颅底少量残留、细小组织分类斑点需关注。"
+    "note": "Reviewed three sampled slices in each of three directions: the brain and nonlinear template/AAL are broadly aligned. Small remnants at the lower brainstem/skull base and small tissue-classification speckles require attention."
   },
   {
     "subject": "Data_44",
     "tissue_reviewed": true,
     "registration_reviewed": true,
-    "note": "已查看三个方向各三处抽样切片：非线性模板/AAL 对脑主体和脑室的拟合较仿射改善；BET 额部上方边界不完整、外围残留和较大脑室周围局部配准差异仍可见，当前数据保留这些限制。"
+    "note": "Reviewed three sampled slices in each of three directions: the nonlinear template/AAL fits the brain and ventricles better than the affine result. Incomplete upper-frontal BET boundaries, peripheral remnants and local registration differences around enlarged ventricles remain visible. These limitations are retained in the current data."
   },
   {
     "subject": "Data_49",
     "tissue_reviewed": true,
     "registration_reviewed": true,
-    "note": "已查看三个方向各三处抽样切片：组织分割和非线性模板/AAL 与脑主体基本对齐；脑干及颅底局部细小分类斑点和局部边界差异需关注。"
+    "note": "Reviewed three sampled slices in each of three directions: tissue segmentation and nonlinear template/AAL are broadly aligned with the brain. Small classification speckles at the brainstem/skull base and local boundary differences require attention."
   }
 ]
