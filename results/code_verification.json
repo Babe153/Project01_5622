@@ -1,0 +1,18 @@
+{
+  "notebook_all_code_cells_executed_without_errors": true,
+  "notebook_predictions_and_cv_match_cli": true,
+  "train_shape": [
+    40,
+    90
+  ],
+  "test_shape": [
+    10,
+    90
+  ],
+  "scaler_mean_matches_only_40_training_subjects": true,
+  "shuffled_feature_rows_columns_and_label_rows_match_by_id": true,
+  "duplicate_subject_and_missing_roi_rejected": true,
+  "flipping_only_test_labels_leaves_cv_scaler_svm_and_predictions_unchanged": true,
+  "saved_model_predictions_match_csv": true,
+  "all_10_subjects_in_report_order": true
+}

@@ -1,0 +1,19 @@
+{
+  "records": [
+    {
+      "sheet": "train",
+      "subjects": 40,
+      "numeric_roi_columns": 90,
+      "all_values_match_csv": true,
+      "frozen_id_column_and_header": true
+    },
+    {
+      "sheet": "test",
+      "subjects": 10,
+      "numeric_roi_columns": 90,
+      "all_values_match_csv": true,
+      "frozen_id_column_and_header": true
+    }
+  ],
+  "all_4500_volumes_verified": true
+}

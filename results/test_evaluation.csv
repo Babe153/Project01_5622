@@ -1,0 +1,11 @@
+FileName,Prediction,TrueLabel,Correct
+Data_40.nii,NC,NC,True
+Data_41.nii,NC,NC,True
+Data_42.nii,AD,AD,True
+Data_43.nii,NC,NC,True
+Data_44.nii,AD,AD,True
+Data_45.nii,NC,NC,True
+Data_46.nii,AD,AD,True
+Data_47.nii,AD,AD,True
+Data_48.nii,AD,AD,True
+Data_49.nii,NC,AD,False

@@ -1,0 +1,462 @@
+{
+  "subjects": 50,
+  "columns": 91,
+  "roi_count": 90,
+  "units": "mm3",
+  "records": [
+    {
+      "subject": "Data_00",
+      "split": "train",
+      "voxel_volume_mm3": 1.0678054094314575,
+      "max_absolute_difference_mm3": 0.00012308119949011598,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 331517.277864,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_01",
+      "split": "train",
+      "voxel_volume_mm3": 1.0,
+      "max_absolute_difference_mm3": 0.0,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 514472.0,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_02",
+      "split": "train",
+      "voxel_volume_mm3": 1.0,
+      "max_absolute_difference_mm3": 0.0,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 435151.0,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_03",
+      "split": "train",
+      "voxel_volume_mm3": 1.065410852432251,
+      "max_absolute_difference_mm3": 4.617751983460039e-06,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 443251.40037499997,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_04",
+      "split": "train",
+      "voxel_volume_mm3": 1.0,
+      "max_absolute_difference_mm3": 0.0,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 495968.0,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_05",
+      "split": "train",
+      "voxel_volume_mm3": 1.0,
+      "max_absolute_difference_mm3": 0.0,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 393678.0,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_06",
+      "split": "train",
+      "voxel_volume_mm3": 1.0675303936004639,
+      "max_absolute_difference_mm3": 0.00032270098927256186,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 367553.90929100005,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_07",
+      "split": "train",
+      "voxel_volume_mm3": 1.0761793851852417,
+      "max_absolute_difference_mm3": 0.000509369758219691,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 322707.46927700005,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_08",
+      "split": "train",
+      "voxel_volume_mm3": 1.0613337755203247,
+      "max_absolute_difference_mm3": 0.0005316819606377976,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 404492.328853,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_09",
+      "split": "train",
+      "voxel_volume_mm3": 1.0674622058868408,
+      "max_absolute_difference_mm3": 0.00045169775330577977,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 319634.466178,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_10",
+      "split": "train",
+      "voxel_volume_mm3": 1.0778138637542725,
+      "max_absolute_difference_mm3": 0.0003597120212361915,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 334121.231354,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_11",
+      "split": "train",
+      "voxel_volume_mm3": 1.0653109550476074,
+      "max_absolute_difference_mm3": 0.00031101281820156146,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 357096.48441200005,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_12",
+      "split": "train",
+      "voxel_volume_mm3": 1.0,
+      "max_absolute_difference_mm3": 0.0,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 451979.0,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_13",
+      "split": "train",
+      "voxel_volume_mm3": 1.065651774406433,
+      "max_absolute_difference_mm3": 0.0007586041192553239,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 339148.98547,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_14",
+      "split": "train",
+      "voxel_volume_mm3": 1.0,
+      "max_absolute_difference_mm3": 0.0,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 411514.0,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_15",
+      "split": "train",
+      "voxel_volume_mm3": 1.0,
+      "max_absolute_difference_mm3": 0.0,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 385068.0,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_16",
+      "split": "train",
+      "voxel_volume_mm3": 1.0,
+      "max_absolute_difference_mm3": 0.0,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 529680.0,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_17",
+      "split": "train",
+      "voxel_volume_mm3": 1.0,
+      "max_absolute_difference_mm3": 0.0,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 400401.0,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_18",
+      "split": "train",
+      "voxel_volume_mm3": 1.0648373365402222,
+      "max_absolute_difference_mm3": 0.0002872463064704789,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 398370.56357999996,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_19",
+      "split": "train",
+      "voxel_volume_mm3": 1.077144980430603,
+      "max_absolute_difference_mm3": 0.0007751337507215794,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 326778.832558,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_20",
+      "split": "train",
+      "voxel_volume_mm3": 1.0707839727401733,
+      "max_absolute_difference_mm3": 7.712982551311143e-06,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 283955.84801300004,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_21",
+      "split": "train",
+      "voxel_volume_mm3": 1.0,
+      "max_absolute_difference_mm3": 0.0,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 411399.0,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_22",
+      "split": "train",
+      "voxel_volume_mm3": 1.078552007675171,
+      "max_absolute_difference_mm3": 0.00031075642436917406,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 395432.749382,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_23",
+      "split": "train",
+      "voxel_volume_mm3": 1.0766921043395996,
+      "max_absolute_difference_mm3": 0.0005874827584193554,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 417498.147593,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_24",
+      "split": "train",
+      "voxel_volume_mm3": 1.0,
+      "max_absolute_difference_mm3": 0.0,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 472087.0,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_25",
+      "split": "train",
+      "voxel_volume_mm3": 1.0,
+      "max_absolute_difference_mm3": 0.0,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 413039.0,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_26",
+      "split": "train",
+      "voxel_volume_mm3": 1.0,
+      "max_absolute_difference_mm3": 0.0,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 413405.0,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_27",
+      "split": "train",
+      "voxel_volume_mm3": 1.0,
+      "max_absolute_difference_mm3": 0.0,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 436489.0,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_28",
+      "split": "train",
+      "voxel_volume_mm3": 1.0,
+      "max_absolute_difference_mm3": 0.0,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 410499.0,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_29",
+      "split": "train",
+      "voxel_volume_mm3": 1.0,
+      "max_absolute_difference_mm3": 0.0,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 375089.0,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_30",
+      "split": "train",
+      "voxel_volume_mm3": 1.0,
+      "max_absolute_difference_mm3": 0.0,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 417936.0,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_31",
+      "split": "train",
+      "voxel_volume_mm3": 1.0,
+      "max_absolute_difference_mm3": 0.0,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 452765.0,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_32",
+      "split": "train",
+      "voxel_volume_mm3": 1.0,
+      "max_absolute_difference_mm3": 0.0,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 410530.0,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_33",
+      "split": "train",
+      "voxel_volume_mm3": 1.074394941329956,
+      "max_absolute_difference_mm3": 8.068691931839567e-05,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 347780.56580700004,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_34",
+      "split": "train",
+      "voxel_volume_mm3": 1.066206932067871,
+      "max_absolute_difference_mm3": 0.00034709252940956503,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 305256.120614,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_35",
+      "split": "train",
+      "voxel_volume_mm3": 1.075673222541809,
+      "max_absolute_difference_mm3": 0.00029489641565305647,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 277476.35339600005,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_36",
+      "split": "train",
+      "voxel_volume_mm3": 1.0753430128097534,
+      "max_absolute_difference_mm3": 0.0003415173341636546,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 294562.26882999996,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_37",
+      "split": "train",
+      "voxel_volume_mm3": 1.0,
+      "max_absolute_difference_mm3": 0.0,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 449300.0,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_38",
+      "split": "train",
+      "voxel_volume_mm3": 1.0,
+      "max_absolute_difference_mm3": 0.0,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 513374.0,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_39",
+      "split": "train",
+      "voxel_volume_mm3": 1.0670969486236572,
+      "max_absolute_difference_mm3": 0.00047233760051312856,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 314976.08843199996,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_40",
+      "split": "test",
+      "voxel_volume_mm3": 1.0,
+      "max_absolute_difference_mm3": 0.0,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 362191.0,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_41",
+      "split": "test",
+      "voxel_volume_mm3": 1.0,
+      "max_absolute_difference_mm3": 0.0,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 491386.0,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_42",
+      "split": "test",
+      "voxel_volume_mm3": 1.0751903057098389,
+      "max_absolute_difference_mm3": 0.0003951976923417533,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 366862.44747699995,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_43",
+      "split": "test",
+      "voxel_volume_mm3": 1.0,
+      "max_absolute_difference_mm3": 0.0,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 449552.0,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_44",
+      "split": "test",
+      "voxel_volume_mm3": 1.0782707929611206,
+      "max_absolute_difference_mm3": 0.00046805248348391615,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 451667.13508000004,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_45",
+      "split": "test",
+      "voxel_volume_mm3": 1.0,
+      "max_absolute_difference_mm3": 0.0,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 431140.0,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_46",
+      "split": "test",
+      "voxel_volume_mm3": 1.0789061784744263,
+      "max_absolute_difference_mm3": 0.00032215285500569735,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 353407.595336,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_47",
+      "split": "test",
+      "voxel_volume_mm3": 1.0671396255493164,
+      "max_absolute_difference_mm3": 0.0009058874511538306,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 395761.50693599996,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_48",
+      "split": "test",
+      "voxel_volume_mm3": 1.0665558576583862,
+      "max_absolute_difference_mm3": 0.0003090223854087526,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 352472.189195,
+      "independent_array_count_matches_fslstats": true
+    },
+    {
+      "subject": "Data_49",
+      "split": "test",
+      "voxel_volume_mm3": 1.0761237144470215,
+      "max_absolute_difference_mm3": 0.0006862585451017367,
+      "zero_volume_roi_ids": [],
+      "roi_1_90_sum_mm3": 460342.06960199995,
+      "independent_array_count_matches_fslstats": true
+    }
+  ],
+  "csv_sha256": {
+    "train": "0ac886bba849b31da64dcc8832ad5c4b7251869baf2f034c2ef3590b66b7a3b0",
+    "test": "52b0dafa376c97e70cf18e4b68b3e8c56d294a246b1ef1749977207cab843227"
+  }
+}
