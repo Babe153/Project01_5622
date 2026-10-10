@@ -1,8 +1,8 @@
 {
   "source_commit": "a8404658ef1e82c0cf00e5ec176b9c050c3ebb65",
   "default_language": "English",
-  "retained_chinese_document_count": 7,
-  "english_document_count": 7,
+  "retained_chinese_document_count": 8,
+  "english_document_count": 8,
   "all_relative_markdown_links_valid": true,
   "english_notebook_executed_successfully": true,
   "english_offline_browsers_functional": true,
@@ -11,5 +11,7 @@
   "binary_images_and_volumes_verified": 810,
   "workbook_bytes_unchanged": true,
   "model_and_predictions_unchanged": true,
-  "test_accuracy": 0.9
+  "test_accuracy": 0.9,
+  "preprocessing_image_gallery_subjects": 50,
+  "preprocessing_preview_files_match_original_qc": true
 }

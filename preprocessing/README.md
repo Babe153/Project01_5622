@@ -11,6 +11,28 @@ Preprocessing for all 50 subjects, all 4500 ROI volumes, and SVM classification 
 - `Output/test/`: final outputs for Data_40–Data_49.
 - [Report evidence](../report_evidence/README.md): BET, tissue-segmentation and registration figures, plus logs.
 
+## Preprocessing images
+
+Open the [50-subject image gallery](figures/README.md) for all BET, FAST, registration, and AAL PNGs. Representative files are also stored in [figures/](figures/).
+
+| Stage | All uploaded figures |
+| --- | --- |
+| BET | [100 comparison and dense-mask images](../report_evidence/bet/images/) |
+| FAST and registration/AAL | [100 tissue and registration images](../report_evidence/tissue_registration/) |
+| Focused review of Data_33/35/36/44 | [Before/after and sampled-slice evidence](../report_evidence/bet_review4/) |
+
+### BET example
+
+![Data_00 BET comparison](figures/Data_00_bet_comparison.png)
+
+### FAST example
+
+![Data_00 GM, WM and CSF masks](figures/Data_00_tissue.png)
+
+### Registration and AAL example
+
+![Data_00 registration and AAL overlay](figures/Data_00_registration.png)
+
 ## Run preprocessing
 
 Place the six files from `scripts/` in the Linux project root, alongside `Data/train`, `Data/test`, and `Packages`. `Packages` requires `MNI152_T1_1mm_brain.nii.gz` and `aal.nii.gz`. Obtain original MRIs, templates, course documents, and software from the original course materials.

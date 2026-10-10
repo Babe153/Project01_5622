@@ -11,6 +11,28 @@
 - `Output/test/`：Data_40～Data_49 的最终输出。
 - [报告效果图和证据](../report_evidence/README_zh-CN.md)：BET、组织分割、配准图片及日志。
 
+## 预处理图片
+
+打开 [50 人图片索引](figures/README_zh-CN.md)，可逐人查看 BET、FAST、配准及 AAL 图片。本目录的 [figures/](figures/) 也保存了代表图。
+
+| 阶段 | 已上传的全部图片 |
+| --- | --- |
+| BET | [100 张比较图和密集切片掩膜图](../report_evidence/bet/images/) |
+| FAST、配准及 AAL | [100 张组织分割和配准图](../report_evidence/tissue_registration/) |
+| Data_33/35/36/44 专项复核 | [前后比较及抽样切片证据](../report_evidence/bet_review4/) |
+
+### BET 示例
+
+![Data_00 BET 比较图](figures/Data_00_bet_comparison.png)
+
+### FAST 示例
+
+![Data_00 灰质、白质和脑脊液掩膜](figures/Data_00_tissue.png)
+
+### 配准及 AAL 示例
+
+![Data_00 配准及 AAL 叠加](figures/Data_00_registration.png)
+
 ## 如何运行
 
 将 `scripts/` 中六个文件放在 Linux 项目根目录，根目录同时准备 `Data/train`、`Data/test` 和 `Packages`。`Packages` 应包含 `MNI152_T1_1mm_brain.nii.gz` 与 `aal.nii.gz`。原始 MRI、老师的资料和软件安装包仍使用原始作业材料。

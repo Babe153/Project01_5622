@@ -4,6 +4,8 @@
 
 This index describes the completed preprocessing and fixed-baseline SVM. It supplies writing materials; the full report and actual team contributions still need to be prepared.
 
+For per-subject preprocessing pictures, open the [50-subject image gallery](../preprocessing/figures/README.md).
+
 ## Suggested figures
 
 | Report section | Figure | What it demonstrates |

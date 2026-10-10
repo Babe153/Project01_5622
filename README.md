@@ -55,6 +55,8 @@ Omit `--evaluate` to fit and save predictions without comparing test labels. Rer
 
 See [English run results](RUN_RESULTS.md) and [test predictions](results/test_predictions.csv). These are fixed-baseline results on a small coursework dataset. Data_44 retains the agreed BET result and its known boundary limitations, documented in [processing QC records](submission/processing_qc_records.csv). No claim of globally optimal parameters or performance in other populations is made.
 
+Browse all subjects directly in the [preprocessing image gallery](preprocessing/figures/README.md). The preprocessing README now embeds BET, FAST, and registration examples.
+
 ## View preprocessing and prepare the report
 
 PNG figures can be previewed on GitHub. Download `.nii.gz` files and inspect them in FSLeyes. After downloading the repository, open the HTML browsers in `report_evidence/bet/` and `report_evidence/tissue_registration/` to switch between subjects offline. The preprocessing outputs alone occupy approximately 623 MiB.

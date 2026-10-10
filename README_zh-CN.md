@@ -55,6 +55,8 @@ py -3.12 -m venv .venv
 
 API 参考：[SVC](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html)、[Pipeline 与数据泄漏](https://scikit-learn.org/stable/common_pitfalls.html)。
 
+全部受试者的图片可直接从 [预处理图片索引](preprocessing/figures/README_zh-CN.md) 打开；预处理说明页已嵌入 BET、FAST 和配准代表图。
+
 ### 新增：虚拟机预处理与报告素材
 
 - [preprocessing/](preprocessing/README_zh-CN.md)：五个 Bash 脚本、最终 BET 参数、全部 50 人三维处理输出（约 623 MiB），以及逐文件 SHA-256。

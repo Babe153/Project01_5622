@@ -6,11 +6,41 @@
   "all_relative_markdown_links_verified": true,
   "all_vm_output_hashes_verified": true,
   "all_bet_metadata_matches_final_brain_and_mask": true,
-  "file_count": 1199,
-  "total_bytes": 948097696,
+  "file_count": 1205,
+  "total_bytes": 954288893,
   "default_language": "English",
   "localization_source_commit": "a8404658ef1e82c0cf00e5ec176b9c050c3ebb65",
   "records": [
+    {
+      "path": "preprocessing/figures/Data_00_bet_comparison.png",
+      "bytes": 1179101,
+      "sha256": "f1776d45c803ffc42a18331fad6eba42025b99e927334146febbc9703da35af1"
+    },
+    {
+      "path": "preprocessing/figures/Data_00_registration.png",
+      "bytes": 1220425,
+      "sha256": "07f23e54cfcc898042434dc0be8860132d836b59b0c25fb2e0d84425d53c16b7"
+    },
+    {
+      "path": "preprocessing/figures/Data_00_tissue.png",
+      "bytes": 1225222,
+      "sha256": "8aca3cc241747adbe74ff323d34cf2a7f2d8fe9af86afebc010cb8bdf3da24c0"
+    },
+    {
+      "path": "preprocessing/figures/Data_44_bet_dense.png",
+      "bytes": 2529510,
+      "sha256": "fb9c70ac26308071bbcefcb4ec3437fab4ba6a3cf780d444b49ceffbfb1ce78b"
+    },
+    {
+      "path": "preprocessing/figures/README.md",
+      "bytes": 17360,
+      "sha256": "141af7b61ebef5ee173d953fed67173d806b80d5c619416efe390efbb274e44a"
+    },
+    {
+      "path": "preprocessing/figures/README_zh-CN.md",
+      "bytes": 17594,
+      "sha256": "e1fb5f85b7de5fd59c5b9ffd9ca90a42377ed112528a67251e0f81bce174e96e"
+    },
     {
       "path": "preprocessing/Output/test/AAL_statistics_volumn_test.csv",
       "bytes": 11870,
@@ -3508,13 +3538,13 @@
     },
     {
       "path": "preprocessing/README.md",
-      "bytes": 4108,
-      "sha256": "e585ba539e3d85c6fddc7cfd648181298fc3ad1abda6a145b70fc04e5b1f008d"
+      "bytes": 4943,
+      "sha256": "3e13cdc037c6f012243a535bdd77cb311bb25cdc7549e4fb7db337e15b7f584a"
     },
     {
       "path": "preprocessing/README_zh-CN.md",
-      "bytes": 3927,
-      "sha256": "6e4379cd96cb7087d985550a96a7eb1389454d75f243da5bb4cf6c689c9c5601"
+      "bytes": 4743,
+      "sha256": "5be840fc52b430d07b6bbbf4169047136be8646a8dc6163dabbd51972d610cf4"
     },
     {
       "path": "preprocessing/scripts/bet_parameters.csv",
@@ -4448,18 +4478,18 @@
     },
     {
       "path": "report_evidence/localization_verification.json",
-      "bytes": 575,
-      "sha256": "4a9cf2083aae77bc201c07ce97202e239f979967bed18f72f9388c108b0817c1"
+      "bytes": 680,
+      "sha256": "7ae30d9b1816700044a781367c9fe6e4235da7bf607ffa41709af4c926cfc4f1"
     },
     {
       "path": "report_evidence/README.md",
-      "bytes": 7170,
-      "sha256": "ae8ecf792ccd262cc407e9214e45a9c7a0cef3b3faa87d71717d1fc74d52166d"
+      "bytes": 7286,
+      "sha256": "2ac4eeefa579843886d7b067c630cba5c72628f4dadd1a8bf9977c7676cc0a52"
     },
     {
       "path": "report_evidence/README_zh-CN.md",
-      "bytes": 6506,
-      "sha256": "6577fea73fb959fad4c25df96b5edc1bc749b5baa8a41e83a0b930765591201e"
+      "bytes": 6619,
+      "sha256": "154f6119ad822996448f73384dba849f42df93633192ab8f3d222ad4a538f6dd"
     },
     {
       "path": "report_evidence/tissue_registration/Data_00.json",
@@ -6006,5 +6036,7 @@
       "bytes": 278,
       "sha256": "332f24db067fe4aac5daa6aacb76595fd9f997637d99ed14dd2e2e54af3b29bd"
     }
-  ]
+  ],
+  "preprocessing_preview_copies": 4,
+  "preprocessing_gallery_subjects": 50
 }
