@@ -6,6 +6,20 @@ ELEC5622 Project01 extracts grey-matter volumes from the first 90 AAL regions an
 
 The fixed baseline is `StandardScaler + SVC(kernel="rbf", C=1, gamma="scale")`. Parameters were not selected using test labels or test accuracy.
 
+## End-to-end project workflow
+
+The project converts each MRI into **90 regional grey-matter volumes**, then uses those numbers to learn an AD/NC classifier. Blue steps run in the Linux VM; green steps run locally in VSCode. The figure shows each step's purpose, script, inputs, and outputs.
+
+![Project01 end-to-end workflow: MRI, BET, FAST, native-space AAL registration, 90 ROI volumes, training, prediction, and evaluation](report_evidence/figures/project_workflow_en.png)
+
+[Open the full-resolution workflow](report_evidence/figures/project_workflow_en.png) · [中文流程图](README_zh-CN.md#整体原理与步骤流程)
+
+- Process all **50 MRI scans**; extract 90 GM volumes per subject.
+- Use **40 subjects and their labels** for training-only validation and fitting the scaler/SVM.
+- Apply the fitted model to the **10 test subjects**, save AD/NC predictions, then compare test labels for final evaluation.
+- Run the four main preprocessing scripts in order: `SkullStripping` → `TissueSegmentation` → `Registration` → `Measurement`. `Measurement` calls `CreateSeedMask` automatically.
+- Submit the **50 × 90 volume workbook** and a report describing the methods, figures, predictions, results, and limitations.
+
 ## Repository contents
 
 | Location | Contents |

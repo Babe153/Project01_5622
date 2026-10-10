@@ -6,8 +6,8 @@
   "all_relative_markdown_links_verified": true,
   "all_vm_output_hashes_verified": true,
   "all_bet_metadata_matches_final_brain_and_mask": true,
-  "file_count": 1205,
-  "total_bytes": 954288893,
+  "file_count": 1208,
+  "total_bytes": 955499278,
   "default_language": "English",
   "localization_source_commit": "a8404658ef1e82c0cf00e5ec176b9c050c3ebb65",
   "records": [
@@ -4457,6 +4457,11 @@
       "sha256": "6f089d9a16db10b0091c9634d77d4bc3df1481f3b66929e8e6ec3ddb11a566bf"
     },
     {
+      "path": "report_evidence/figure_code/make_project_workflow.py",
+      "bytes": 9349,
+      "sha256": "d85daae7e343d738f72b251ed2d6436f5f9493f1454eddbe28c592b4b86d8332"
+    },
+    {
       "path": "report_evidence/figure_code/make_summary_figures.py",
       "bytes": 3423,
       "sha256": "41abfab650940f66e3787ebabd3b2555e30e7d3d0582f96751d92a8cd0c1d004"
@@ -4472,6 +4477,16 @@
       "sha256": "69de4816ed93559ee2620c487fe73f6889f621f50999e0c655a828a015e85b5f"
     },
     {
+      "path": "report_evidence/figures/project_workflow_en.png",
+      "bytes": 546222,
+      "sha256": "a15bbae82ef3135badc13ee4ebdb0b25ce263b97694cf66e02273667ce7df91a"
+    },
+    {
+      "path": "report_evidence/figures/project_workflow_zh-CN.png",
+      "bytes": 654474,
+      "sha256": "f8d480e0518397f99c1b7bb97240aba3a58dda574999ef59b1ffa49b77648ffd"
+    },
+    {
       "path": "report_evidence/figures/training_cv_accuracy.png",
       "bytes": 62914,
       "sha256": "8be8a2aaf7ee87b6ee38e48dc891d3cfc0c154b2a19dce73ada7a2b38edc33f1"
@@ -4483,13 +4498,13 @@
     },
     {
       "path": "report_evidence/README.md",
-      "bytes": 7286,
-      "sha256": "2ac4eeefa579843886d7b067c630cba5c72628f4dadd1a8bf9977c7676cc0a52"
+      "bytes": 7455,
+      "sha256": "2f69bbcf25d3e3a5bf6a29650ec47c1a2954c21890f427928f22dc0eb7d4ee78"
     },
     {
       "path": "report_evidence/README_zh-CN.md",
-      "bytes": 6619,
-      "sha256": "154f6119ad822996448f73384dba849f42df93633192ab8f3d222ad4a538f6dd"
+      "bytes": 6790,
+      "sha256": "38de95c651d2223f15ef01b02feea999bcd21e1f059f713b1261ffe455d6ac33"
     },
     {
       "path": "report_evidence/tissue_registration/Data_00.json",
@@ -6038,5 +6053,6 @@
     }
   ],
   "preprocessing_preview_copies": 4,
-  "preprocessing_gallery_subjects": 50
+  "preprocessing_gallery_subjects": 50,
+  "detailed_workflow_language_variants": 2
 }

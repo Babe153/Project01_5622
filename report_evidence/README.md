@@ -6,6 +6,8 @@ This index describes the completed preprocessing and fixed-baseline SVM. It supp
 
 For per-subject preprocessing pictures, open the [50-subject image gallery](../preprocessing/figures/README.md).
 
+The [detailed project workflow](figures/project_workflow_en.png) explains every step, script, input, and output. It is also embedded near the top of the home README.
+
 ## Suggested figures
 
 | Report section | Figure | What it demonstrates |

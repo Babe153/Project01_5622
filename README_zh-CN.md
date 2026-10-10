@@ -6,6 +6,20 @@
 
 预处理脚本与全部三维输出、报告素材、Notebook、命令行脚本、配套数据和一次实际运行结果已整理在此仓库。模型使用 `StandardScaler + SVC(kernel="rbf", C=1, gamma="scale")`，参数固定，没有按测试标签调参。
 
+### 整体原理与步骤流程
+
+这个项目先把每个人的 MRI 转换成 **90 个脑区的灰质体积数值**，再用这些数值学习 AD/NC 分类规律。图中蓝色部分在 Linux 虚拟机完成，绿色部分在本地 VSCode 完成；每一步都标出了任务、脚本、输入和输出。
+
+![Project01 整体流程：MRI、BET、FAST、个人空间 AAL 配准、90 脑区体积、训练、预测及评估](report_evidence/figures/project_workflow_zh-CN.png)
+
+[打开原尺寸中文流程图](report_evidence/figures/project_workflow_zh-CN.png) · [English workflow](README.md#end-to-end-project-workflow)
+
+- **50 人都做图像预处理**，每人得到 90 个灰质体积。
+- 用 **40 人的体积和标签**进行训练内验证，并拟合标准化器和 SVM。
+- 用训练好的模型预测 **10 名测试者**，先保存 AD/NC 预测，最后再对照测试标签评估。
+- 虚拟机按顺序运行四个主脚本：`SkullStripping` → `TissueSegmentation` → `Registration` → `Measurement`；最后一个会自动调用 `CreateSeedMask`。
+- 最终提交 **50 × 90 体积 Excel** 和报告，报告说明方法、效果图、预测、结果及局限。
+
 ### 文件入口
 
 | 文件 | 用途 |

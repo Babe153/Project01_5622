@@ -6,6 +6,8 @@
 
 逐人的预处理图片可从 [50 人图片索引](../preprocessing/figures/README_zh-CN.md) 直接打开。
 
+[详细项目流程图](figures/project_workflow_zh-CN.png) 说明了每一步的任务、脚本、输入和输出，也已放在中文主页 README 的靠前位置。
+
 ## 建议使用的图片
 
 | 报告位置 | 素材 | 能说明什么 |
