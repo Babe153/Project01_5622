@@ -1,8 +1,8 @@
 # Final report revision
 
-The report title is **Classifying AD Patients and Normal Controls from Brain Images**, aligned with the assignment name. This title-only update retains the 20-page layout; pages 2–20 are identical to the reviewed version.
+The report title is **Classifying AD Patients and Normal Controls from Brain Images**, aligned with the assignment name. The title and abstract occupy page 1, followed by a linked two-level **Contents** page on page 2. All 35 entries were checked against Word pagination. The main text begins on page 3; subsequent body pages retain the reviewed layout with updated page numbers.
 
-The enhanced academic report has **20 pages, 13 figures, four native Word tables with three-line rules, and 12 references**. The original 12 figures, three tables, academic styles and page settings are retained. This revision adds a training-only descriptive analysis and strengthens the connection between experimental evidence and literature. Preprocessing outputs, the submitted volume workbook, SVM settings and predictions remain unchanged.
+The enhanced academic report has **22 pages, 13 figures, four native Word tables with three-line rules, and 12 references**. The original 12 figures, three tables, academic styles and page settings are retained. This revision adds a training-only descriptive analysis and strengthens the connection between experimental evidence and literature. Preprocessing outputs, the submitted volume workbook, SVM settings and predictions remain unchanged.
 
 | Section | Main enhancement |
 | --- | --- |
@@ -19,15 +19,16 @@ The enhanced academic report has **20 pages, 13 figures, four native Word tables
 
 ## Reading map
 
-- Figure 1, page 3: black-and-white overall workflow.
-- Figure 2, page 5: actual Data_00 regional GM volume extraction.
-- Table 3 and Figure 7, page 11: all ten predictions and the confusion matrix.
-- Table 4 and Figure 8, page 12: training-only descriptive supplement.
-- Sections 5.1–5.3, pages 13–15: interpretation, limitations and conclusion.
-- References, page 16: all 12 entries.
-- Appendix A, pages 17–18; Appendix B, pages 19–20.
+- Contents, page 2: 35 linked entries with right-aligned page numbers and dot leaders.
+- Figure 1, page 5: black-and-white overall workflow.
+- Figure 2, page 7: actual Data_00 regional GM volume extraction.
+- Table 3 and Figure 7, page 13: all ten predictions and the confusion matrix.
+- Table 4 and Figure 8, page 14: training-only descriptive supplement.
+- Sections 5.1–5.3, pages 15–17: interpretation, limitations and conclusion.
+- References, page 18: all 12 entries.
+- Appendix A, pages 19–20; Appendix B, pages 21–22.
 
-The former Data_44 Figure 8 is now Figure 9, on page 14. Its original image is retained. Figure B4 provides the enlarged view on page 20.
+The former Data_44 Figure 8 is now Figure 9, on page 16. Its original image is retained. Figure B4 provides the enlarged view on page 22.
 
 ## Added evidence
 
@@ -39,3 +40,5 @@ The added sources were checked against their original publication records:
 - [Collins et al., TRIPOD+AI reporting guidance (2024)](https://www.bmj.com/content/385/bmj-2023-078378).
 
 Numerical agreement does not establish anatomical ground truth. Regional GM-sum fractions are not ICV adjustment. Class-associated geometry does not establish scanner identity or explain predictions causally. No new model-comparison, calibrated-probability or external-validation claim is made.
+
+The Contents page is a native Word TOC field with heading links and page-reference fields. After later edits, right-click the directory and choose **Update Field → Update entire table**. Its Times New Roman font, black text, two levels, dot leaders and right-aligned page numbers match the academic report layout.

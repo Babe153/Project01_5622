@@ -6,7 +6,7 @@ This index describes the completed preprocessing and fixed-baseline SVM. The [fi
 
 For per-subject preprocessing pictures, open the [50-subject image gallery](../preprocessing/figures/README.md).
 
-The [black-and-white academic workflow](figures/project_workflow_bw.png) is Figure 1 on page 3 of the final report and is embedded in the English home README. A [vector SVG](figures/project_workflow_bw.svg) is available for resizing. The earlier [detailed project workflow](figures/project_workflow_en.png) explains each step's script, input, and output.
+The [black-and-white academic workflow](figures/project_workflow_bw.png) is Figure 1 on page 5 of the final report and is embedded in the English home README. A [vector SVG](figures/project_workflow_bw.svg) is available for resizing. The earlier [detailed project workflow](figures/project_workflow_en.png) explains each step's script, input, and output.
 
 ## Suggested figures
 
@@ -63,7 +63,7 @@ Historical BET review notes record the earlier recommendation to correct Data_44
 
 ## Training supplement
 
-The [training-only descriptive analysis](training_analysis/README.md) accompanies Table 4 and Figure 8 on page 12. It adds volume summaries, all 90 raw/fraction contrasts and class-associated geometry observations; it does not refit models or select features. The interpretation and limitations are stated alongside the reproducible data and code.
+The [training-only descriptive analysis](training_analysis/README.md) accompanies Table 4 and Figure 8 on page 14. It adds volume summaries, all 90 raw/fraction contrasts and class-associated geometry observations; it does not refit models or select features. The interpretation and limitations are stated alongside the reproducible data and code.
 
 ## Software and references
 
