@@ -20,6 +20,7 @@ The [black-and-white academic workflow](figures/project_workflow_bw.png) is Figu
 | Methods: atlas registration | [Data_00_registration.png](tissue_registration/Data_00_registration.png) | Affine/nonlinear template and AAL alignment with the native brain |
 | Results: training validation | [training_cv_accuracy.png](figures/training_cv_accuracy.png) | Five fold accuracies: 100%, 100%, 100%, 87.5%, 100% |
 | Results: test performance | [test_confusion_matrix.png](../results/test_confusion_matrix.png) | True classes as rows, predictions as columns; NC/AD order; [[4,0],[1,5]] |
+| Results 4.7: Figure 8 | [Training volume sensitivity](training_analysis/training_volume_sensitivity.png) / [analysis](training_analysis/README.md) | Overall regional GM scale, all 90 absolute/fraction effect contrasts, and stored geometry audit |
 | Discussion: preprocessing limitations | [Data_44_dense.png](bet/images/Data_44_dense.png) and [Data_44_registration.png](tissue_registration/Data_44_registration.png) | Retained BET boundary issues and local registration differences |
 | Discussion: parameter review | [Four-subject review](bet_review4/) | Evidence for updating 33/35/36 and retaining 44 |
 
@@ -35,7 +36,7 @@ The volume-extraction figure uses the existing native Data_00 brain, registered 
 - [Training record](../results/training_record.json): fixed parameters, CV scores, scaler statistics, training subjects, and dependency versions.
 - [Code verification](../results/code_verification.json): notebook/CLI agreement, model reload agreement, ID-based alignment, and independence from test labels.
 - [Pipeline status](validation/status.json) and [execution log](validation/pipeline_execution.log): completed execution; `validation/logs/` contains subject-level FAST, registration, and measurement logs.
-- [Independent volume verification](validation/volume_verification.json): independently counted mask voxels multiplied by voxel volume, checked against all 4500 FSL outputs. Maximum absolute difference is approximately 0.000906 mm³, attributable to output rounding.
+- [Independent volume verification](validation/volume_verification.json): independently counted mask voxels multiplied by voxel volume, checked against all 4500 FSL outputs. Maximum absolute difference is approximately 0.000906 mm³, consistent with numerical precision differences.
 - [Formal BET verification](bet/validation/formal_verification.json): agreement of parameters, binary masks, raw image × mask, and selected outputs.
 - [3D output manifest](../preprocessing/output_manifest.json): all 698 files verified against the final VM Output directory.
 - [Actual scripts](../preprocessing/scripts/): five Bash files and per-subject BET settings; `CreateSeedMask` is the instructor's unchanged original.
@@ -59,6 +60,10 @@ All 50 subjects passed file, geometry, numerical, and volume-arithmetic checks. 
 Data_44 retains suspected frontal omission and non-brain remnants; image quality and local registration differences may affect volumes. The cause of the Data_49 classification error has not been established and should not be attributed to a particular ROI or preprocessing stage without evidence. The test set contains only 10 subjects; one error changes accuracy by 10 percentage points. There is no independent external test set. Decision scores are not disease probabilities.
 
 Historical BET review notes record the earlier recommendation to correct Data_44. The agreed workflow subsequently retained that result and completed measurement; the limitation remains documented.
+
+## Training supplement
+
+The [training-only descriptive analysis](training_analysis/README.md) accompanies Table 4 and Figure 8 on page 12. It adds volume summaries, all 90 raw/fraction contrasts and class-associated geometry observations; it does not refit models or select features. The interpretation and limitations are stated alongside the reproducible data and code.
 
 ## Software and references
 

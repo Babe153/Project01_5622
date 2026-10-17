@@ -8,9 +8,9 @@
 
 ### 最终版报告
 
-表 1–3 已统一为三线表，仅保留顶线、表头下横线和底线，去掉竖线及表头底色。
+表 1–4 已统一为三线表，仅保留顶线、表头下横线和底线，去掉竖线及表头底色。
 
-[下载最终版英文学术报告（Word）](submission/ELEC5622_Project01_Academic_Report_BW.docx)。报告共 18 页，包含方法、结果、成员贡献、参考文献和复现附录；第 3 页 Figure 1 为黑白学术流程图，第 5 页的第 3.6 节和 Figure 2 用真实 Data_00 数据解释体积提取。最新版已强化研究动机、SVM 理论、质量核对结果和讨论，详见[英文修改说明](submission/REPORT_REVISION_NOTES.md)。请下载 `.docx` 后使用 Word 阅读。
+[下载最终版英文学术报告（Word）](submission/ELEC5622_Project01_Academic_Report_BW.docx)。报告共 20 页，包含方法、结果、成员贡献、参考文献和复现附录；第 3 页 Figure 1 为黑白学术流程图，第 5 页的第 3.6 节和 Figure 2 用真实 Data_00 数据解释体积提取。最新版新增仅使用训练集的体积与图像几何分析（第 12 页 Table 4、Figure 8），并强化方法依据及结果与文献的综合讨论，详见[英文修改说明](submission/REPORT_REVISION_NOTES.md)。请下载 `.docx` 后使用 Word 阅读。
 
 [黑白流程图 PNG](report_evidence/figures/project_workflow_bw.png) · [矢量 SVG](report_evidence/figures/project_workflow_bw.svg)。图中区分虚拟机预处理与本地分类，实线箭头表示处理或数据流，虚线箭头表示辅助输入，测试标签仅用于最后评估。下方保留带脚本和输入输出说明的中文详细流程图，供理解步骤使用。
 
@@ -36,11 +36,15 @@ Data_00 的 AAL 第 1 区内共有 **6109 个灰质体素**；每个体素约 **
 
 [原尺寸 PNG](report_evidence/figures/roi_volume_extraction_Data_00.png) · [SVG](report_evidence/figures/roi_volume_extraction_Data_00.svg) · [数据来源与数值核对](report_evidence/figures/roi_volume_extraction_Data_00.json) · [绘图代码](report_evidence/figure_code/make_roi_volume_extraction.py)
 
+### 训练集补充分析
+
+[探索性补充分析与复现文件（英文）](report_evidence/training_analysis/README.md)检查了总体灰质体积、全部 90 区的组间差异及原生图像几何。训练集 AD 组的 90 区灰质体积总和均值比 NC 低约 20.9%；改为各区占个人总和的比例后，31 区的差异方向改变。21 名 NC 的图像均为 1 mm 等体素、176 层，19 名 AD 则为非等体素、166 或 170 层。因此需要考虑采集及协变量的潜在影响。这项补充没有筛选特征或修改 SVM；比例不是颅内容积校正，几何差异也不能证明扫描仪来源或预测的成因。
+
 ### 文件入口
 
 | 文件 | 用途 |
 | --- | --- |
-| [最终版英文报告](submission/ELEC5622_Project01_Academic_Report_BW.docx) | 18 页学术报告，含黑白流程图、体积提取示意图、质量核对、实验结果、逐人预测、参考文献和附录 |
+| [最终版英文报告](submission/ELEC5622_Project01_Academic_Report_BW.docx) | 20 页学术报告，含黑白流程图、体积提取示意图、质量核对、实验结果、逐人预测、参考文献和附录 |
 | [Project01_SVM.ipynb](Project01_SVM.ipynb) | 按 Lab 2 步骤组织的 Notebook，含英文解释和已执行输出 |
 | [project01_svm.py](project01_svm.py) | 命令行训练、预测及可选评估；Notebook 共用的数据读取函数 |
 | [README_运行说明.md](README_运行说明.md) | VSCode 环境、运行步骤和与 Lab 2 的对应关系 |

@@ -1,0 +1,602 @@
+[
+  {
+    "subject_id": "Data_00",
+    "label": "AD",
+    "shape": [
+      256,
+      256,
+      166
+    ],
+    "voxel_sizes_mm": [
+      0.9415799975395203,
+      0.9421968460083008,
+      1.2036306858062744
+    ],
+    "header_sha256": "45384c52084a46c55ea0fe3f31615417eb867cc6907d33451abf1365453a5409"
+  },
+  {
+    "subject_id": "Data_01",
+    "label": "NC",
+    "shape": [
+      256,
+      256,
+      176
+    ],
+    "voxel_sizes_mm": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "header_sha256": "4bd7eeb62553f4c9495452ec19c2ef8da106aa47ee223db1c5846c6b9d8dcc7e"
+  },
+  {
+    "subject_id": "Data_02",
+    "label": "NC",
+    "shape": [
+      256,
+      256,
+      176
+    ],
+    "voxel_sizes_mm": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "header_sha256": "832ab475f96c61d9b5a14bba3f81ed1700122e2bae270cbf0f564a45ae5ac431"
+  },
+  {
+    "subject_id": "Data_03",
+    "label": "AD",
+    "shape": [
+      256,
+      256,
+      170
+    ],
+    "voxel_sizes_mm": [
+      0.9468449950218201,
+      0.9354731440544128,
+      1.202837347984314
+    ],
+    "header_sha256": "9b767cba72ed903818abae2fc0fd910aff2ed82ad70fc277282f7966c8ca6cbf"
+  },
+  {
+    "subject_id": "Data_04",
+    "label": "NC",
+    "shape": [
+      256,
+      256,
+      176
+    ],
+    "voxel_sizes_mm": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "header_sha256": "1f5f9363fd2d658eb54972e2a939811c2679e27a2d26bae9f8c4d66dd8d2d229"
+  },
+  {
+    "subject_id": "Data_05",
+    "label": "NC",
+    "shape": [
+      256,
+      256,
+      176
+    ],
+    "voxel_sizes_mm": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "header_sha256": "4993ddead8f17ee3981bacf2a30ecb48d31b47433c39f768a1969327c8a622e3"
+  },
+  {
+    "subject_id": "Data_06",
+    "label": "AD",
+    "shape": [
+      256,
+      256,
+      166
+    ],
+    "voxel_sizes_mm": [
+      0.9453468918800354,
+      0.9357975125312805,
+      1.2067217826843262
+    ],
+    "header_sha256": "bbfb1d1d0b87a423dccb098e25f80df8748d497b7e624657b460dad97c65e858"
+  },
+  {
+    "subject_id": "Data_07",
+    "label": "AD",
+    "shape": [
+      256,
+      256,
+      170
+    ],
+    "voxel_sizes_mm": [
+      0.9482634663581848,
+      0.9408937692642212,
+      1.2061882019042969
+    ],
+    "header_sha256": "ddac25c59df7b0d8a13a7be12cc969c0d47b0de751c5c5be0d24f820a0673a70"
+  },
+  {
+    "subject_id": "Data_08",
+    "label": "AD",
+    "shape": [
+      256,
+      256,
+      166
+    ],
+    "voxel_sizes_mm": [
+      0.9449043869972229,
+      0.9340912699699402,
+      1.2024714946746826
+    ],
+    "header_sha256": "c502c0e13f79c7c9f4bcf88002cceb608dab3662c94d1841cc29a14a751799b7"
+  },
+  {
+    "subject_id": "Data_09",
+    "label": "AD",
+    "shape": [
+      256,
+      256,
+      166
+    ],
+    "voxel_sizes_mm": [
+      0.9452831149101257,
+      0.935886561870575,
+      1.2066112756729126
+    ],
+    "header_sha256": "aa76b0c78f0bf815a92982f161d96828650a712d053c4c6537176e2d4390af24"
+  },
+  {
+    "subject_id": "Data_10",
+    "label": "AD",
+    "shape": [
+      256,
+      256,
+      166
+    ],
+    "voxel_sizes_mm": [
+      0.9474946856498718,
+      0.9460387229919434,
+      1.202425241470337
+    ],
+    "header_sha256": "6e1077e6320efe62fcfa93fdbd36a223a1f18da9a08c13e5cb0713d0028edf7e"
+  },
+  {
+    "subject_id": "Data_11",
+    "label": "AD",
+    "shape": [
+      256,
+      256,
+      166
+    ],
+    "voxel_sizes_mm": [
+      0.9453393816947937,
+      0.9342909455299377,
+      1.2061643600463867
+    ],
+    "header_sha256": "5976150569fb2f7bd732aa45203ce23fa0065353d527f85cea570c0f68cfb934"
+  },
+  {
+    "subject_id": "Data_12",
+    "label": "NC",
+    "shape": [
+      256,
+      256,
+      176
+    ],
+    "voxel_sizes_mm": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "header_sha256": "52aaee807412693e00886dfb9b9f9b2236f4f32a2ef11f8e916c152dd66e2079"
+  },
+  {
+    "subject_id": "Data_13",
+    "label": "AD",
+    "shape": [
+      256,
+      256,
+      166
+    ],
+    "voxel_sizes_mm": [
+      0.9455615878105164,
+      0.9344793558120728,
+      1.2060234546661377
+    ],
+    "header_sha256": "9a202ff9694e8c994cd0619833f126740e108d59401a0522587b02321700801c"
+  },
+  {
+    "subject_id": "Data_14",
+    "label": "NC",
+    "shape": [
+      256,
+      256,
+      176
+    ],
+    "voxel_sizes_mm": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "header_sha256": "9ed61b8b77b7696eca4fc0eec587d8c5eb73429f7ba578b569db54c4292f0ad0"
+  },
+  {
+    "subject_id": "Data_15",
+    "label": "NC",
+    "shape": [
+      256,
+      256,
+      176
+    ],
+    "voxel_sizes_mm": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "header_sha256": "9a9081b2dc7dad5dc6c55aaad7dc9e83bbdda78877ac860049e9935737f96091"
+  },
+  {
+    "subject_id": "Data_16",
+    "label": "NC",
+    "shape": [
+      256,
+      256,
+      176
+    ],
+    "voxel_sizes_mm": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "header_sha256": "309f8c6f4fbbb7ef79ee8a4375e1e84464118a9baf11e8e3300e3fb5753e6ca4"
+  },
+  {
+    "subject_id": "Data_17",
+    "label": "NC",
+    "shape": [
+      256,
+      256,
+      176
+    ],
+    "voxel_sizes_mm": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "header_sha256": "cc17803f985b81f022402e12c24c52d6fdd0eff860019ceb282fd24e1ac4cbc5"
+  },
+  {
+    "subject_id": "Data_18",
+    "label": "AD",
+    "shape": [
+      256,
+      256,
+      166
+    ],
+    "voxel_sizes_mm": [
+      0.9438778162002563,
+      0.9353287220001221,
+      1.2061553001403809
+    ],
+    "header_sha256": "83f8ddce1663ca44027abe3d4102f4b7f381f9b1678afbf33b04f0ea6cd0c0cc"
+  },
+  {
+    "subject_id": "Data_19",
+    "label": "AD",
+    "shape": [
+      256,
+      256,
+      170
+    ],
+    "voxel_sizes_mm": [
+      0.9497923254966736,
+      0.9404643774032593,
+      1.2058773040771484
+    ],
+    "header_sha256": "e9b70ea2f6a8744a93fd95b126edc05e65864ac64938b725399cc36da6b80719"
+  },
+  {
+    "subject_id": "Data_20",
+    "label": "AD",
+    "shape": [
+      256,
+      256,
+      166
+    ],
+    "voxel_sizes_mm": [
+      0.9447234272956848,
+      0.936328113079071,
+      1.2105120420455933
+    ],
+    "header_sha256": "e5b9c50bf0dbabd8c6c3fd4360f166b1e6bc15ec8fcd89b89b66abd12bb8206d"
+  },
+  {
+    "subject_id": "Data_21",
+    "label": "NC",
+    "shape": [
+      256,
+      256,
+      176
+    ],
+    "voxel_sizes_mm": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "header_sha256": "9dda08233443e512372fc5a2079a2263ea098ee0c00e80b2c25da5cd71b0d36a"
+  },
+  {
+    "subject_id": "Data_22",
+    "label": "AD",
+    "shape": [
+      256,
+      256,
+      166
+    ],
+    "voxel_sizes_mm": [
+      0.9496818780899048,
+      0.9438337683677673,
+      1.2032819986343384
+    ],
+    "header_sha256": "860c89e050393d743b3c4f62ccdc1edfe6a4bc61b24bf2fa26f773e185dee596"
+  },
+  {
+    "subject_id": "Data_23",
+    "label": "AD",
+    "shape": [
+      256,
+      256,
+      166
+    ],
+    "voxel_sizes_mm": [
+      0.9471637606620789,
+      0.9457452893257141,
+      1.2019662857055664
+    ],
+    "header_sha256": "be6a37eb7217d0e2813561e07f01f6540f68063a76cefd9a11ad13bfd0083b7f"
+  },
+  {
+    "subject_id": "Data_24",
+    "label": "NC",
+    "shape": [
+      256,
+      256,
+      176
+    ],
+    "voxel_sizes_mm": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "header_sha256": "44387e87a0ea4dc2b77cf9380543e0fd08d225fb34dafef7b0e8f5a497113442"
+  },
+  {
+    "subject_id": "Data_25",
+    "label": "NC",
+    "shape": [
+      256,
+      256,
+      176
+    ],
+    "voxel_sizes_mm": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "header_sha256": "89b17956815a385fcab4bd62aebed28d4a8290edad7621f6eae9cbc6886db655"
+  },
+  {
+    "subject_id": "Data_26",
+    "label": "NC",
+    "shape": [
+      256,
+      256,
+      176
+    ],
+    "voxel_sizes_mm": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "header_sha256": "237c9440c4311605c9a6d4a7dd80de8cb73eea12a9af91de0c8e36a12c3f6fe6"
+  },
+  {
+    "subject_id": "Data_27",
+    "label": "NC",
+    "shape": [
+      256,
+      256,
+      176
+    ],
+    "voxel_sizes_mm": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "header_sha256": "7b8aaed4c6eb70c703710de5b5457cd7692f3e7e69b0a0b9a06a9b1058a74f5b"
+  },
+  {
+    "subject_id": "Data_28",
+    "label": "NC",
+    "shape": [
+      256,
+      256,
+      176
+    ],
+    "voxel_sizes_mm": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "header_sha256": "36caa2d99d19ff1c2e80a1addea1b6a047ef92d955327b423de821ae2db6b411"
+  },
+  {
+    "subject_id": "Data_29",
+    "label": "NC",
+    "shape": [
+      256,
+      256,
+      176
+    ],
+    "voxel_sizes_mm": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "header_sha256": "2188beca439145db3464eefc62635453fce90415461b0004a816583c66af9e30"
+  },
+  {
+    "subject_id": "Data_30",
+    "label": "NC",
+    "shape": [
+      256,
+      256,
+      176
+    ],
+    "voxel_sizes_mm": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "header_sha256": "2dca477f0704e1b4f434216201d71925d9182c949f240debb677f0b330375786"
+  },
+  {
+    "subject_id": "Data_31",
+    "label": "NC",
+    "shape": [
+      256,
+      256,
+      176
+    ],
+    "voxel_sizes_mm": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "header_sha256": "9aa99b03704d943132828627341225d2efcf10b5a300dd3ba5c1271f2d7d3c20"
+  },
+  {
+    "subject_id": "Data_32",
+    "label": "NC",
+    "shape": [
+      256,
+      256,
+      176
+    ],
+    "voxel_sizes_mm": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "header_sha256": "c23560d8d46e66ccb48b7ee3c96976e1d99bb2b6289a83bc7933925b5347ec83"
+  },
+  {
+    "subject_id": "Data_33",
+    "label": "AD",
+    "shape": [
+      256,
+      256,
+      170
+    ],
+    "voxel_sizes_mm": [
+      0.9537834525108337,
+      0.9361875057220459,
+      1.2032374143600464
+    ],
+    "header_sha256": "fbe12e074c8974b1a5306056b819521d8b7cb7aef39bb79ddd057557c5ad98ec"
+  },
+  {
+    "subject_id": "Data_34",
+    "label": "AD",
+    "shape": [
+      256,
+      256,
+      170
+    ],
+    "voxel_sizes_mm": [
+      0.9440566301345825,
+      0.9384398460388184,
+      1.2034748792648315
+    ],
+    "header_sha256": "17deef9e1bc64ac3e76d753b53ba361b3c376d2f098c5529941b48add146ec4f"
+  },
+  {
+    "subject_id": "Data_35",
+    "label": "AD",
+    "shape": [
+      256,
+      256,
+      170
+    ],
+    "voxel_sizes_mm": [
+      0.9556987285614014,
+      0.9355828166007996,
+      1.2030317783355713
+    ],
+    "header_sha256": "f2a39ac4cf5f926ab790705d9f8518cd8b6c0319d0a7203c4b22dc56e14c22e5"
+  },
+  {
+    "subject_id": "Data_36",
+    "label": "AD",
+    "shape": [
+      256,
+      256,
+      170
+    ],
+    "voxel_sizes_mm": [
+      0.9481415748596191,
+      0.9404484629631042,
+      1.2059764862060547
+    ],
+    "header_sha256": "91064e88a9e097dedd38dc6226d517c430fb47fe30d94ad9bb4c4d57dce8fcaf"
+  },
+  {
+    "subject_id": "Data_37",
+    "label": "NC",
+    "shape": [
+      256,
+      256,
+      176
+    ],
+    "voxel_sizes_mm": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "header_sha256": "75b50cf6df093b872df3b613d06ea040804fcf05983f5d88d2f62272f6a97aff"
+  },
+  {
+    "subject_id": "Data_38",
+    "label": "NC",
+    "shape": [
+      256,
+      256,
+      176
+    ],
+    "voxel_sizes_mm": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "header_sha256": "ea275fa8e0bcb7ce613a373dc943758c700058bb94e4adc00cc10a9398164616"
+  },
+  {
+    "subject_id": "Data_39",
+    "label": "AD",
+    "shape": [
+      256,
+      256,
+      166
+    ],
+    "voxel_sizes_mm": [
+      0.9450047016143799,
+      0.9357759356498718,
+      1.2066965103149414
+    ],
+    "header_sha256": "29c9b810980bf78d69823643df8907736e03c04852301fbfe8ae2a3bfe201f6f"
+  }
+]

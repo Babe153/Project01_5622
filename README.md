@@ -8,9 +8,9 @@ The fixed baseline is `StandardScaler + SVC(kernel="rbf", C=1, gamma="scale")`. 
 
 ## Final report
 
-Tables 1–3 use a three-line format with top and bottom rules and a header separator, without vertical rules or shaded headers.
+Tables 1–4 use a three-line format with top and bottom rules and a header separator, without vertical rules or shaded headers.
 
-[Download the final academic report (Word)](submission/ELEC5622_Project01_Academic_Report_BW.docx). The 18-page report includes methods, results, team contributions, references, and reproducibility appendices. Figure 1 on page 3 is the black-and-white workflow below. Section 3.6 and Figure 2 on page 5 explain regional GM volume extraction using actual Data_00 masks. The latest revision strengthens the rationale, SVM theory, quality-check reporting and discussion; see the [revision notes](submission/REPORT_REVISION_NOTES.md). Download the `.docx` file to read it in Word.
+[Download the final academic report (Word)](submission/ELEC5622_Project01_Academic_Report_BW.docx). The 20-page report includes methods, results, team contributions, references, and reproducibility appendices. Figure 1 on page 3 is the black-and-white workflow below. Section 3.6 and Figure 2 on page 5 explain regional GM volume extraction using actual Data_00 masks. The latest revision adds a training-only volume/geometry analysis (Table 4 and Figure 8, page 12) and strengthens the connection between results and literature; see the [revision notes](submission/REPORT_REVISION_NOTES.md). Download the `.docx` file to read it in Word.
 
 ## End-to-end project workflow
 
@@ -34,11 +34,15 @@ For Data_00, AAL label 1 contains **6109 GM voxels**. Multiplying by the native 
 
 [Full-resolution PNG](report_evidence/figures/roi_volume_extraction_Data_00.png) · [SVG](report_evidence/figures/roi_volume_extraction_Data_00.svg) · [Source data and numerical check](report_evidence/figures/roi_volume_extraction_Data_00.json) · [Figure-generation code](report_evidence/figure_code/make_roi_volume_extraction.py)
 
+## Training feature analysis
+
+The [post hoc training-only supplement](report_evidence/training_analysis/README.md) examines overall GM volume, all 90 regional contrasts and native image geometry. The AD mean AAL-summed GM volume is 20.9% lower than NC; expressing regional volumes as fractions changes 31 effect directions. All 21 training NC images have 1 mm isotropic voxels and 176 slices, whereas all 19 AD images have non-isotropic voxels and 166 or 170 slices. These observations limit disease-specific interpretation and motivate acquisition/covariate assessment. The analysis does not select features or change the SVM. Fractions are not ICV correction, and geometry does not establish scanner provenance or causation.
+
 ## Repository contents
 
 | Location | Contents |
 | --- | --- |
-| [Final report](submission/ELEC5622_Project01_Academic_Report_BW.docx) | Final 18-page academic report with the black-and-white workflow, illustrated ROI volume extraction, quality checks, experimental figures, predictions, references, and appendices |
+| [Final report](submission/ELEC5622_Project01_Academic_Report_BW.docx) | Final 20-page academic report with the black-and-white workflow, illustrated ROI volume extraction, quality checks, experimental figures, predictions, references, and appendices |
 | [Project01_SVM.ipynb](Project01_SVM.ipynb) | Executed notebook with English explanations, following the Lab 2 load/split/train/predict/evaluate structure |
 | [project01_svm.py](project01_svm.py) | CLI training and prediction, optional final evaluation, and shared notebook helpers |
 | [Running guide](RUNNING_GUIDE.md) | Environment setup, VSCode instructions, and correspondence with Lab 2 |

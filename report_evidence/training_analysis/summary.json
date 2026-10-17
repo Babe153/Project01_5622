@@ -1,0 +1,122 @@
+{
+  "purpose": "Post hoc training-only description of global scale and regional composition",
+  "subjects": [
+    "Data_00",
+    "Data_01",
+    "Data_02",
+    "Data_03",
+    "Data_04",
+    "Data_05",
+    "Data_06",
+    "Data_07",
+    "Data_08",
+    "Data_09",
+    "Data_10",
+    "Data_11",
+    "Data_12",
+    "Data_13",
+    "Data_14",
+    "Data_15",
+    "Data_16",
+    "Data_17",
+    "Data_18",
+    "Data_19",
+    "Data_20",
+    "Data_21",
+    "Data_22",
+    "Data_23",
+    "Data_24",
+    "Data_25",
+    "Data_26",
+    "Data_27",
+    "Data_28",
+    "Data_29",
+    "Data_30",
+    "Data_31",
+    "Data_32",
+    "Data_33",
+    "Data_34",
+    "Data_35",
+    "Data_36",
+    "Data_37",
+    "Data_38",
+    "Data_39"
+  ],
+  "class_counts": {
+    "NC": 21,
+    "AD": 19
+  },
+  "no_test_features_read": true,
+  "no_model_refitting_or_selection": true,
+  "whole_binary_gm_mm3": {
+    "NC": {
+      "n": 21,
+      "mean": 604848.1904761905,
+      "sd": 58182.35393709939,
+      "min": 520226.0,
+      "max": 713235.0
+    },
+    "AD": {
+      "n": 19,
+      "mean": 474413.290993496,
+      "sd": 58618.16525248969,
+      "min": 380251.45047962666,
+      "max": 607662.4067389965
+    }
+  },
+  "aal_1_90_sum_mm3": {
+    "NC": {
+      "n": 21,
+      "mean": 437801.09523809527,
+      "sd": 44550.86440564848,
+      "min": 375089.0,
+      "max": 529680.0
+    },
+    "AD": {
+      "n": 19,
+      "mean": 346400.58375152637,
+      "sd": 46894.415099362675,
+      "min": 277476.35339600005,
+      "max": 443251.40037499997
+    }
+  },
+  "aal_sum_AD_minus_NC_percent_of_NC_mean": -20.877177439873996,
+  "absolute_negative_d_count": 79,
+  "fraction_negative_d_count": 48,
+  "median_absolute_d_raw": 1.2216352581660996,
+  "median_absolute_d_fraction": 0.6558168202249368,
+  "absolute_fraction_sign_change_count": 31,
+  "training_geometry": {
+    "NC": "All 21: 256 x 256 x 176; voxel sizes 1 x 1 x 1 mm",
+    "AD": "All 19: 256 x 256 x 166 or 170; non-isotropic voxel sizes",
+    "AD_voxel_size_ranges_mm": [
+      [
+        0.9415799975395203,
+        0.9556987285614014
+      ],
+      [
+        0.9340912699699402,
+        0.9460387229919434
+      ],
+      [
+        1.2019662857055664,
+        1.2105120420455933
+      ]
+    ],
+    "interpretation": "Class-associated stored geometry; scanner/site provenance unavailable"
+  },
+  "pooled_sd_formula": "sqrt(((n_AD-1)*s_AD^2+(n_NC-1)*s_NC^2)/(n_AD+n_NC-2))",
+  "effect_definition": "(mean_AD - mean_NC) / pooled_sample_SD",
+  "fraction_definition": "ROI_volume / sum_of_ROI_1_to_90_volumes_for_that_subject",
+  "limitations": [
+    "Post hoc descriptive analysis; no inferential tests or causal claims",
+    "Fractions are not intracranial-volume adjustment and are compositional",
+    "Group effect sizes are not SVM feature importance or predictive performance",
+    "GM totals share the original segmentation and BET limitations"
+  ],
+  "input_sha256": {
+    "data\\AAL_statistics_volumn_train.csv": "0ac886bba849b31da64dcc8832ad5c4b7251869baf2f034c2ef3590b66b7a3b0",
+    "data\\data_labels.csv": "eca6c4e2a6ae094ef94b6b83c8038626dad550f9daec0d0f2edb5f05d02ace57",
+    "submission\\processing_qc_records.csv": "89509076af80924aa680a54a68558415437b74c7a550639e8ba640229daba8f4"
+  }
+}
