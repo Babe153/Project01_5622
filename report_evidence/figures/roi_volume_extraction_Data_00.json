@@ -1,0 +1,33 @@
+{
+  "subject": "Data_00",
+  "aal_label": 1,
+  "input_files": [
+    {
+      "path": "preprocessing/Output/train/Data_00_brain.nii.gz",
+      "sha256": "55a0c49b4cc225f838c7784cf38143f61f8d0372fef17b2a86fae5c7ec5f0229"
+    },
+    {
+      "path": "preprocessing/Output/train/AAL_to_Data_00.nii.gz",
+      "sha256": "e38ee05642aff3fb49b2446bf56dcc6c79eeccb97110ee338d9b43e98f037e02"
+    },
+    {
+      "path": "preprocessing/Output/train/Data_00_greymatter_mask.nii.gz",
+      "sha256": "29dcb1b6f8912aa177aa9301dc34d216eb67e518a49b049766e086379f9a6768"
+    }
+  ],
+  "feature_csv": "data/AAL_statistics_volumn_train.csv",
+  "native_voxel_dimensions_mm": [
+    0.9415799975395203,
+    0.9421968460083008,
+    1.2036306858062744
+  ],
+  "native_voxel_volume_mm3": 1.067805421096389,
+  "roi_voxel_count": 17076,
+  "gm_roi_voxel_count": 6109,
+  "calculated_gm_volume_mm3": 6523.22331747784,
+  "csv_gm_volume_mm3": 6523.223317,
+  "absolute_difference_mm3": 4.778403308591805e-07,
+  "display_orientation": "canonical RAS; display reorientation only",
+  "canonical_axial_slice_index_zero_based": 163,
+  "measurement_scope": "complete 3D masks; not the displayed slice"
+}

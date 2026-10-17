@@ -13,6 +13,7 @@ The [black-and-white academic workflow](figures/project_workflow_bw.png) is Figu
 | Report section | Figure | What it demonstrates |
 | --- | --- | --- |
 | Final report: Figure 1 | [Academic workflow PNG](figures/project_workflow_bw.png) / [SVG](figures/project_workflow_bw.svg) | Linux VM preprocessing, local training-only validation, held-out prediction, and final evaluation |
+| Methods 3.6: Figure 2 | [ROI volume extraction PNG](figures/roi_volume_extraction_Data_00.png) / [SVG](figures/roi_volume_extraction_Data_00.svg) | Actual Data_00 ROI 1 mask, GM intersection, full 3D voxel count, volume calculation, and feature export |
 | Methods: workflow | [pipeline_overview.png](figures/pipeline_overview.png) | MRI → BET → FAST → registration/AAL → 90 volumes → scaling/SVM |
 | Methods/Results: BET | [Data_00_comparison.png](bet/images/Data_00_comparison.png) | Original-image boundary, default extraction, and selected-parameter extraction |
 | Methods: tissue segmentation | [Data_00_tissue.png](tissue_registration/Data_00_tissue.png) | Binary GM, WM, and CSF mask boundaries |
@@ -23,6 +24,8 @@ The [black-and-white academic workflow](figures/project_workflow_bw.png) is Figu
 | Discussion: parameter review | [Four-subject review](bet_review4/) | Evidence for updating 33/35/36 and retaining 44 |
 
 Representative figures illustrate the workflow. All 50 subjects' BET figures are in `bet/images/`; all tissue/registration figures are in `tissue_registration/`. After downloading the repository, open either `index.html` to switch subjects. GitHub's file view does not execute these HTML browsers.
+
+The volume-extraction figure uses the existing native Data_00 brain, registered AAL image, and binary GM mask. Its [numerical record](figures/roi_volume_extraction_Data_00.json) stores input hashes and verifies 6109 GM voxels × 1.067805421096389 mm³ against the stored 6523.223317 mm³ feature. It shows one slice for illustration; measurement uses all slices. To regenerate it, install `nibabel` in an environment with the root plotting requirements, then run `python report_evidence/figure_code/make_roi_volume_extraction.py` from the repository root. This optional figure utility does not change preprocessing or SVM results.
 
 ## Data and verification records
 

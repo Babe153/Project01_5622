@@ -15,6 +15,7 @@
 | 报告位置 | 素材 | 能说明什么 |
 | --- | --- | --- |
 | 最终报告：Figure 1 | [黑白流程图 PNG](figures/project_workflow_bw.png) / [SVG](figures/project_workflow_bw.svg) | 虚拟机预处理、本地训练内验证、测试预测与最终评估的顺序和数据流 |
+| 方法 3.6：Figure 2 | [体积提取 PNG](figures/roi_volume_extraction_Data_00.png) / [SVG](figures/roi_volume_extraction_Data_00.svg) | 真实 Data_00 第 1 区的脑区掩模、灰质交集、三维计数、体积换算及特征导出 |
 | 方法：总体流程 | [pipeline_overview.png](figures/pipeline_overview.png) | MRI→BET→FAST→配准/AAL→90 维体积→标准化/SVM |
 | 方法/结果：BET | [Data_00_comparison.png](bet/images/Data_00_comparison.png) | 原图边界、默认提取和采用参数后的结果 |
 | 方法：组织分割 | [Data_00_tissue.png](tissue_registration/Data_00_tissue.png) | GM、WM、CSF 的二值掩膜边界 |
@@ -25,6 +26,8 @@
 | 讨论：参数复核 | [四人复核材料](bet_review4/) | 33、35、36 更新、44 保留的过程依据 |
 
 代表图只用于展示流程；50 人的全部 BET 图在 `bet/images/`，全部组织分割和配准图在 `tissue_registration/`。下载后可打开两处 `index.html` 切换受试者。HTML 是本地浏览器，不会在 GitHub 文件页直接执行。
+
+体积提取图直接读取已有的 Data_00 个人空间脑图、配准后 AAL 图和灰质二值掩模。[数值记录](figures/roi_volume_extraction_Data_00.json) 保存输入哈希，并核对 6109 个灰质体素乘以单体素体积后，与 CSV 的 6523.223317 mm³ 一致。图中只展示一个切片，统计使用所有切片。若需重新绘图，在具有仓库绘图依赖的 Python 环境中补装 `nibabel`，然后从仓库根目录运行 `python report_evidence/figure_code/make_roi_volume_extraction.py`；此辅助程序不会修改预处理或 SVM 结果。
 
 ## 可直接核实的数据与证据
 

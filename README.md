@@ -8,7 +8,7 @@ The fixed baseline is `StandardScaler + SVC(kernel="rbf", C=1, gamma="scale")`. 
 
 ## Final report
 
-[Download the final academic report (Word)](submission/ELEC5622_Project01_Academic_Report_BW.docx). The 16-page report includes methods, results, team contributions, references, and reproducibility appendices. Figure 1 on page 3 is the black-and-white workflow below. Download the `.docx` file to read it in Word.
+[Download the final academic report (Word)](submission/ELEC5622_Project01_Academic_Report_BW.docx). The 17-page report includes methods, results, team contributions, references, and reproducibility appendices. Figure 1 on page 3 is the black-and-white workflow below. Section 3.6 and Figure 2 on page 5 explain regional GM volume extraction using actual Data_00 masks. Download the `.docx` file to read it in Word.
 
 ## End-to-end project workflow
 
@@ -24,11 +24,19 @@ The project converts each MRI into **90 regional grey-matter volumes**, then use
 - Run the four main preprocessing scripts in order: `SkullStripping` → `TissueSegmentation` → `Registration` → `Measurement`. `Measurement` calls `CreateSeedMask` automatically.
 - Submit the **50 × 90 volume workbook** and a report describing the methods, figures, predictions, results, and limitations.
 
+## From a brain region to one volume feature
+
+![Actual Data_00 ROI 1: native brain localisation, binary ROI mask, intersection with GM, full 3D voxel count, and feature export](report_evidence/figures/roi_volume_extraction_Data_00.png)
+
+For Data_00, AAL label 1 contains **6109 GM voxels**. Multiplying by the native voxel volume, approximately **1.067805421 mm³**, gives **6523.223317 mm³**, matching `ROI_1_mm3` in the training CSV. The pictures show one slice; the count uses the complete 3D masks. Repeat for labels 1–90 to produce each subject's feature row.
+
+[Full-resolution PNG](report_evidence/figures/roi_volume_extraction_Data_00.png) · [SVG](report_evidence/figures/roi_volume_extraction_Data_00.svg) · [Source data and numerical check](report_evidence/figures/roi_volume_extraction_Data_00.json) · [Figure-generation code](report_evidence/figure_code/make_roi_volume_extraction.py)
+
 ## Repository contents
 
 | Location | Contents |
 | --- | --- |
-| [Final report](submission/ELEC5622_Project01_Academic_Report_BW.docx) | Final 16-page academic report with the black-and-white workflow, experimental figures, predictions, references, and appendices |
+| [Final report](submission/ELEC5622_Project01_Academic_Report_BW.docx) | Final 17-page academic report with the black-and-white workflow, illustrated ROI volume extraction, experimental figures, predictions, references, and appendices |
 | [Project01_SVM.ipynb](Project01_SVM.ipynb) | Executed notebook with English explanations, following the Lab 2 load/split/train/predict/evaluate structure |
 | [project01_svm.py](project01_svm.py) | CLI training and prediction, optional final evaluation, and shared notebook helpers |
 | [Running guide](RUNNING_GUIDE.md) | Environment setup, VSCode instructions, and correspondence with Lab 2 |

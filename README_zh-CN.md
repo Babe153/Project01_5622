@@ -8,7 +8,7 @@
 
 ### 最终版报告
 
-[下载最终版英文学术报告（Word）](submission/ELEC5622_Project01_Academic_Report_BW.docx)。报告共 16 页，包含方法、结果、成员贡献、参考文献和复现附录；第 3 页 Figure 1 为新绘制的黑白学术流程图。请下载 `.docx` 后使用 Word 阅读。
+[下载最终版英文学术报告（Word）](submission/ELEC5622_Project01_Academic_Report_BW.docx)。报告共 17 页，包含方法、结果、成员贡献、参考文献和复现附录；第 3 页 Figure 1 为黑白学术流程图，第 5 页的第 3.6 节和 Figure 2 用真实 Data_00 数据解释体积提取。请下载 `.docx` 后使用 Word 阅读。
 
 [黑白流程图 PNG](report_evidence/figures/project_workflow_bw.png) · [矢量 SVG](report_evidence/figures/project_workflow_bw.svg)。图中区分虚拟机预处理与本地分类，实线箭头表示处理或数据流，虚线箭头表示辅助输入，测试标签仅用于最后评估。下方保留带脚本和输入输出说明的中文详细流程图，供理解步骤使用。
 
@@ -26,11 +26,19 @@
 - 虚拟机按顺序运行四个主脚本：`SkullStripping` → `TissueSegmentation` → `Registration` → `Measurement`；最后一个会自动调用 `CreateSeedMask`。
 - 最终提交 **50 × 90 体积 Excel** 和报告，报告说明方法、效果图、预测、结果及局限。
 
+### 一个脑区怎样变成体积特征
+
+![Data_00 第 1 脑区的真实体积提取：脑区定位、二值脑区掩模、与灰质掩模取交集、三维计数及特征导出](report_evidence/figures/roi_volume_extraction_Data_00.png)
+
+Data_00 的 AAL 第 1 区内共有 **6109 个灰质体素**；每个体素约 **1.067805421 mm³**，相乘得到 **6523.223317 mm³**，与训练 CSV 的 `ROI_1_mm3` 一致。图像展示一个切片，体积统计使用全部三维掩模。对标签 1–90 重复后，得到每人一行的 90 个特征。
+
+[原尺寸 PNG](report_evidence/figures/roi_volume_extraction_Data_00.png) · [SVG](report_evidence/figures/roi_volume_extraction_Data_00.svg) · [数据来源与数值核对](report_evidence/figures/roi_volume_extraction_Data_00.json) · [绘图代码](report_evidence/figure_code/make_roi_volume_extraction.py)
+
 ### 文件入口
 
 | 文件 | 用途 |
 | --- | --- |
-| [最终版英文报告](submission/ELEC5622_Project01_Academic_Report_BW.docx) | 16 页学术报告，含黑白流程图、实验结果、逐人预测、参考文献和附录 |
+| [最终版英文报告](submission/ELEC5622_Project01_Academic_Report_BW.docx) | 17 页学术报告，含黑白流程图、体积提取示意图、实验结果、逐人预测、参考文献和附录 |
 | [Project01_SVM.ipynb](Project01_SVM.ipynb) | 按 Lab 2 步骤组织的 Notebook，含英文解释和已执行输出 |
 | [project01_svm.py](project01_svm.py) | 命令行训练、预测及可选评估；Notebook 共用的数据读取函数 |
 | [README_运行说明.md](README_运行说明.md) | VSCode 环境、运行步骤和与 Lab 2 的对应关系 |
