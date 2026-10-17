@@ -8,6 +8,8 @@
 
 ### 最终版报告
 
+表 1–3 已统一为三线表，仅保留顶线、表头下横线和底线，去掉竖线及表头底色。
+
 [下载最终版英文学术报告（Word）](submission/ELEC5622_Project01_Academic_Report_BW.docx)。报告共 17 页，包含方法、结果、成员贡献、参考文献和复现附录；第 3 页 Figure 1 为黑白学术流程图，第 5 页的第 3.6 节和 Figure 2 用真实 Data_00 数据解释体积提取。请下载 `.docx` 后使用 Word 阅读。
 
 [黑白流程图 PNG](report_evidence/figures/project_workflow_bw.png) · [矢量 SVG](report_evidence/figures/project_workflow_bw.svg)。图中区分虚拟机预处理与本地分类，实线箭头表示处理或数据流，虚线箭头表示辅助输入，测试标签仅用于最后评估。下方保留带脚本和输入输出说明的中文详细流程图，供理解步骤使用。

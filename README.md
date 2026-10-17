@@ -8,6 +8,8 @@ The fixed baseline is `StandardScaler + SVC(kernel="rbf", C=1, gamma="scale")`. 
 
 ## Final report
 
+Tables 1–3 use a three-line format with top and bottom rules and a header separator, without vertical rules or shaded headers.
+
 [Download the final academic report (Word)](submission/ELEC5622_Project01_Academic_Report_BW.docx). The 17-page report includes methods, results, team contributions, references, and reproducibility appendices. Figure 1 on page 3 is the black-and-white workflow below. Section 3.6 and Figure 2 on page 5 explain regional GM volume extraction using actual Data_00 masks. Download the `.docx` file to read it in Word.
 
 ## End-to-end project workflow
