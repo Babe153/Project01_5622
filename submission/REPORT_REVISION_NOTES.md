@@ -1,5 +1,7 @@
 # Final report revision
 
+The report title is **Classifying AD Patients and Normal Controls from Brain Images**, aligned with the assignment name. This title-only update retains the 20-page layout; pages 2–20 are identical to the reviewed version.
+
 The enhanced academic report has **20 pages, 13 figures, four native Word tables with three-line rules, and 12 references**. The original 12 figures, three tables, academic styles and page settings are retained. This revision adds a training-only descriptive analysis and strengthens the connection between experimental evidence and literature. Preprocessing outputs, the submitted volume workbook, SVM settings and predictions remain unchanged.
 
 | Section | Main enhancement |
