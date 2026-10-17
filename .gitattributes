@@ -2,6 +2,7 @@
 # Preserve measured data and verification file bytes across operating systems.
 *.csv -text whitespace=cr-at-eol
 *.xlsx -text
+*.docx -text
 *.json -text whitespace=cr-at-eol
 *.png -text
 *.joblib -text

@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1008pt" height="748.8pt" viewBox="0 0 1008 748.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-17T15:04:16.712162</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 748.8 
+L 1008 748.8 
+L 1008 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 12.60288 322.26048 
+L 995.39712 322.26048 
+L 995.39712 12.28032 
+L 12.60288 12.28032 
+L 12.60288 322.26048 
+z
+" clip-path="url(#pbbe2e086d4)" style="fill: none; stroke-dasharray: 6,4; stroke-dashoffset: 0; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 46.8864 281.5488 
+L 232.5888 281.5488 
+L 232.5888 172.98432 
+L 46.8864 172.98432 
+z
+" clip-path="url(#pbbe2e086d4)" style="fill: #ffffff; stroke: #000000; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 289.728 281.5488 
+L 475.4304 281.5488 
+L 475.4304 172.98432 
+L 289.728 172.98432 
+z
+" clip-path="url(#pbbe2e086d4)" style="fill: #ffffff; stroke: #000000; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 532.5696 281.5488 
+L 718.272 281.5488 
+L 718.272 172.98432 
+L 532.5696 172.98432 
+z
+" clip-path="url(#pbbe2e086d4)" style="fill: #ffffff; stroke: #000000; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 775.4112 281.5488 
+L 961.1136 281.5488 
+L 961.1136 172.98432 
+L 775.4112 172.98432 
+z
+" clip-path="url(#pbbe2e086d4)" style="fill: #ffffff; stroke: #000000; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 232.5888 227.26656 
+Q 261.1584 227.26656 288.274556 227.26656 
+" clip-path="url(#pbbe2e086d4)" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 281.874556 224.06656 
+L 288.274556 227.26656 
+L 281.874556 230.46656 
+z
+" clip-path="url(#pbbe2e086d4)" style="stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 475.4304 227.26656 
+Q 504 227.26656 531.116156 227.26656 
+" clip-path="url(#pbbe2e086d4)" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 524.716156 224.06656 
+L 531.116156 227.26656 
+L 524.716156 230.46656 
+z
+" clip-path="url(#pbbe2e086d4)" style="stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 718.272 227.26656 
+Q 746.8416 227.26656 773.957756 227.26656 
+" clip-path="url(#pbbe2e086d4)" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 767.557756 224.06656 
+L 773.957756 227.26656 
+L 767.557756 230.46656 
+z
+" clip-path="url(#pbbe2e086d4)" style="stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 139.7376 152.9856 
+Q 139.7376 162.98496 139.7376 171.530876 
+" clip-path="url(#pbbe2e086d4)" style="fill: none; stroke-dasharray: 4.81,2.08; stroke-dashoffset: 0; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 142.9376 165.130876 
+L 139.7376 171.530876 
+L 136.5376 165.130876 
+z
+" clip-path="url(#pbbe2e086d4)" style="stroke-dasharray: 4.81,2.08; stroke-dashoffset: 0; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 625.4208 152.9856 
+Q 625.4208 162.98496 625.4208 171.530876 
+" clip-path="url(#pbbe2e086d4)" style="fill: none; stroke-dasharray: 4.81,2.08; stroke-dashoffset: 0; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 628.6208 165.130876 
+L 625.4208 171.530876 
+L 622.2208 165.130876 
+z
+" clip-path="url(#pbbe2e086d4)" style="stroke-dasharray: 4.81,2.08; stroke-dashoffset: 0; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 12.60288 732.94848 
+L 995.39712 732.94848 
+L 995.39712 345.8304 
+L 12.60288 345.8304 
+L 12.60288 732.94848 
+z
+" clip-path="url(#pbbe2e086d4)" style="fill: none; stroke-dasharray: 6,4; stroke-dashoffset: 0; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 46.8864 524.3904 
+L 232.5888 524.3904 
+L 232.5888 420.8256 
+L 46.8864 420.8256 
+z
+" clip-path="url(#pbbe2e086d4)" style="fill: #ffffff; stroke: #000000; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 289.728 524.3904 
+L 475.4304 524.3904 
+L 475.4304 420.8256 
+L 289.728 420.8256 
+z
+" clip-path="url(#pbbe2e086d4)" style="fill: #ffffff; stroke: #000000; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 532.5696 524.3904 
+L 718.272 524.3904 
+L 718.272 420.8256 
+L 532.5696 420.8256 
+z
+" clip-path="url(#pbbe2e086d4)" style="fill: #ffffff; stroke: #000000; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 775.4112 524.3904 
+L 961.1136 524.3904 
+L 961.1136 420.8256 
+L 775.4112 420.8256 
+z
+" clip-path="url(#pbbe2e086d4)" style="fill: #ffffff; stroke: #000000; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 232.5888 472.608 
+Q 261.1584 472.608 288.274556 472.608 
+" clip-path="url(#pbbe2e086d4)" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 281.874556 469.408 
+L 288.274556 472.608 
+L 281.874556 475.808 
+z
+" clip-path="url(#pbbe2e086d4)" style="stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 475.4304 472.608 
+Q 504 472.608 531.116156 472.608 
+" clip-path="url(#pbbe2e086d4)" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 524.716156 469.408 
+L 531.116156 472.608 
+L 524.716156 475.808 
+z
+" clip-path="url(#pbbe2e086d4)" style="stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 718.272 472.608 
+Q 746.8416 472.608 773.957756 472.608 
+" clip-path="url(#pbbe2e086d4)" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 767.557756 469.408 
+L 773.957756 472.608 
+L 767.557756 475.808 
+z
+" clip-path="url(#pbbe2e086d4)" style="stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 31.17312 472.608 
+Q 39.02976 472.608 45.432956 472.608 
+" clip-path="url(#pbbe2e086d4)" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 39.032956 469.408 
+L 45.432956 472.608 
+L 39.032956 475.808 
+z
+" clip-path="url(#pbbe2e086d4)" style="stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 868.2624 400.82688 
+Q 868.2624 410.82624 868.2624 419.372156 
+" clip-path="url(#pbbe2e086d4)" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 871.4624 412.972156 
+L 868.2624 419.372156 
+L 865.0624 412.972156 
+z
+" clip-path="url(#pbbe2e086d4)" style="stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 289.728 682.23744 
+L 475.4304 682.23744 
+L 475.4304 595.10016 
+L 289.728 595.10016 
+z
+" clip-path="url(#pbbe2e086d4)" style="fill: #ffffff; stroke: #000000; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 382.5792 595.10016 
+Q 382.5792 559.74528 382.5792 525.843844 
+" clip-path="url(#pbbe2e086d4)" style="fill: none; stroke-dasharray: 4.81,2.08; stroke-dashoffset: 0; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 379.3792 532.243844 
+L 382.5792 525.843844 
+L 385.7792 532.243844 
+z
+" clip-path="url(#pbbe2e086d4)" style="stroke-dasharray: 4.81,2.08; stroke-dashoffset: 0; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_24">
+    <path d="M 625.4208 552.96 
+Q 625.4208 538.6752 625.4208 525.843844 
+" clip-path="url(#pbbe2e086d4)" style="fill: none; stroke-dasharray: 4.81,2.08; stroke-dashoffset: 0; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 622.2208 532.243844 
+L 625.4208 525.843844 
+L 628.6208 532.243844 
+z
+" clip-path="url(#pbbe2e086d4)" style="stroke-dasharray: 4.81,2.08; stroke-dashoffset: 0; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_25">
+    <path d="M 532.5696 682.23744 
+L 718.272 682.23744 
+L 718.272 595.10016 
+L 532.5696 595.10016 
+z
+" clip-path="url(#pbbe2e086d4)" style="fill: #ffffff; stroke: #000000; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_26">
+    <path d="M 775.4112 682.23744 
+L 961.1136 682.23744 
+L 961.1136 595.10016 
+L 775.4112 595.10016 
+z
+" clip-path="url(#pbbe2e086d4)" style="fill: #ffffff; stroke: #000000; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_27">
+    <path d="M 868.2624 524.3904 
+Q 868.2624 559.74528 868.2624 593.646716 
+" clip-path="url(#pbbe2e086d4)" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 871.4624 587.246716 
+L 868.2624 593.646716 
+L 865.0624 587.246716 
+z
+" clip-path="url(#pbbe2e086d4)" style="stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_28">
+    <path d="M 718.272 638.6688 
+Q 746.8416 638.6688 773.957756 638.6688 
+" clip-path="url(#pbbe2e086d4)" style="fill: none; stroke-dasharray: 4.81,2.08; stroke-dashoffset: 0; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 767.557756 635.4688 
+L 773.957756 638.6688 
+L 767.557756 641.8688 
+z
+" clip-path="url(#pbbe2e086d4)" style="stroke-dasharray: 4.81,2.08; stroke-dashoffset: 0; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 868.2624 281.5488 
+L 868.2624 333.68832 
+" clip-path="url(#pbbe2e086d4)" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 868.2624 333.68832 
+L 31.17312 333.68832 
+" clip-path="url(#pbbe2e086d4)" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 31.17312 333.68832 
+L 31.17312 472.608 
+" clip-path="url(#pbbe2e086d4)" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 232.5888 442.96704 
+L 259.01568 442.96704 
+" clip-path="url(#pbbe2e086d4)" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 259.01568 442.96704 
+L 259.01568 400.82688 
+" clip-path="url(#pbbe2e086d4)" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 259.01568 400.82688 
+L 868.2624 400.82688 
+" clip-path="url(#pbbe2e086d4)" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 475.4304 638.6688 
+L 500.4288 638.6688 
+" clip-path="url(#pbbe2e086d4)" style="fill: none; stroke-dasharray: 4.81,2.08; stroke-dashoffset: 0; stroke: #000000; stroke-width: 1.3"/>
+   </g>
+   <g id="line2d_8">
+    <path d="M 500.4288 638.6688 
+L 500.4288 552.96 
+" clip-path="url(#pbbe2e086d4)" style="fill: none; stroke-dasharray: 4.81,2.08; stroke-dashoffset: 0; stroke: #000000; stroke-width: 1.3"/>
+   </g>
+   <g id="line2d_9">
+    <path d="M 500.4288 552.96 
+L 625.4208 552.96 
+" clip-path="url(#pbbe2e086d4)" style="fill: none; stroke-dasharray: 4.81,2.08; stroke-dashoffset: 0; stroke: #000000; stroke-width: 1.3"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 20px; font-family: 'Times New Roman'; text-anchor: start" x="34.03008" y="42.472115" transform="rotate(-0 34.03008 42.472115)">A   MRI PREPROCESSING IN THE LINUX VM</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 19px; font-family: 'Times New Roman'; text-anchor: middle" x="504" y="79.684534" transform="rotate(-0 504 79.684534)">50 T1-weighted MRI scans: 40 training subjects and 10 test subjects</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'Times New Roman'; text-anchor: middle" x="139.7376" y="201.816563" transform="rotate(-0 139.7376 201.816563)">1  Brain extraction</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 17px; font-family: 'Times New Roman'" transform="translate(123.684553 247.346001)">BET</text>
+    <text style="font-size: 17px; font-family: 'Times New Roman'" transform="translate(63.4926 264.023599)">Brain image and mask</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'Times New Roman'; text-anchor: middle" x="382.5792" y="199.998281" transform="rotate(-0 382.5792 199.998281)">2  Segmentation</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 17px; font-family: 'Times New Roman'" transform="translate(362.426231 247.344673)">FAST</text>
+    <text style="font-size: 17px; font-family: 'Times New Roman'" transform="translate(301.732247 265.728912)">GM / WM / CSF masks</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'Times New Roman'; text-anchor: middle" x="625.4208" y="199.998281" transform="rotate(-0 625.4208 199.998281)">3  Registration</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 17px; font-family: 'Times New Roman'" transform="translate(544.05455 247.50272)">MNI and AAL to native</text>
+    <text style="font-size: 17px; font-family: 'Times New Roman'" transform="translate(540.214941 264.023599)">Nearest-neighbour labels</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'Times New Roman'; text-anchor: middle" x="868.2624" y="201.799688" transform="rotate(-0 868.2624 201.799688)">4  GM volumes</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 17px; font-family: 'Times New Roman'" transform="translate(804.835134 245.785455)">AAL regions 1–90</text>
+    <text style="font-size: 17px; font-family: 'Times New Roman'" transform="translate(789.652009 264.027584)">90 volumes per subject</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 17px; font-family: 'Times New Roman'" transform="translate(84.980334 117.940479)">Subject-specific</text>
+    <text style="font-size: 17px; font-family: 'Times New Roman'" transform="translate(69.077366 136.044483)">BET parameter CSV</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 17px; font-family: 'Times New Roman'" transform="translate(577.503378 117.952432)">MNI template</text>
+    <text style="font-size: 17px; font-family: 'Times New Roman'" transform="translate(576.634784 137.891905)">and AAL atlas</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 16px; font-family: 'Times New Roman'; text-anchor: middle" x="504" y="308.23698" transform="rotate(-0 504 308.23698)">Identical image-processing steps are applied independently to training and test subjects.</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 20px; font-family: 'Times New Roman'; text-anchor: start" x="34.03008" y="375.301705" transform="rotate(-0 34.03008 375.301705)">B   CLASSIFICATION ON THE LOCAL COMPUTER</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'Times New Roman'; text-anchor: middle" x="139.7376" y="449.657843" transform="rotate(-0 139.7376 449.657843)">5  Feature matrices</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 16.5px; font-family: 'Times New Roman'" transform="translate(81.988889 488.775614)">Training: 40 × 90</text>
+    <text style="font-size: 16.5px; font-family: 'Times New Roman'" transform="translate(96.477952 507.990702)">Test: 10 × 90</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'Times New Roman'; text-anchor: middle" x="382.5792" y="447.839561" transform="rotate(-0 382.5792 447.839561)">6  Train-only CV</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 16.5px; font-family: 'Times New Roman'" transform="translate(317.650411 490.43077)">Scaler + RBF SVM</text>
+    <text style="font-size: 16.5px; font-family: 'Times New Roman'" transform="translate(316.133184 508.132499)">Stratified 5-fold CV</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'Times New Roman'; text-anchor: middle" x="625.4208" y="449.657843" transform="rotate(-0 625.4208 449.657843)">7  Final model fit</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 16.5px; font-family: 'Times New Roman'" transform="translate(561.030839 490.43077)">Fit scaler and SVM</text>
+    <text style="font-size: 16.5px; font-family: 'Times New Roman'" transform="translate(549.3558 506.477343)">on all 40 training cases</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'Times New Roman'; text-anchor: middle" x="868.2624" y="447.856436" transform="rotate(-0 868.2624 447.856436)">8  Test prediction</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 16.5px; font-family: 'Times New Roman'" transform="translate(792.041423 490.434638)">Transform test features</text>
+    <text style="font-size: 16.5px; font-family: 'Times New Roman'" transform="translate(789.204197 508.132499)">Save 10 AD / NC labels</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 16px; font-family: 'Times New Roman'; text-anchor: middle" x="589.7088" y="399.12198" transform="rotate(-0 589.7088 399.12198)">10 × 90 test features</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 13.5px; font-family: 'Times New Roman'; text-anchor: middle" x="261.1584" y="501.003751" transform="rotate(-0 261.1584 501.003751)">40 cases</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 17px; font-family: 'Times New Roman'" transform="translate(94.804475 596.205935)">Volume table</text>
+    <text style="font-size: 17px; font-family: 'Times New Roman'" transform="translate(66.943069 614.444079)">50 × 90 GM volumes</text>
+    <text style="font-size: 17px; font-family: 'Times New Roman'" transform="translate(118.305647 630.992849)">(mm³)</text>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'Times New Roman'; text-anchor: middle" x="382.5792" y="622.114121" transform="rotate(-0 382.5792 622.114121)">Training labels</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 16px; font-family: 'Times New Roman'; text-anchor: middle" x="382.5792" y="656.95887" transform="rotate(-0 382.5792 656.95887)">40 AD / NC labels</text>
+   </g>
+   <g id="text_28">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'Times New Roman'; text-anchor: middle" x="625.4208" y="623.791778" transform="rotate(-0 625.4208 623.791778)">Test labels</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 16px; font-family: 'Times New Roman'; text-anchor: middle" x="625.4208" y="656.97012" transform="rotate(-0 625.4208 656.97012)">10 held-out labels</text>
+   </g>
+   <g id="text_30">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'Times New Roman'; text-anchor: middle" x="868.2624" y="623.932403" transform="rotate(-0 868.2624 623.932403)">9  Final evaluation</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 16px; font-family: 'Times New Roman'" transform="translate(824.0649 646.771214)">Accuracy and</text>
+    <text style="font-size: 16px; font-family: 'Times New Roman'" transform="translate(813.82865 665.552776)">confusion matrix</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 15.5px; font-family: 'Times New Roman'; text-anchor: middle" x="504" y="715.230382" transform="rotate(-0 504 715.230382)">Solid arrows: processing or data flow.  Dashed arrows: auxiliary inputs.  Test labels are used only at step 9.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pbbe2e086d4">
+   <rect x="4.032" y="2.9952" width="999.936" height="742.8096"/>
+  </clipPath>
+ </defs>
+</svg>

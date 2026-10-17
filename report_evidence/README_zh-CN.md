@@ -2,16 +2,19 @@
 
 # 写报告的素材与证据索引
 
-本索引对应已经实际运行的预处理和固定参数 SVM。它是写作材料说明，完整报告及真实成员贡献仍需另行整理。
+本索引对应已经实际运行的预处理和固定参数 SVM。[最终版英文学术报告](../submission/ELEC5622_Project01_Academic_Report_BW.docx) 已加入仓库，包含成员贡献、方法、结果、参考文献和附录。
 
 逐人的预处理图片可从 [50 人图片索引](../preprocessing/figures/README_zh-CN.md) 直接打开。
 
 [详细项目流程图](figures/project_workflow_zh-CN.png) 说明了每一步的任务、脚本、输入和输出，也已放在中文主页 README 的靠前位置。
 
+[黑白学术流程图](figures/project_workflow_bw.png) 为最终报告第 3 页的 Figure 1，并已放入英文主页；另提供 [矢量 SVG](figures/project_workflow_bw.svg)，方便缩放和排版。
+
 ## 建议使用的图片
 
 | 报告位置 | 素材 | 能说明什么 |
 | --- | --- | --- |
+| 最终报告：Figure 1 | [黑白流程图 PNG](figures/project_workflow_bw.png) / [SVG](figures/project_workflow_bw.svg) | 虚拟机预处理、本地训练内验证、测试预测与最终评估的顺序和数据流 |
 | 方法：总体流程 | [pipeline_overview.png](figures/pipeline_overview.png) | MRI→BET→FAST→配准/AAL→90 维体积→标准化/SVM |
 | 方法/结果：BET | [Data_00_comparison.png](bet/images/Data_00_comparison.png) | 原图边界、默认提取和采用参数后的结果 |
 | 方法：组织分割 | [Data_00_tissue.png](tissue_registration/Data_00_tissue.png) | GM、WM、CSF 的二值掩膜边界 |
@@ -63,4 +66,4 @@ Data_44 有额部边界疑似遗漏及非脑组织残留，保留结果继续测
 - [scikit-learn SVC](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html)
 - [scikit-learn 数据泄漏说明](https://scikit-learn.org/stable/common_pitfalls.html)
 
-报告还需要真实组员姓名、学号和各自贡献，以及正文、图题和参考文献。目前仓库中的图、日志和指标已经足以支持本次实际方法与结果的写作。
+最终报告已包含组员姓名、学号、贡献说明、正文、图题和参考文献。仓库中的原始图、日志和指标继续保留，便于核对方法与结果。

@@ -6,6 +6,12 @@
 
 预处理脚本与全部三维输出、报告素材、Notebook、命令行脚本、配套数据和一次实际运行结果已整理在此仓库。模型使用 `StandardScaler + SVC(kernel="rbf", C=1, gamma="scale")`，参数固定，没有按测试标签调参。
 
+### 最终版报告
+
+[下载最终版英文学术报告（Word）](submission/ELEC5622_Project01_Academic_Report_BW.docx)。报告共 16 页，包含方法、结果、成员贡献、参考文献和复现附录；第 3 页 Figure 1 为新绘制的黑白学术流程图。请下载 `.docx` 后使用 Word 阅读。
+
+[黑白流程图 PNG](report_evidence/figures/project_workflow_bw.png) · [矢量 SVG](report_evidence/figures/project_workflow_bw.svg)。图中区分虚拟机预处理与本地分类，实线箭头表示处理或数据流，虚线箭头表示辅助输入，测试标签仅用于最后评估。下方保留带脚本和输入输出说明的中文详细流程图，供理解步骤使用。
+
 ### 整体原理与步骤流程
 
 这个项目先把每个人的 MRI 转换成 **90 个脑区的灰质体积数值**，再用这些数值学习 AD/NC 分类规律。图中蓝色部分在 Linux 虚拟机完成，绿色部分在本地 VSCode 完成；每一步都标出了任务、脚本、输入和输出。
@@ -24,6 +30,7 @@
 
 | 文件 | 用途 |
 | --- | --- |
+| [最终版英文报告](submission/ELEC5622_Project01_Academic_Report_BW.docx) | 16 页学术报告，含黑白流程图、实验结果、逐人预测、参考文献和附录 |
 | [Project01_SVM.ipynb](Project01_SVM.ipynb) | 按 Lab 2 步骤组织的 Notebook，含英文解释和已执行输出 |
 | [project01_svm.py](project01_svm.py) | 命令行训练、预测及可选评估；Notebook 共用的数据读取函数 |
 | [README_运行说明.md](README_运行说明.md) | VSCode 环境、运行步骤和与 Lab 2 的对应关系 |

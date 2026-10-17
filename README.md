@@ -6,13 +6,17 @@ ELEC5622 Project01 extracts grey-matter volumes from the first 90 AAL regions an
 
 The fixed baseline is `StandardScaler + SVC(kernel="rbf", C=1, gamma="scale")`. Parameters were not selected using test labels or test accuracy.
 
+## Final report
+
+[Download the final academic report (Word)](submission/ELEC5622_Project01_Academic_Report_BW.docx). The 16-page report includes methods, results, team contributions, references, and reproducibility appendices. Figure 1 on page 3 is the black-and-white workflow below. Download the `.docx` file to read it in Word.
+
 ## End-to-end project workflow
 
-The project converts each MRI into **90 regional grey-matter volumes**, then uses those numbers to learn an AD/NC classifier. Blue steps run in the Linux VM; green steps run locally in VSCode. The figure shows each step's purpose, script, inputs, and outputs.
+The project converts each MRI into **90 regional grey-matter volumes**, then uses those numbers to learn an AD/NC classifier. The black-and-white figure separates Linux VM preprocessing from local classification. Solid arrows show processing or data flow; dashed arrows show auxiliary inputs. Test features bypass model fitting, and test labels enter only at final evaluation.
 
-![Project01 end-to-end workflow: MRI, BET, FAST, native-space AAL registration, 90 ROI volumes, training, prediction, and evaluation](report_evidence/figures/project_workflow_en.png)
+![Project01 academic workflow: Linux VM preprocessing, 90 GM volumes, training-only validation, test prediction, and final evaluation](report_evidence/figures/project_workflow_bw.png)
 
-[Open the full-resolution workflow](report_evidence/figures/project_workflow_en.png) · [中文流程图](README_zh-CN.md#整体原理与步骤流程)
+[Full-resolution PNG](report_evidence/figures/project_workflow_bw.png) · [Vector SVG](report_evidence/figures/project_workflow_bw.svg) · [Detailed workflow with scripts and outputs](report_evidence/figures/project_workflow_en.png) · [中文流程图](README_zh-CN.md#整体原理与步骤流程)
 
 - Process all **50 MRI scans**; extract 90 GM volumes per subject.
 - Use **40 subjects and their labels** for training-only validation and fitting the scaler/SVM.
@@ -24,6 +28,7 @@ The project converts each MRI into **90 regional grey-matter volumes**, then use
 
 | Location | Contents |
 | --- | --- |
+| [Final report](submission/ELEC5622_Project01_Academic_Report_BW.docx) | Final 16-page academic report with the black-and-white workflow, experimental figures, predictions, references, and appendices |
 | [Project01_SVM.ipynb](Project01_SVM.ipynb) | Executed notebook with English explanations, following the Lab 2 load/split/train/predict/evaluate structure |
 | [project01_svm.py](project01_svm.py) | CLI training and prediction, optional final evaluation, and shared notebook helpers |
 | [Running guide](RUNNING_GUIDE.md) | Environment setup, VSCode instructions, and correspondence with Lab 2 |

@@ -2,16 +2,17 @@
 
 [English](README.md) · [中文版](README_zh-CN.md)
 
-This index describes the completed preprocessing and fixed-baseline SVM. It supplies writing materials; the full report and actual team contributions still need to be prepared.
+This index describes the completed preprocessing and fixed-baseline SVM. The [final academic report](../submission/ELEC5622_Project01_Academic_Report_BW.docx) is now available, including team contributions, methods, results, references, and appendices.
 
 For per-subject preprocessing pictures, open the [50-subject image gallery](../preprocessing/figures/README.md).
 
-The [detailed project workflow](figures/project_workflow_en.png) explains every step, script, input, and output. It is also embedded near the top of the home README.
+The [black-and-white academic workflow](figures/project_workflow_bw.png) is Figure 1 on page 3 of the final report and is embedded in the English home README. A [vector SVG](figures/project_workflow_bw.svg) is available for resizing. The earlier [detailed project workflow](figures/project_workflow_en.png) explains each step's script, input, and output.
 
 ## Suggested figures
 
 | Report section | Figure | What it demonstrates |
 | --- | --- | --- |
+| Final report: Figure 1 | [Academic workflow PNG](figures/project_workflow_bw.png) / [SVG](figures/project_workflow_bw.svg) | Linux VM preprocessing, local training-only validation, held-out prediction, and final evaluation |
 | Methods: workflow | [pipeline_overview.png](figures/pipeline_overview.png) | MRI → BET → FAST → registration/AAL → 90 volumes → scaling/SVM |
 | Methods/Results: BET | [Data_00_comparison.png](bet/images/Data_00_comparison.png) | Original-image boundary, default extraction, and selected-parameter extraction |
 | Methods: tissue segmentation | [Data_00_tissue.png](tissue_registration/Data_00_tissue.png) | Binary GM, WM, and CSF mask boundaries |
