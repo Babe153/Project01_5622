@@ -10,7 +10,7 @@ The fixed baseline is `StandardScaler + SVC(kernel="rbf", C=1, gamma="scale")`. 
 
 Tables 1–3 use a three-line format with top and bottom rules and a header separator, without vertical rules or shaded headers.
 
-[Download the final academic report (Word)](submission/ELEC5622_Project01_Academic_Report_BW.docx). The 17-page report includes methods, results, team contributions, references, and reproducibility appendices. Figure 1 on page 3 is the black-and-white workflow below. Section 3.6 and Figure 2 on page 5 explain regional GM volume extraction using actual Data_00 masks. Download the `.docx` file to read it in Word.
+[Download the final academic report (Word)](submission/ELEC5622_Project01_Academic_Report_BW.docx). The 18-page report includes methods, results, team contributions, references, and reproducibility appendices. Figure 1 on page 3 is the black-and-white workflow below. Section 3.6 and Figure 2 on page 5 explain regional GM volume extraction using actual Data_00 masks. The latest revision strengthens the rationale, SVM theory, quality-check reporting and discussion; see the [revision notes](submission/REPORT_REVISION_NOTES.md). Download the `.docx` file to read it in Word.
 
 ## End-to-end project workflow
 
@@ -38,7 +38,7 @@ For Data_00, AAL label 1 contains **6109 GM voxels**. Multiplying by the native 
 
 | Location | Contents |
 | --- | --- |
-| [Final report](submission/ELEC5622_Project01_Academic_Report_BW.docx) | Final 17-page academic report with the black-and-white workflow, illustrated ROI volume extraction, experimental figures, predictions, references, and appendices |
+| [Final report](submission/ELEC5622_Project01_Academic_Report_BW.docx) | Final 18-page academic report with the black-and-white workflow, illustrated ROI volume extraction, quality checks, experimental figures, predictions, references, and appendices |
 | [Project01_SVM.ipynb](Project01_SVM.ipynb) | Executed notebook with English explanations, following the Lab 2 load/split/train/predict/evaluate structure |
 | [project01_svm.py](project01_svm.py) | CLI training and prediction, optional final evaluation, and shared notebook helpers |
 | [Running guide](RUNNING_GUIDE.md) | Environment setup, VSCode instructions, and correspondence with Lab 2 |

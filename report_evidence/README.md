@@ -69,4 +69,4 @@ Actual environments: FSL 6.0.7.1, NiftyReg 1.5.58, and Python 3.12. Pinned Pytho
 - [scikit-learn SVC](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html)
 - [scikit-learn data leakage guidance](https://scikit-learn.org/stable/common_pitfalls.html)
 
-The report still needs actual member names, student IDs, contributions, text, figure captions, and references. The supplied figures, logs, and metrics support the implemented methods and results.
+The [final report](../submission/ELEC5622_Project01_Academic_Report_BW.docx) includes member details, contributions, figure captions, references, numerical-check scope and processing limitations. See the [revision notes](../submission/REPORT_REVISION_NOTES.md) for the latest changes. The supplied figures, logs and metrics remain available for checking the reported methods and results.

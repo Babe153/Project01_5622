@@ -10,7 +10,7 @@
 
 表 1–3 已统一为三线表，仅保留顶线、表头下横线和底线，去掉竖线及表头底色。
 
-[下载最终版英文学术报告（Word）](submission/ELEC5622_Project01_Academic_Report_BW.docx)。报告共 17 页，包含方法、结果、成员贡献、参考文献和复现附录；第 3 页 Figure 1 为黑白学术流程图，第 5 页的第 3.6 节和 Figure 2 用真实 Data_00 数据解释体积提取。请下载 `.docx` 后使用 Word 阅读。
+[下载最终版英文学术报告（Word）](submission/ELEC5622_Project01_Academic_Report_BW.docx)。报告共 18 页，包含方法、结果、成员贡献、参考文献和复现附录；第 3 页 Figure 1 为黑白学术流程图，第 5 页的第 3.6 节和 Figure 2 用真实 Data_00 数据解释体积提取。最新版已强化研究动机、SVM 理论、质量核对结果和讨论，详见[英文修改说明](submission/REPORT_REVISION_NOTES.md)。请下载 `.docx` 后使用 Word 阅读。
 
 [黑白流程图 PNG](report_evidence/figures/project_workflow_bw.png) · [矢量 SVG](report_evidence/figures/project_workflow_bw.svg)。图中区分虚拟机预处理与本地分类，实线箭头表示处理或数据流，虚线箭头表示辅助输入，测试标签仅用于最后评估。下方保留带脚本和输入输出说明的中文详细流程图，供理解步骤使用。
 
@@ -40,7 +40,7 @@ Data_00 的 AAL 第 1 区内共有 **6109 个灰质体素**；每个体素约 **
 
 | 文件 | 用途 |
 | --- | --- |
-| [最终版英文报告](submission/ELEC5622_Project01_Academic_Report_BW.docx) | 17 页学术报告，含黑白流程图、体积提取示意图、实验结果、逐人预测、参考文献和附录 |
+| [最终版英文报告](submission/ELEC5622_Project01_Academic_Report_BW.docx) | 18 页学术报告，含黑白流程图、体积提取示意图、质量核对、实验结果、逐人预测、参考文献和附录 |
 | [Project01_SVM.ipynb](Project01_SVM.ipynb) | 按 Lab 2 步骤组织的 Notebook，含英文解释和已执行输出 |
 | [project01_svm.py](project01_svm.py) | 命令行训练、预测及可选评估；Notebook 共用的数据读取函数 |
 | [README_运行说明.md](README_运行说明.md) | VSCode 环境、运行步骤和与 Lab 2 的对应关系 |
