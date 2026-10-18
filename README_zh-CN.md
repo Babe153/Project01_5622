@@ -8,11 +8,9 @@
 
 ### 最终版报告
 
-标题与摘要后新增独立的 **Contents** 目录页，采用两级缩进、点引导线和右对齐页码。35个条目涵盖章节、小节、参考文献及附录，支持点击跳转和Word目录更新，页码均已核对。
+[下载最终版英文学术报告（Word）](submission/ELEC5622_Project01_Academic_Report_BW.docx)。报告共 22 页，涵盖研究背景、成员贡献、方法、结果、讨论与结论，包含 12 篇参考文献及复现附录；使用可点击目录、13 张图和 4 张三线表。
 
-表 1–4 已统一为三线表，仅保留顶线、表头下横线和底线，去掉竖线及表头底色。
-
-[下载最终版英文学术报告（Word）](submission/ELEC5622_Project01_Academic_Report_BW.docx)。报告共 22 页，包含方法、结果、成员贡献、参考文献和复现附录；第 5 页 Figure 1 为黑白学术流程图，第 7 页的第 3.6 节和 Figure 2 用真实 Data_00 数据解释体积提取。最新版新增仅使用训练集的体积与图像几何分析（第 14 页 Table 4、Figure 8），并强化方法依据及结果与文献的综合讨论，详见[英文修改说明](submission/REPORT_REVISION_NOTES.md)。请下载 `.docx` 后使用 Word 阅读。
+第 5 页 Figure 1 展示整体流程；第 7 页第 3.6 节和 Figure 2 用真实 Data_00 掩模解释体积提取；第 14 页 Table 4、Figure 8 展示仅使用训练集的事后体积与图像几何分析。章节对应关系及核对范围见[英文报告索引](submission/REPORT_REVISION_NOTES.md)。请下载 `.docx` 后使用 Word 阅读。
 
 [黑白流程图 PNG](report_evidence/figures/project_workflow_bw.png) · [矢量 SVG](report_evidence/figures/project_workflow_bw.svg)。图中区分虚拟机预处理与本地分类，实线箭头表示处理或数据流，虚线箭头表示辅助输入，测试标签仅用于最后评估。下方保留带脚本和输入输出说明的中文详细流程图，供理解步骤使用。
 

@@ -8,11 +8,9 @@ The fixed baseline is `StandardScaler + SVC(kernel="rbf", C=1, gamma="scale")`. 
 
 ## Final report
 
-A linked, two-level **Contents** page follows the title and abstract. All 35 chapter, subsection, reference and appendix entries include verified page numbers.
+[Download the final academic report (Word)](submission/ELEC5622_Project01_Academic_Report_BW.docx). The 22-page report covers aims and background, team contributions, methodology, results, discussion and conclusion, with 12 references and reproducibility appendices. It includes a linked contents page, 13 figures and four three-line tables.
 
-Tables 1–4 use a three-line format with top and bottom rules and a header separator, without vertical rules or shaded headers.
-
-[Download the final academic report (Word)](submission/ELEC5622_Project01_Academic_Report_BW.docx). The 22-page report includes methods, results, team contributions, references, and reproducibility appendices. Figure 1 on page 5 is the black-and-white workflow below. Section 3.6 and Figure 2 on page 7 explain regional GM volume extraction using actual Data_00 masks. The latest revision adds a training-only volume/geometry analysis (Table 4 and Figure 8, page 14) and strengthens the connection between results and literature; see the [revision notes](submission/REPORT_REVISION_NOTES.md). Download the `.docx` file to read it in Word.
+Figure 1 on page 5 shows the processing workflow. Section 3.6 and Figure 2 on page 7 explain volume extraction using actual Data_00 masks. Table 4 and Figure 8 on page 14 present the post hoc training-only volume and geometry analysis. See the [report guide](submission/REPORT_REVISION_NOTES.md) for the section map and verification scope. Download the `.docx` file to read it in Word.
 
 ## End-to-end project workflow
 
@@ -88,9 +86,9 @@ Omit `--evaluate` to fit and save predictions without comparing test labels. Rer
 - AD sensitivity: 83.3%; NC specificity: 100%.
 - Notebook and CLI predictions/CV scores agree; reloading the saved model reproduces predictions.
 
-See [English run results](RUN_RESULTS.md) and [test predictions](results/test_predictions.csv). These are fixed-baseline results on a small coursework dataset. Data_44 retains the agreed BET result and its known boundary limitations, documented in [processing QC records](submission/processing_qc_records.csv). No claim of globally optimal parameters or performance in other populations is made.
+See [English run results](RUN_RESULTS.md) and [test predictions](results/test_predictions.csv). These are fixed-baseline results on a small coursework dataset. Data_44 retains the retained BET result and its known boundary limitations, documented in [processing QC records](submission/processing_qc_records.csv). No claim of globally optimal parameters or performance in other populations is made.
 
-Browse all subjects directly in the [preprocessing image gallery](preprocessing/figures/README.md). The preprocessing README now embeds BET, FAST, and registration examples.
+Browse all subjects directly in the [preprocessing image gallery](preprocessing/figures/README.md). The preprocessing README includes BET, FAST, and registration examples.
 
 ## View preprocessing and prepare the report
 

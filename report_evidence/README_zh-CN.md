@@ -1,6 +1,6 @@
 [中文](README_zh-CN.md) · [English](README.md)
 
-# 写报告的素材与证据索引
+# 报告图片与实验记录索引
 
 本索引对应已经实际运行的预处理和固定参数 SVM。[最终版英文学术报告](../submission/ELEC5622_Project01_Academic_Report_BW.docx) 已加入仓库，包含成员贡献、方法、结果、参考文献和附录。
 
@@ -8,9 +8,9 @@
 
 [详细项目流程图](figures/project_workflow_zh-CN.png) 说明了每一步的任务、脚本、输入和输出，也已放在中文主页 README 的靠前位置。
 
-[黑白学术流程图](figures/project_workflow_bw.png) 为最终报告第 3 页的 Figure 1，并已放入英文主页；另提供 [矢量 SVG](figures/project_workflow_bw.svg)，方便缩放和排版。
+[黑白学术流程图](figures/project_workflow_bw.png) 为最终报告第 5 页的 Figure 1，并已放入英文主页；另提供 [矢量 SVG](figures/project_workflow_bw.svg)，方便缩放和排版。
 
-## 建议使用的图片
+## 图片与报告章节对应关系
 
 | 报告位置 | 素材 | 能说明什么 |
 | --- | --- | --- |
@@ -43,7 +43,7 @@
 - [实际脚本](../preprocessing/scripts/)：五个 Bash 文件和逐人 BET 参数。`CreateSeedMask` 保持老师原始版本。
 - [处理质量备注](../submission/processing_qc_records.csv) 和 [人工抽样复核记录](validation/visual_review.json)：区分数值检查与人工图像检查。
 
-## 方法部分应准确描述的设置
+## 预处理与分类设置
 
 1. 固定划分：Data_00～39 训练（40 人，NC 21 / AD 19），Data_40～49 测试（10 人，NC 4 / AD 6）。
 2. BET 读取逐人的 `f`、`g` 和可选 `c`。中心是原始图像体素坐标，不是 mm，也不等于 RAS 展示切片编号。
@@ -56,13 +56,13 @@
 
 ## 检查能支持到什么程度
 
-50 人均完成文件、几何、数值和体积算术检查。BET 看过每人的抽样多方向图片；FAST/配准的人工抽样复核为 00、01、15、18、33、35、36、40、44、49 共 10 人。不要把它写成“50 人所有切片人工检查通过”或“50 人解剖分割完全准确”。
+50 人均完成文件、几何、数值和体积算术检查。BET 看过每人的抽样多方向图片；FAST/配准的人工抽样复核为 00、01、15、18、33、35、36、40、44、49 共 10 人。这项复核没有覆盖 50 人的所有切片，也不能证明分割的解剖准确性。
 
 Data_44 有额部边界疑似遗漏及非脑组织残留，保留结果继续测量；图像质量与局部配准差异可能影响体积。Data_49 的错分原因尚未证实，不应直接归因于某个脑区或预处理步骤。测试仅 10 人，每错一人准确率变化 10 个百分点；目前没有独立外部测试集。决策分数不是疾病概率。
 
 ## 软件与参考资料
 
-实际环境为 FSL 6.0.7.1、NiftyReg 1.5.58、Python 3.12；Python 固定版本见根目录 `requirements.txt`，运行记录见 `training_record.json`。写正式报告时需按课程格式引用算法原始论文或官方资料；以下是查参数与工具行为的入口：
+实际环境为 FSL 6.0.7.1、NiftyReg 1.5.58、Python 3.12；Python 固定版本见根目录 `requirements.txt`，运行记录见 `training_record.json`。报告引用了算法原始论文；以下官方资料可用于查阅参数与工具行为：
 
 - [FSL BET 官方文档](https://fsl.fmrib.ox.ac.uk/fsl/docs/structural/bet.html)
 - [FSL FAST 官方文档](https://fsl.fmrib.ox.ac.uk/fsl/docs/structural/fast.html)

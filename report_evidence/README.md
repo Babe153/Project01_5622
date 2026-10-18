@@ -8,7 +8,7 @@ For per-subject preprocessing pictures, open the [50-subject image gallery](../p
 
 The [black-and-white academic workflow](figures/project_workflow_bw.png) is Figure 1 on page 5 of the final report and is embedded in the English home README. A [vector SVG](figures/project_workflow_bw.svg) is available for resizing. The earlier [detailed project workflow](figures/project_workflow_en.png) explains each step's script, input, and output.
 
-## Suggested figures
+## Figures by report section
 
 | Report section | Figure | What it demonstrates |
 | --- | --- | --- |
@@ -42,7 +42,7 @@ The volume-extraction figure uses the existing native Data_00 brain, registered 
 - [Actual scripts](../preprocessing/scripts/): five Bash files and per-subject BET settings; `CreateSeedMask` is the instructor's unchanged original.
 - [Processing QC notes](../submission/processing_qc_records.csv) and [manual sampled review](validation/visual_review.json): distinguish numerical checks from manual image inspection.
 
-## Settings to describe accurately
+## Processing and classification settings
 
 1. Fixed split: Data_00–39 train (40; NC 21 / AD 19), Data_40–49 test (10; NC 4 / AD 6).
 2. BET reads per-subject `f`, `g`, and optional `c`. The centre uses original-image voxel coordinates, not mm or RAS display slice indices.
@@ -59,7 +59,7 @@ All 50 subjects passed file, geometry, numerical, and volume-arithmetic checks. 
 
 Data_44 retains suspected frontal omission and non-brain remnants; image quality and local registration differences may affect volumes. The cause of the Data_49 classification error has not been established and should not be attributed to a particular ROI or preprocessing stage without evidence. The test set contains only 10 subjects; one error changes accuracy by 10 percentage points. There is no independent external test set. Decision scores are not disease probabilities.
 
-Historical BET review notes record the earlier recommendation to correct Data_44. The agreed workflow subsequently retained that result and completed measurement; the limitation remains documented.
+Historical BET review notes record the earlier recommendation to correct Data_44. The final pipeline retained that result for measurement; the limitation remains documented.
 
 ## Training supplement
 
@@ -74,4 +74,4 @@ Actual environments: FSL 6.0.7.1, NiftyReg 1.5.58, and Python 3.12. Pinned Pytho
 - [scikit-learn SVC](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html)
 - [scikit-learn data leakage guidance](https://scikit-learn.org/stable/common_pitfalls.html)
 
-The [final report](../submission/ELEC5622_Project01_Academic_Report_BW.docx) includes member details, contributions, figure captions, references, numerical-check scope and processing limitations. See the [revision notes](../submission/REPORT_REVISION_NOTES.md) for the latest changes. The supplied figures, logs and metrics remain available for checking the reported methods and results.
+The [final report](../submission/ELEC5622_Project01_Academic_Report_BW.docx) includes member details, contributions, figure captions, references, numerical-check scope and processing limitations. See the [report guide](../submission/REPORT_REVISION_NOTES.md) for the section map and verification scope. The supplied figures, logs and metrics remain available for checking the reported methods and results.
