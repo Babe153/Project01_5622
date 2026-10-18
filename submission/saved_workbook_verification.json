@@ -1,19 +1,24 @@
 {
   "records": [
     {
-      "sheet": "train",
+      "sheet": "Train",
       "subjects": 40,
-      "numeric_roi_columns": 90,
-      "all_values_match_csv": true,
-      "frozen_id_column_and_header": true
+      "features": 90,
+      "all_values_match_original_and_csv": true,
+      "native_table_and_freeze_panes_retained": true,
+      "white_background_black_text": true
     },
     {
-      "sheet": "test",
+      "sheet": "Test",
       "subjects": 10,
-      "numeric_roi_columns": 90,
-      "all_values_match_csv": true,
-      "frozen_id_column_and_header": true
+      "features": 90,
+      "all_values_match_original_and_csv": true,
+      "native_table_and_freeze_panes_retained": true,
+      "white_background_black_text": true
     }
   ],
-  "all_4500_volumes_verified": true
+  "all_4500_volumes_verified": true,
+  "format": "White background, black text, bold headers and three horizontal rules; native table and filters retained.",
+  "xlsx_sha256": "ea5763ce44d947b8ac92e5d0bdba44b69ea8ad32fc6a23deb4c145feb8f67884",
+  "native_Excel_display_review_completed": true
 }

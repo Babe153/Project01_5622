@@ -8,7 +8,7 @@
 
 ### 最终版报告
 
-[下载最终版英文学术报告（Word）](submission/ELEC5622_Project01_Academic_Report_BW.docx)。报告共 22 页，涵盖研究背景、成员贡献、方法、结果、讨论与结论，包含 12 篇参考文献及复现附录；使用可点击目录、13 张图和 4 张三线表。
+[阅读最终版英文报告（PDF）](submission/ELEC5622_Project01_Academic_Report_BW.pdf) · [下载可编辑报告（Word）](submission/ELEC5622_Project01_Academic_Report_BW.docx)。报告共 22 页，涵盖研究背景、成员贡献、方法、结果、讨论与结论，包含 12 篇参考文献及复现附录；使用可点击目录、13 张图和 4 张三线表。
 
 第 5 页 Figure 1 展示整体流程；第 7 页第 3.6 节和 Figure 2 用真实 Data_00 掩模解释体积提取；第 14 页 Table 4、Figure 8 展示仅使用训练集的事后体积与图像几何分析。章节对应关系及核对范围见[英文报告索引](submission/REPORT_REVISION_NOTES.md)。请下载 `.docx` 后使用 Word 阅读。
 
@@ -49,7 +49,7 @@ Data_00 的 AAL 第 1 区内共有 **6109 个灰质体素**；每个体素约 **
 | [project01_svm.py](project01_svm.py) | 命令行训练、预测及可选评估；Notebook 共用的数据读取函数 |
 | [README_运行说明.md](README_运行说明.md) | VSCode 环境、运行步骤和与 Lab 2 的对应关系 |
 | [data/](data/) | 训练/测试体积 CSV 和 `data_labels.csv` |
-| [submission/Project01_90_ROI_GM_volumes.xlsx](submission/Project01_90_ROI_GM_volumes.xlsx) | 作业提交用的体积表，Train/Test 两张工作表覆盖全部 50 人 |
+| [submission/Project01_90_ROI_GM_volumes.xlsx](submission/Project01_90_ROI_GM_volumes.xlsx) | 黑白学术样式体积表，Train/Test 两张工作表覆盖全部 50 人 |
 | [results/test_predictions.csv](results/test_predictions.csv) | Data_40.nii～Data_49.nii 的 AD/NC 预测表 |
 | [运行结果说明.md](运行结果说明.md) | 实际运行指标与逐人预测对照 |
 

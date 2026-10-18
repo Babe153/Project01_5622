@@ -8,7 +8,7 @@ The fixed baseline is `StandardScaler + SVC(kernel="rbf", C=1, gamma="scale")`. 
 
 ## Final report
 
-[Download the final academic report (Word)](submission/ELEC5622_Project01_Academic_Report_BW.docx). The 22-page report covers aims and background, team contributions, methodology, results, discussion and conclusion, with 12 references and reproducibility appendices. It includes a linked contents page, 13 figures and four three-line tables.
+[Read the final report (PDF)](submission/ELEC5622_Project01_Academic_Report_BW.pdf) · [Download the editable report (Word)](submission/ELEC5622_Project01_Academic_Report_BW.docx). The 22-page report covers aims and background, team contributions, methodology, results, discussion and conclusion, with 12 references and reproducibility appendices. It includes a linked contents page, 13 figures and four three-line tables.
 
 Figure 1 on page 5 shows the processing workflow. Section 3.6 and Figure 2 on page 7 explain volume extraction using actual Data_00 masks. Table 4 and Figure 8 on page 14 present the post hoc training-only volume and geometry analysis. See the [report guide](submission/REPORT_REVISION_NOTES.md) for the section map and verification scope. Download the `.docx` file to read it in Word.
 
@@ -48,7 +48,7 @@ The [post hoc training-only supplement](report_evidence/training_analysis/README
 | [Running guide](RUNNING_GUIDE.md) | Environment setup, VSCode instructions, and correspondence with Lab 2 |
 | [Run results](RUN_RESULTS.md) | Actual metrics and predictions for all 10 test subjects |
 | [data/](data/) | Training/test volume CSVs and the supplied label table |
-| [Submission volume table](submission/Project01_90_ROI_GM_volumes.xlsx) | Train/Test worksheets covering all 50 subjects and 90 ROI volumes each |
+| [Submission volume table](submission/Project01_90_ROI_GM_volumes.xlsx) | Black-and-white Train/Test worksheets covering all 50 subjects and 90 ROI volumes each |
 | [results/](results/) | Saved predictions, evaluation, confusion matrix, training record, and fitted model |
 | [Preprocessing](preprocessing/README.md) | Five Bash scripts, final BET parameters, all 698 VM output files, and SHA-256 checksums |
 | [Report evidence](report_evidence/README.md) | 100 BET figures, 100 tissue/registration figures, review figures, workflow/CV plots, and execution logs |

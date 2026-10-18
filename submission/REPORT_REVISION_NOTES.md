@@ -1,6 +1,6 @@
 # Report structure and verification
 
-The report, **Classifying AD Patients and Normal Controls from Brain Images**, describes the ELEC5622 Project 1 experiment. [Download the Word report](ELEC5622_Project01_Academic_Report_BW.docx).
+The report, **Classifying AD Patients and Normal Controls from Brain Images**, describes the ELEC5622 Project 1 experiment. [Read the PDF report](ELEC5622_Project01_Academic_Report_BW.pdf) or [download the Word report](ELEC5622_Project01_Academic_Report_BW.docx).
 
 The report has 22 pages, 13 figures, four three-line tables and 12 references. A linked contents page follows the title and abstract. The front page links to the repository for code, volume tables and verification records.
 
@@ -33,3 +33,5 @@ The [evidence index](../report_evidence/README.md) links the figures, execution 
 All 4500 exported volumes were checked independently against the masks. Sampled BET figures were reviewed for all 50 subjects; sampled FAST/registration review covered ten subjects. Numerical agreement does not establish anatomical ground truth. Data_44 retains its documented boundary limitation. Regional GM-sum fractions are not ICV adjustment, and class-associated geometry does not establish scanner identity or causation. The fixed baseline's test accuracy is 9/10; there is no independent external validation.
 
 The Word contents page uses native TOC and page-reference fields. After later edits, right-click the contents and choose **Update Field → Update entire table**, then check pagination.
+
+The PDF was exported directly from the final Word document. All 22 rendered pages match the verified Word layout; all 35 contents links and page numbers were checked. The accompanying workbook uses white backgrounds, black text, bold headers and three horizontal rules. Both sheets retain their native tables, filters, frozen header/ID panes and all 4500 measured values.
