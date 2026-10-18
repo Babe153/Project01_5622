@@ -4,6 +4,8 @@ The report title is **Classifying AD Patients and Normal Controls from Brain Ima
 
 Page 1 uses a restrained academic layout with a course label, balanced title lines, an italic methods subtitle, separate author lines, an independent Abstract heading and keywords. The abstract prose is preserved. Pages 2–22 are identical in both text and rendered appearance to the reviewed contents edition, and all directory page references remain correct.
 
+The front page also includes a clickable **Code and data availability** link to [Babe153/Project01_5622](https://github.com/Babe153/Project01_5622), identifying the preprocessing scripts, SVM notebook, ROI volume tables and verification records. The link target was verified in the Word file and its rendered PDF. This addition retains all 22 pages and the directory page numbers.
+
 The enhanced academic report has **22 pages, 13 figures, four native Word tables with three-line rules, and 12 references**. The original 12 figures, three tables, academic styles and page settings are retained. This revision adds a training-only descriptive analysis and strengthens the connection between experimental evidence and literature. Preprocessing outputs, the submitted volume workbook, SVM settings and predictions remain unchanged.
 
 | Section | Main enhancement |
